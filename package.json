@@ -1,0 +1,21 @@
+{
+  "name": "danphe-icons-fonts",
+  "version": "1.0.0",
+  "description": "Ultra-lightweight 256 Vector Icons & 256 Fonts Suite with Native C++ & Titan-Bus SISO Serial Distribution.",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "node test_server.js",
+    "build:cpp": "g++ -std=c++17 -static cpp/main_test.cpp -o cpp/test_asset.exe"
+  },
+  "keywords": [
+    "danphe-icons",
+    "danphe-fonts",
+    "vector-icons",
+    "nepali-fonts",
+    "titan-bus",
+    "offline-typography",
+    "zero-dependencies"
+  ],
+  "author": "Shankar Phuyal",
+  "license": "MIT"
+}

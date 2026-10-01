@@ -1,0 +1,13 @@
+*.exe
+*.o
+*.obj
+*.a
+*.lib
+*.dll
+*.so
+*.dylib
+*.log
+.DS_Store
+node_modules/
+dist/
+build/
