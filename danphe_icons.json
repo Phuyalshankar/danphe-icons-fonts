@@ -1,0 +1,3901 @@
+{
+  "0": {
+    "id": 0,
+    "name": "idle_phone",
+    "label": "Standby Phone",
+    "theme": "slate",
+    "path": "<path d=\"M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z\" fill=\"none\" stroke=\"#64748b\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>"
+  },
+  "1": {
+    "id": 1,
+    "name": "incoming_voice",
+    "label": "Incoming Call",
+    "theme": "emerald",
+    "path": "<path d=\"M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z\" fill=\"none\" stroke=\"#34d399\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><polyline points=\"16 2 20 6 16 10\" fill=\"none\" stroke=\"#6ee7b7\" stroke-width=\"2.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><line x1=\"20\" y1=\"6\" x2=\"11\" y2=\"15\" stroke=\"#6ee7b7\" stroke-width=\"2.5\" stroke-linecap=\"round\"/>"
+  },
+  "2": {
+    "id": 2,
+    "name": "incoming_video",
+    "label": "Incoming Video",
+    "theme": "purple",
+    "path": "<polygon points=\"23 7 16 12 23 17 23 7\" fill=\"rgba(192,132,252,0.3)\" stroke=\"#c084fc\" stroke-width=\"1.8\" stroke-linejoin=\"round\"/><rect x=\"1\" y=\"5\" width=\"15\" height=\"14\" rx=\"2\" fill=\"none\" stroke=\"#c084fc\" stroke-width=\"2\"/><polyline points=\"10 9 10 13 6 13\" fill=\"none\" stroke=\"#38bdf8\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><line x1=\"10\" y1=\"13\" x2=\"5\" y2=\"8\" stroke=\"#38bdf8\" stroke-width=\"2\" stroke-linecap=\"round\"/>"
+  },
+  "3": {
+    "id": 3,
+    "name": "outgoing_voice",
+    "label": "Outgoing Call",
+    "theme": "amber",
+    "path": "<path d=\"M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z\" fill=\"none\" stroke=\"#fbbf24\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><polyline points=\"20 10 20 4 14 4\" fill=\"none\" stroke=\"#fde047\" stroke-width=\"2.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><line x1=\"13\" y1=\"11\" x2=\"20\" y2=\"4\" stroke=\"#fde047\" stroke-width=\"2.5\" stroke-linecap=\"round\"/>"
+  },
+  "4": {
+    "id": 4,
+    "name": "missed_call",
+    "label": "Missed Call",
+    "theme": "red",
+    "path": "<path d=\"M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z\" fill=\"none\" stroke=\"#f87171\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><line x1=\"22\" y1=\"2\" x2=\"16\" y2=\"8\" stroke=\"#ef4444\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"16\" y1=\"2\" x2=\"22\" y2=\"8\" stroke=\"#ef4444\" stroke-width=\"3\" stroke-linecap=\"round\"/>"
+  },
+  "5": {
+    "id": 5,
+    "name": "active_call",
+    "label": "Connected Call",
+    "theme": "emerald",
+    "path": "<path d=\"M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z\" fill=\"none\" stroke=\"#34d399\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><path d=\"M14 2a8 8 0 0 1 8 8\" fill=\"none\" stroke=\"#34d399\" stroke-width=\"2\" stroke-linecap=\"round\"/><path d=\"M14 6a4 4 0 0 1 4 4\" fill=\"none\" stroke=\"#6ee7b7\" stroke-width=\"2\" stroke-linecap=\"round\"/>"
+  },
+  "6": {
+    "id": 6,
+    "name": "mic_mute",
+    "label": "Microphone Muted",
+    "theme": "red",
+    "path": "<line x1=\"1\" y1=\"1\" x2=\"23\" y2=\"23\" stroke=\"#f43f5e\" stroke-width=\"2.5\" stroke-linecap=\"round\"/><path d=\"M9 9v3a3 3 0 0 0 5.12 2.12M15 9.34V4a3 3 0 0 0-5.94-.6\" fill=\"none\" stroke=\"#f43f5e\" stroke-width=\"2\" stroke-linecap=\"round\"/><path d=\"M17 16.95A7 7 0 0 1 5 12v-2m14 0v2a7 7 0 0 1-.11 1.23\" fill=\"none\" stroke=\"#f43f5e\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"12\" y1=\"19\" x2=\"12\" y2=\"23\" stroke=\"#f43f5e\" stroke-width=\"2\"/><line x1=\"8\" y1=\"23\" x2=\"16\" y2=\"23\" stroke=\"#f43f5e\" stroke-width=\"2\"/>"
+  },
+  "7": {
+    "id": 7,
+    "name": "chat_unread",
+    "label": "New Chat Message",
+    "theme": "cyan",
+    "path": "<path d=\"M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z\" fill=\"rgba(34,211,238,0.2)\" stroke=\"#22d3ee\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><circle cx=\"8\" cy=\"10\" r=\"1.2\" fill=\"#22d3ee\"/><circle cx=\"12\" cy=\"10\" r=\"1.2\" fill=\"#22d3ee\"/><circle cx=\"16\" cy=\"10\" r=\"1.2\" fill=\"#22d3ee\"/>"
+  },
+  "8": {
+    "id": 8,
+    "name": "voicemail",
+    "label": "Voicemail Audio",
+    "theme": "purple",
+    "path": "<circle cx=\"5.5\" cy=\"11.5\" r=\"4.5\" fill=\"none\" stroke=\"#c084fc\" stroke-width=\"2\"/><circle cx=\"18.5\" cy=\"11.5\" r=\"4.5\" fill=\"none\" stroke=\"#c084fc\" stroke-width=\"2\"/><line x1=\"5.5\" y1=\"16\" x2=\"18.5\" y2=\"16\" stroke=\"#c084fc\" stroke-width=\"2\"/>"
+  },
+  "9": {
+    "id": 9,
+    "name": "headset",
+    "label": "Call Center Headset",
+    "theme": "emerald",
+    "path": "<path d=\"M3 18v-6a9 9 0 0 1 18 0v6\" fill=\"none\" stroke=\"#34d399\" stroke-width=\"2\" stroke-linecap=\"round\"/><path d=\"M21 19a2 2 0 0 1-2 2h-1a2 2 0 0 1-2-2v-3a2 2 0 0 1 2-2h3zM3 19a2 2 0 0 0 2 2h1a2 2 0 0 0 2-2v-3a2 2 0 0 0-2-2H3z\" fill=\"none\" stroke=\"#34d399\" stroke-width=\"2\"/>"
+  },
+  "10": {
+    "id": 10,
+    "name": "call_forward",
+    "label": "Call Forwarding",
+    "theme": "amber",
+    "path": "<polyline points=\"15 14 20 9 15 4\" fill=\"none\" stroke=\"#fbbf24\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><path d=\"M4 20v-7a4 4 0 0 1 4-4h12\" fill=\"none\" stroke=\"#fbbf24\" stroke-width=\"2\" stroke-linecap=\"round\"/>"
+  },
+  "11": {
+    "id": 11,
+    "name": "call_hold",
+    "label": "Call On Hold",
+    "theme": "amber",
+    "path": "<rect x=\"6\" y=\"4\" width=\"4\" height=\"16\" fill=\"#fbbf24\" rx=\"1\"/><rect x=\"14\" y=\"4\" width=\"4\" height=\"16\" fill=\"#fbbf24\" rx=\"1\"/>"
+  },
+  "12": {
+    "id": 12,
+    "name": "call_transfer",
+    "label": "Call Transfer",
+    "theme": "cyan",
+    "path": "<path d=\"M16 3h5v5\" fill=\"none\" stroke=\"#22d3ee\" stroke-width=\"2\"/><path d=\"M4 20L21 3\" stroke=\"#22d3ee\" stroke-width=\"2\"/><path d=\"M21 16v5h-5\" fill=\"none\" stroke=\"#22d3ee\" stroke-width=\"2\"/><path d=\"M15 15l6 6\" stroke=\"#22d3ee\" stroke-width=\"2\"/>"
+  },
+  "13": {
+    "id": 13,
+    "name": "conference_call",
+    "label": "Group Conference",
+    "theme": "purple",
+    "path": "<path d=\"M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2\" fill=\"none\" stroke=\"#c084fc\" stroke-width=\"2\"/><circle cx=\"9\" cy=\"7\" r=\"4\" fill=\"none\" stroke=\"#c084fc\" stroke-width=\"2\"/><path d=\"M23 21v-2a4 4 0 0 0-3-3.87\" fill=\"none\" stroke=\"#c084fc\" stroke-width=\"2\"/><path d=\"M16 3.13a4 4 0 0 1 0 7.75\" fill=\"none\" stroke=\"#c084fc\" stroke-width=\"2\"/>"
+  },
+  "14": {
+    "id": 14,
+    "name": "call_recording",
+    "label": "Audio Recording",
+    "theme": "red",
+    "path": "<circle cx=\"12\" cy=\"12\" r=\"10\" fill=\"none\" stroke=\"#f87171\" stroke-width=\"2\"/><circle cx=\"12\" cy=\"12\" r=\"4\" fill=\"#ef4444\"/>"
+  },
+  "15": {
+    "id": 15,
+    "name": "dtmf_keypad",
+    "label": "Dialpad Matrix",
+    "theme": "cyan",
+    "path": "<rect x=\"3\" y=\"3\" width=\"18\" height=\"18\" rx=\"3\" fill=\"none\" stroke=\"#ffffff\" stroke-width=\"2\"/><circle cx=\"8\" cy=\"8\" r=\"1.2\" fill=\"#fff\"/><circle cx=\"12\" cy=\"8\" r=\"1.2\" fill=\"#fff\"/><circle cx=\"16\" cy=\"8\" r=\"1.2\" fill=\"#fff\"/><circle cx=\"8\" cy=\"12\" r=\"1.2\" fill=\"#fff\"/><circle cx=\"12\" cy=\"12\" r=\"1.2\" fill=\"#fff\"/><circle cx=\"16\" cy=\"12\" r=\"1.2\" fill=\"#fff\"/><circle cx=\"8\" cy=\"16\" r=\"1.2\" fill=\"#fff\"/><circle cx=\"12\" cy=\"16\" r=\"1.2\" fill=\"#fff\"/><circle cx=\"16\" cy=\"16\" r=\"1.2\" fill=\"#fff\"/>"
+  },
+  "16": {
+    "id": 16,
+    "name": "speakerphone",
+    "label": "Speakerphone",
+    "theme": "emerald",
+    "path": "<polygon points=\"11 5 6 9 2 9 2 15 6 15 11 19 11 5\" fill=\"none\" stroke=\"#34d399\" stroke-width=\"2\"/><path d=\"M15.54 8.46a5 5 0 0 1 0 7.07\" fill=\"none\" stroke=\"#34d399\" stroke-width=\"2\"/><path d=\"M19.07 4.93a10 10 0 0 1 0 14.14\" fill=\"none\" stroke=\"#34d399\" stroke-width=\"2\"/>"
+  },
+  "17": {
+    "id": 17,
+    "name": "bluetooth_audio",
+    "label": "Bluetooth Audio",
+    "theme": "cyan",
+    "path": "<polyline points=\"6.5 6.5 17.5 17.5 12 23 12 1 17.5 6.5 6.5 17.5\" fill=\"none\" stroke=\"#22d3ee\" stroke-width=\"2\"/>"
+  },
+  "18": {
+    "id": 18,
+    "name": "phone_locked",
+    "label": "Phone Line Locked",
+    "theme": "red",
+    "path": "<path d=\"M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3\" fill=\"none\" stroke=\"#f87171\" stroke-width=\"2\"/><rect x=\"14\" y=\"2\" width=\"8\" height=\"6\" rx=\"1\" fill=\"none\" stroke=\"#f87171\" stroke-width=\"1.5\"/>"
+  },
+  "19": {
+    "id": 19,
+    "name": "phone_ring",
+    "label": "Ringing Alert",
+    "theme": "amber",
+    "path": "<path d=\"M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3\" fill=\"none\" stroke=\"#fbbf24\" stroke-width=\"2\"/><path d=\"M18 2a5 5 0 0 1 5 5\" fill=\"none\" stroke=\"#fbbf24\" stroke-width=\"2\"/>"
+  },
+  "20": {
+    "id": 20,
+    "name": "intercom_bell",
+    "label": "Intercom Bell",
+    "theme": "cyan",
+    "path": "<path d=\"M18 8A6 6 0 0 0 6 8c0 7-3 9-3 9h18s-3-2-3-9\" fill=\"none\" stroke=\"#22d3ee\" stroke-width=\"2\"/><path d=\"M13.73 21a2 2 0 0 1-3.46 0\" fill=\"none\" stroke=\"#22d3ee\" stroke-width=\"2\"/>"
+  },
+  "21": {
+    "id": 21,
+    "name": "call_park",
+    "label": "Call Park Slot",
+    "theme": "purple",
+    "path": "<rect x=\"3\" y=\"3\" width=\"18\" height=\"18\" rx=\"4\" fill=\"none\" stroke=\"#c084fc\" stroke-width=\"2\"/><path d=\"M9 16V8h4a2 2 0 0 1 0 4H9\" stroke=\"#c084fc\" stroke-width=\"2\"/>"
+  },
+  "22": {
+    "id": 22,
+    "name": "ivr_menu",
+    "label": "IVR Auto Attendant",
+    "theme": "emerald",
+    "path": "<circle cx=\"12\" cy=\"12\" r=\"10\" fill=\"none\" stroke=\"#34d399\" stroke-width=\"2\"/><path d=\"M8 12h8M12 8v8\" stroke=\"#34d399\" stroke-width=\"2\"/>"
+  },
+  "23": {
+    "id": 23,
+    "name": "music_on_hold",
+    "label": "Music on Hold",
+    "theme": "purple",
+    "path": "<path d=\"M9 18V5l12-2v13\" fill=\"none\" stroke=\"#c084fc\" stroke-width=\"2\"/><circle cx=\"6\" cy=\"18\" r=\"3\" fill=\"#c084fc\"/><circle cx=\"18\" cy=\"16\" r=\"3\" fill=\"#c084fc\"/>"
+  },
+  "24": {
+    "id": 24,
+    "name": "call_queue",
+    "label": "Queue Waiting",
+    "theme": "cyan",
+    "path": "<path d=\"M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2\" stroke=\"#22d3ee\" stroke-width=\"2\" fill=\"none\"/><circle cx=\"9\" cy=\"7\" r=\"4\" stroke=\"#22d3ee\" stroke-width=\"2\" fill=\"none\"/><path d=\"M23 21v-2a4 4 0 0 0-3-3.87\" stroke=\"#22d3ee\" stroke-width=\"2\" fill=\"none\"/>"
+  },
+  "25": {
+    "id": 25,
+    "name": "dial_tone",
+    "label": "Dial Tone Wave",
+    "theme": "emerald",
+    "path": "<path d=\"M2 12h4l3-6 6 12 3-6h4\" fill=\"none\" stroke=\"#34d399\" stroke-width=\"2\"/>"
+  },
+  "26": {
+    "id": 26,
+    "name": "emergency_e911",
+    "label": "E911 Emergency",
+    "theme": "red",
+    "path": "<polygon points=\"12 2 2 22 22 22 12 2\" fill=\"none\" stroke=\"#ef4444\" stroke-width=\"2\"/><line x1=\"12\" y1=\"9\" x2=\"12\" y2=\"13\" stroke=\"#ef4444\" stroke-width=\"2\"/><circle cx=\"12\" cy=\"17\" r=\"1\" fill=\"#ef4444\"/>"
+  },
+  "27": {
+    "id": 27,
+    "name": "backspace_delete",
+    "label": "Delete Backspace",
+    "theme": "slate",
+    "path": "<path d=\"M21 4H8l-7 8 7 8h13a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2z\" fill=\"none\" stroke=\"#94a3b8\" stroke-width=\"2\"/><line x1=\"18\" y1=\"9\" x2=\"12\" y2=\"15\" stroke=\"#94a3b8\" stroke-width=\"2\"/><line x1=\"12\" y1=\"9\" x2=\"18\" y2=\"15\" stroke=\"#94a3b8\" stroke-width=\"2\"/>"
+  },
+  "28": {
+    "id": 28,
+    "name": "volume_mute",
+    "label": "Audio Muted",
+    "theme": "slate",
+    "path": "<polygon points=\"11 5 6 9 2 9 2 15 6 15 11 19 11 5\" fill=\"none\" stroke=\"#94a3b8\" stroke-width=\"2\"/><line x1=\"23\" y1=\"9\" x2=\"17\" y2=\"15\" stroke=\"#94a3b8\" stroke-width=\"2\"/><line x1=\"17\" y1=\"9\" x2=\"23\" y2=\"15\" stroke=\"#94a3b8\" stroke-width=\"2\"/>"
+  },
+  "29": {
+    "id": 29,
+    "name": "volume_up",
+    "label": "Volume High",
+    "theme": "emerald",
+    "path": "<polygon points=\"11 5 6 9 2 9 2 15 6 15 11 19 11 5\" fill=\"none\" stroke=\"#34d399\" stroke-width=\"2\"/><path d=\"M19.07 4.93a10 10 0 0 1 0 14.14M15.54 8.46a5 5 0 0 1 0 7.07\" fill=\"none\" stroke=\"#34d399\" stroke-width=\"2\"/>"
+  },
+  "30": {
+    "id": 30,
+    "name": "speed_dial",
+    "label": "Speed Dial Key",
+    "theme": "cyan",
+    "path": "<polygon points=\"12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2\" fill=\"none\" stroke=\"#22d3ee\" stroke-width=\"2\"/>"
+  },
+  "31": {
+    "id": 31,
+    "name": "hangup_call",
+    "label": "Call Terminated",
+    "theme": "red",
+    "path": "<path d=\"M10.68 13.31a16 16 0 0 0 3.41 2.6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.42 19.42 0 0 1-3.33-2.67m-2.67-3.34a19.79 19.79 0 0 1-3.07-8.63A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91\" fill=\"none\" stroke=\"#f87171\" stroke-width=\"2\"/><line x1=\"1\" y1=\"1\" x2=\"23\" y2=\"23\" stroke=\"#ef4444\" stroke-width=\"2.5\"/>"
+  },
+  "32": {
+    "id": 32,
+    "name": "chat_bubble",
+    "label": "Chat Room",
+    "theme": "cyan",
+    "path": "<path d=\"M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z\" fill=\"none\" stroke=\"#22d3ee\" stroke-width=\"2\"/>"
+  },
+  "33": {
+    "id": 33,
+    "name": "typing_indicator",
+    "label": "Typing Dots",
+    "theme": "cyan",
+    "path": "<path d=\"M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z\" fill=\"none\" stroke=\"#22d3ee\" stroke-width=\"2\"/><circle cx=\"8\" cy=\"11\" r=\"1.5\" fill=\"#22d3ee\"/><circle cx=\"12\" cy=\"11\" r=\"1.5\" fill=\"#22d3ee\"/><circle cx=\"16\" cy=\"11\" r=\"1.5\" fill=\"#22d3ee\"/>"
+  },
+  "34": {
+    "id": 34,
+    "name": "msg_sent",
+    "label": "Message Sent",
+    "theme": "slate",
+    "path": "<polyline points=\"20 6 9 17 4 12\" fill=\"none\" stroke=\"#94a3b8\" stroke-width=\"2\"/>"
+  },
+  "35": {
+    "id": 35,
+    "name": "msg_delivered",
+    "label": "Message Delivered",
+    "theme": "cyan",
+    "path": "<polyline points=\"18 6 7 17 2 12\" fill=\"none\" stroke=\"#22d3ee\" stroke-width=\"2\"/><polyline points=\"22 6 11 17 8 14\" fill=\"none\" stroke=\"#22d3ee\" stroke-width=\"2\"/>"
+  },
+  "36": {
+    "id": 36,
+    "name": "msg_read",
+    "label": "Message Read",
+    "theme": "emerald",
+    "path": "<polyline points=\"18 6 7 17 2 12\" fill=\"none\" stroke=\"#34d399\" stroke-width=\"2.5\"/><polyline points=\"22 6 11 17 8 14\" fill=\"none\" stroke=\"#34d399\" stroke-width=\"2.5\"/>"
+  },
+  "37": {
+    "id": 37,
+    "name": "attachment_clip",
+    "label": "Attachment File",
+    "theme": "slate",
+    "path": "<path d=\"M21.44 11.05l-9.19 9.19a6 6 0 0 1-8.49-8.49l9.19-9.19a4 4 0 0 1 5.66 5.66l-9.2 9.19a2 2 0 0 1-2.83-2.83l8.49-8.48\" fill=\"none\" stroke=\"#94a3b8\" stroke-width=\"2\"/>"
+  },
+  "38": {
+    "id": 38,
+    "name": "image_media",
+    "label": "Image Picture",
+    "theme": "purple",
+    "path": "<rect x=\"3\" y=\"3\" width=\"18\" height=\"18\" rx=\"2\" fill=\"none\" stroke=\"#c084fc\" stroke-width=\"2\"/><circle cx=\"8.5\" cy=\"8.5\" r=\"1.5\" fill=\"#c084fc\"/><polyline points=\"21 15 16 10 5 21\" stroke=\"#c084fc\" stroke-width=\"2\" fill=\"none\"/>"
+  },
+  "39": {
+    "id": 39,
+    "name": "audio_mic_note",
+    "label": "Voice Note",
+    "theme": "emerald",
+    "path": "<path d=\"M12 1a3 3 0 0 0-3 3v8a3 3 0 0 0 6 0V4a3 3 0 0 0-3-3z\" fill=\"none\" stroke=\"#34d399\" stroke-width=\"2\"/><path d=\"M19 10v2a7 7 0 0 1-14 0v-2M12 19v4M8 23h8\" fill=\"none\" stroke=\"#34d399\" stroke-width=\"2\"/>"
+  },
+  "40": {
+    "id": 40,
+    "name": "emoji_happy",
+    "label": "Emoji Smile",
+    "theme": "amber",
+    "path": "<circle cx=\"12\" cy=\"12\" r=\"10\" fill=\"none\" stroke=\"#fbbf24\" stroke-width=\"2\"/><path d=\"M8 14s1.5 2 4 2 4-2 4-2M9 9h.01M15 9h.01\" stroke=\"#fbbf24\" stroke-width=\"2\"/>"
+  },
+  "41": {
+    "id": 41,
+    "name": "send_paper_plane",
+    "label": "Send Dispatch",
+    "theme": "cyan",
+    "path": "<line x1=\"22\" y1=\"2\" x2=\"11\" y2=\"13\" stroke=\"#22d3ee\" stroke-width=\"2\"/><polygon points=\"22 2 15 22 11 13 2 9 22 2\" fill=\"none\" stroke=\"#22d3ee\" stroke-width=\"2\"/>"
+  },
+  "42": {
+    "id": 42,
+    "name": "location_pin",
+    "label": "Location Pin",
+    "theme": "red",
+    "path": "<path d=\"M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z\" fill=\"none\" stroke=\"#ef4444\" stroke-width=\"2\"/><circle cx=\"12\" cy=\"10\" r=\"3\" fill=\"#ef4444\"/>"
+  },
+  "43": {
+    "id": 43,
+    "name": "contact_card",
+    "label": "Contact Card",
+    "theme": "cyan",
+    "path": "<path d=\"M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2\" fill=\"none\" stroke=\"#22d3ee\" stroke-width=\"2\"/><circle cx=\"12\" cy=\"7\" r=\"4\" fill=\"none\" stroke=\"#22d3ee\" stroke-width=\"2\"/>"
+  },
+  "44": {
+    "id": 44,
+    "name": "contacts_directory",
+    "label": "Directory Contacts",
+    "theme": "purple",
+    "path": "<path d=\"M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2\" fill=\"none\" stroke=\"#c084fc\" stroke-width=\"2\"/><circle cx=\"9\" cy=\"7\" r=\"4\" fill=\"none\" stroke=\"#c084fc\" stroke-width=\"2\"/><path d=\"M23 21v-2a4 4 0 0 0-3-3.87M16 3.13a4 4 0 0 1 0 7.75\" stroke=\"#c084fc\" stroke-width=\"2\"/>"
+  },
+  "45": {
+    "id": 45,
+    "name": "star_favorite",
+    "label": "Star Favorite",
+    "theme": "amber",
+    "path": "<polygon points=\"12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2\" fill=\"none\" stroke=\"#fbbf24\" stroke-width=\"2\"/>"
+  },
+  "46": {
+    "id": 46,
+    "name": "pin_chat",
+    "label": "Pin Conversation",
+    "theme": "cyan",
+    "path": "<path d=\"M16 12V4h1V2H7v2h1v8l-2 2v2h5v6l1 1 1-1v-6h5v-2l-2-2z\" fill=\"none\" stroke=\"#22d3ee\" stroke-width=\"2\"/>"
+  },
+  "47": {
+    "id": 47,
+    "name": "search_chat",
+    "label": "Search Chat",
+    "theme": "slate",
+    "path": "<circle cx=\"11\" cy=\"11\" r=\"8\" fill=\"none\" stroke=\"#94a3b8\" stroke-width=\"2\"/><line x1=\"21\" y1=\"21\" x2=\"16.65\" y2=\"16.65\" stroke=\"#94a3b8\" stroke-width=\"2\"/>"
+  },
+  "48": {
+    "id": 48,
+    "name": "presence_online",
+    "label": "Online Status",
+    "theme": "emerald",
+    "path": "<circle cx=\"12\" cy=\"12\" r=\"6\" fill=\"#34d399\"/><circle cx=\"12\" cy=\"12\" r=\"10\" fill=\"none\" stroke=\"#34d399\" stroke-width=\"2\"/>"
+  },
+  "49": {
+    "id": 49,
+    "name": "history_recent",
+    "label": "Recent Call History",
+    "theme": "cyan",
+    "path": "<circle cx=\"12\" cy=\"12\" r=\"10\" fill=\"none\" stroke=\"#22d3ee\" stroke-width=\"2\"/><polyline points=\"12 6 12 12 14 14\" fill=\"none\" stroke=\"#22d3ee\" stroke-width=\"2\"/>"
+  },
+  "50": {
+    "id": 50,
+    "name": "presence_busy",
+    "label": "Busy Status",
+    "theme": "amber",
+    "path": "<circle cx=\"12\" cy=\"12\" r=\"10\" fill=\"none\" stroke=\"#fbbf24\" stroke-width=\"2\"/><line x1=\"8\" y1=\"12\" x2=\"16\" y2=\"12\" stroke=\"#fbbf24\" stroke-width=\"2.5\"/>"
+  },
+  "51": {
+    "id": 51,
+    "name": "presence_away",
+    "label": "Away Status",
+    "theme": "amber",
+    "path": "<circle cx=\"12\" cy=\"12\" r=\"10\" fill=\"none\" stroke=\"#f59e0b\" stroke-width=\"2\"/><polyline points=\"12 6 12 12 15 15\" stroke=\"#f59e0b\" stroke-width=\"2\" fill=\"none\"/>"
+  },
+  "52": {
+    "id": 52,
+    "name": "presence_dnd",
+    "label": "DND Mode",
+    "theme": "red",
+    "path": "<circle cx=\"12\" cy=\"12\" r=\"10\" fill=\"#ef4444\" stroke=\"#ef4444\" stroke-width=\"2\"/><line x1=\"7\" y1=\"12\" x2=\"17\" y2=\"12\" stroke=\"#ffffff\" stroke-width=\"3\"/>"
+  },
+  "53": {
+    "id": 53,
+    "name": "presence_offline",
+    "label": "Offline Status",
+    "theme": "slate",
+    "path": "<circle cx=\"12\" cy=\"12\" r=\"10\" fill=\"none\" stroke=\"#64748b\" stroke-width=\"2\"/>"
+  },
+  "54": {
+    "id": 54,
+    "name": "group_channel",
+    "label": "Broadcast Channel",
+    "theme": "purple",
+    "path": "<path d=\"M4 15s1-1 4-1 5 2 8 2 4-1 4-1V3s-1 1-4 1-5-2-8-2-4 1-4 1zM4 22v-7\" fill=\"none\" stroke=\"#c084fc\" stroke-width=\"2\"/>"
+  },
+  "55": {
+    "id": 55,
+    "name": "announcement",
+    "label": "Announcement",
+    "theme": "amber",
+    "path": "<path d=\"M11 5L6 9H2v6h4l5 4V5zM19.07 4.93a10 10 0 0 1 0 14.14\" fill=\"none\" stroke=\"#fbbf24\" stroke-width=\"2\"/>"
+  },
+  "56": {
+    "id": 56,
+    "name": "back_arrow",
+    "label": "Back Arrow",
+    "theme": "cyan",
+    "path": "<line x1=\"19\" y1=\"12\" x2=\"5\" y2=\"12\" stroke=\"#22d3ee\" stroke-width=\"2.5\"/><polyline points=\"12 19 5 12 12 5\" fill=\"none\" stroke=\"#22d3ee\" stroke-width=\"2.5\"/>"
+  },
+  "57": {
+    "id": 57,
+    "name": "forward_arrow",
+    "label": "Forward Arrow",
+    "theme": "cyan",
+    "path": "<line x1=\"5\" y1=\"12\" x2=\"19\" y2=\"12\" stroke=\"#22d3ee\" stroke-width=\"2.5\"/><polyline points=\"12 5 19 12 12 19\" fill=\"none\" stroke=\"#22d3ee\" stroke-width=\"2.5\"/>"
+  },
+  "58": {
+    "id": 58,
+    "name": "reply_thread",
+    "label": "Reply Thread",
+    "theme": "cyan",
+    "path": "<polyline points=\"9 17 4 12 9 7\" fill=\"none\" stroke=\"#22d3ee\" stroke-width=\"2\"/><path d=\"M20 18v-2a4 4 0 0 0-4-4H4\" fill=\"none\" stroke=\"#22d3ee\" stroke-width=\"2\"/>"
+  },
+  "59": {
+    "id": 59,
+    "name": "share_link",
+    "label": "Share Link",
+    "theme": "purple",
+    "path": "<circle cx=\"18\" cy=\"5\" r=\"3\" fill=\"none\" stroke=\"#c084fc\" stroke-width=\"2\"/><circle cx=\"6\" cy=\"12\" r=\"3\" fill=\"none\" stroke=\"#c084fc\" stroke-width=\"2\"/><circle cx=\"18\" cy=\"19\" r=\"3\" fill=\"none\" stroke=\"#c084fc\" stroke-width=\"2\"/><line x1=\"8.59\" y1=\"13.51\" x2=\"15.42\" y2=\"17.49\" stroke=\"#c084fc\" stroke-width=\"2\"/><line x1=\"15.41\" y1=\"6.51\" x2=\"8.59\" y2=\"10.49\" stroke=\"#c084fc\" stroke-width=\"2\"/>"
+  },
+  "60": {
+    "id": 60,
+    "name": "ai_bot_assistant",
+    "label": "AI Titan Agent",
+    "theme": "cyan",
+    "path": "<path d=\"M12 2a2 2 0 0 1 2 2v2a2 2 0 0 1-2 2 2 2 0 0 1-2-2V4a2 2 0 0 1 2-2z\" fill=\"none\" stroke=\"#22d3ee\" stroke-width=\"2\"/><rect x=\"4\" y=\"8\" width=\"16\" height=\"12\" rx=\"4\" fill=\"none\" stroke=\"#22d3ee\" stroke-width=\"2\"/><circle cx=\"9\" cy=\"14\" r=\"1\" fill=\"#22d3ee\"/><circle cx=\"15\" cy=\"14\" r=\"1\" fill=\"#22d3ee\"/>"
+  },
+  "61": {
+    "id": 61,
+    "name": "verified_badge",
+    "label": "Verified Identity",
+    "theme": "cyan",
+    "path": "<path d=\"M12 2l2.4 2.8 3.7-.4 1.2 3.5 3.3 1.7-1 3.6 1.7 3.3-2.8 2.4.4 3.7-3.5 1.2-1.7 3.3-3.6-1-3.3 1.7-2.4-2.8-3.7.4-1.2-3.5-3.3-1.7 1-3.6-1.7-3.3 2.8-2.4-.4-3.7 3.5-1.2 1.7-3.3 3.6 1z\" fill=\"none\" stroke=\"#22d3ee\" stroke-width=\"1.8\"/><polyline points=\"9 12 11 14 15 10\" fill=\"none\" stroke=\"#22d3ee\" stroke-width=\"2\"/>"
+  },
+  "62": {
+    "id": 62,
+    "name": "block_user",
+    "label": "Block Contact",
+    "theme": "red",
+    "path": "<circle cx=\"12\" cy=\"12\" r=\"10\" fill=\"none\" stroke=\"#ef4444\" stroke-width=\"2\"/><line x1=\"4.93\" y1=\"4.93\" x2=\"19.07\" y2=\"19.07\" stroke=\"#ef4444\" stroke-width=\"2\"/>"
+  },
+  "63": {
+    "id": 63,
+    "name": "mute_notifications",
+    "label": "Bell Muted",
+    "theme": "slate",
+    "path": "<path d=\"M13.73 21a2 2 0 0 1-3.46 0M18 8A6 6 0 0 0 6 8c0 7-3 9-3 9h18s-3-2-3-9\" fill=\"none\" stroke=\"#94a3b8\" stroke-width=\"2\"/><line x1=\"1\" y1=\"1\" x2=\"23\" y2=\"23\" stroke=\"#ef4444\" stroke-width=\"2\"/>"
+  },
+  "64": {
+    "id": 64,
+    "name": "cpu_chip",
+    "label": "CPU Processor",
+    "theme": "emerald",
+    "path": "<rect x=\"4\" y=\"4\" width=\"16\" height=\"16\" rx=\"2\" fill=\"rgba(52,211,153,0.15)\" stroke=\"#34d399\" stroke-width=\"2\"/><rect x=\"9\" y=\"9\" width=\"6\" height=\"6\" fill=\"none\" stroke=\"#34d399\" stroke-width=\"1.5\"/><path d=\"M9 1v3M15 1v3M9 20v3M15 20v3M20 9h3M20 14h3M1 9h3M1 14h3\" stroke=\"#34d399\" stroke-width=\"1.8\" stroke-linecap=\"round\"/>"
+  },
+  "65": {
+    "id": 65,
+    "name": "mcu_board",
+    "label": "MCU NodeMCU",
+    "theme": "cyan",
+    "path": "<rect x=\"3\" y=\"3\" width=\"18\" height=\"18\" rx=\"2\" fill=\"none\" stroke=\"#22d3ee\" stroke-width=\"2\"/><line x1=\"7\" y1=\"8\" x2=\"17\" y2=\"8\" stroke=\"#22d3ee\" stroke-width=\"1.5\"/><line x1=\"7\" y1=\"12\" x2=\"17\" y2=\"12\" stroke=\"#22d3ee\" stroke-width=\"1.5\"/><line x1=\"7\" y1=\"16\" x2=\"17\" y2=\"16\" stroke=\"#22d3ee\" stroke-width=\"1.5\"/>"
+  },
+  "66": {
+    "id": 66,
+    "name": "relay_module",
+    "label": "Relay Module",
+    "theme": "purple",
+    "path": "<rect x=\"3\" y=\"4\" width=\"18\" height=\"16\" rx=\"2\" fill=\"none\" stroke=\"#c084fc\" stroke-width=\"2\"/><circle cx=\"8\" cy=\"12\" r=\"2\" fill=\"#c084fc\"/><path d=\"M14 8h4M14 12h4M14 16h4\" stroke=\"#c084fc\" stroke-width=\"1.5\"/>"
+  },
+  "67": {
+    "id": 67,
+    "name": "solenoid_lock",
+    "label": "Solenoid Door Lock",
+    "theme": "amber",
+    "path": "<rect x=\"5\" y=\"11\" width=\"14\" height=\"10\" rx=\"2\" fill=\"none\" stroke=\"#fbbf24\" stroke-width=\"2\"/><path d=\"M8 11V7a4 4 0 0 1 8 0v4\" fill=\"none\" stroke=\"#fbbf24\" stroke-width=\"2\"/>"
+  },
+  "68": {
+    "id": 68,
+    "name": "rfid_nfc",
+    "label": "RFID NFC Reader",
+    "theme": "cyan",
+    "path": "<path d=\"M4 10a8 8 0 0 1 16 0M7 13a5 5 0 0 1 10 0M10 16a2 2 0 0 1 4 0\" fill=\"none\" stroke=\"#22d3ee\" stroke-width=\"2\"/><circle cx=\"12\" cy=\"19\" r=\"1\" fill=\"#22d3ee\"/>"
+  },
+  "69": {
+    "id": 69,
+    "name": "temperature_sensor",
+    "label": "Temperature ADC",
+    "theme": "red",
+    "path": "<path d=\"M14 14.76V3.5a2.5 2.5 0 0 0-5 0v11.26a4.5 4.5 0 1 0 5 0z\" fill=\"none\" stroke=\"#f87171\" stroke-width=\"2\"/>"
+  },
+  "70": {
+    "id": 70,
+    "name": "humidity_sensor",
+    "label": "Humidity Sensor",
+    "theme": "cyan",
+    "path": "<path d=\"M12 2.69l5.66 5.66a8 8 0 1 1-11.31 0z\" fill=\"none\" stroke=\"#22d3ee\" stroke-width=\"2\"/>"
+  },
+  "71": {
+    "id": 71,
+    "name": "pressure_baro",
+    "label": "Barometer Sensor",
+    "theme": "purple",
+    "path": "<circle cx=\"12\" cy=\"12\" r=\"10\" fill=\"none\" stroke=\"#c084fc\" stroke-width=\"2\"/><path d=\"M12 6v6l4 2\" fill=\"none\" stroke=\"#c084fc\" stroke-width=\"2\"/>"
+  },
+  "72": {
+    "id": 72,
+    "name": "ambient_light",
+    "label": "Light LDR Sensor",
+    "theme": "amber",
+    "path": "<circle cx=\"12\" cy=\"12\" r=\"5\" fill=\"none\" stroke=\"#fbbf24\" stroke-width=\"2\"/><line x1=\"12\" y1=\"1\" x2=\"12\" y2=\"3\" stroke=\"#fbbf24\" stroke-width=\"2\"/><line x1=\"12\" y1=\"21\" x2=\"12\" y2=\"23\" stroke=\"#fbbf24\" stroke-width=\"2\"/><line x1=\"4.22\" y1=\"4.22\" x2=\"5.64\" y2=\"5.64\" stroke=\"#fbbf24\" stroke-width=\"2\"/><line x1=\"18.36\" y1=\"18.36\" x2=\"19.78\" y2=\"19.78\" stroke=\"#fbbf24\" stroke-width=\"2\"/><line x1=\"1\" y1=\"12\" x2=\"3\" y2=\"12\" stroke=\"#fbbf24\" stroke-width=\"2\"/><line x1=\"21\" y1=\"12\" x2=\"23\" y2=\"12\" stroke=\"#fbbf24\" stroke-width=\"2\"/>"
+  },
+  "73": {
+    "id": 73,
+    "name": "pir_motion",
+    "label": "PIR Motion Sensor",
+    "theme": "emerald",
+    "path": "<circle cx=\"12\" cy=\"12\" r=\"4\" fill=\"#34d399\"/><path d=\"M6 6a9 9 0 0 1 12 0M3 3a13 13 0 0 1 18 0\" fill=\"none\" stroke=\"#34d399\" stroke-width=\"2\"/>"
+  },
+  "74": {
+    "id": 74,
+    "name": "gas_smoke",
+    "label": "Gas Smoke Detector",
+    "theme": "red",
+    "path": "<path d=\"M8 19h8a4 4 0 0 0 0-8 6 6 0 0 0-11.8 1.4A4 4 0 0 0 8 19z\" fill=\"none\" stroke=\"#ef4444\" stroke-width=\"2\"/>"
+  },
+  "75": {
+    "id": 75,
+    "name": "water_leak",
+    "label": "Water Leak Sensor",
+    "theme": "cyan",
+    "path": "<path d=\"M12 2.69l5.66 5.66a8 8 0 1 1-11.31 0z\" fill=\"none\" stroke=\"#06b6d4\" stroke-width=\"2\"/><line x1=\"2\" y1=\"22\" x2=\"22\" y2=\"22\" stroke=\"#06b6d4\" stroke-width=\"2\"/>"
+  },
+  "76": {
+    "id": 76,
+    "name": "accelerometer",
+    "label": "Accelerometer Gyro",
+    "theme": "purple",
+    "path": "<polygon points=\"12 2 22 8.5 22 15.5 12 22 2 15.5 2 8.5 12 2\" fill=\"none\" stroke=\"#c084fc\" stroke-width=\"2\"/><line x1=\"12\" y1=\"22\" x2=\"12\" y2=\"12\" stroke=\"#c084fc\" stroke-width=\"1.5\"/><polyline points=\"22 8.5 12 12 2 8.5\" fill=\"none\" stroke=\"#c084fc\" stroke-width=\"1.5\"/>"
+  },
+  "77": {
+    "id": 77,
+    "name": "magnetic_reed",
+    "label": "Magnetic Reed Switch",
+    "theme": "amber",
+    "path": "<rect x=\"4\" y=\"6\" width=\"6\" height=\"12\" rx=\"1\" fill=\"none\" stroke=\"#fbbf24\" stroke-width=\"2\"/><rect x=\"14\" y=\"6\" width=\"6\" height=\"12\" rx=\"1\" fill=\"none\" stroke=\"#fbbf24\" stroke-width=\"2\"/>"
+  },
+  "78": {
+    "id": 78,
+    "name": "adc_voltage",
+    "label": "ADC Voltage Probe",
+    "theme": "cyan",
+    "path": "<polyline points=\"22 12 18 12 15 21 9 3 6 12 2 12\" fill=\"none\" stroke=\"#22d3ee\" stroke-width=\"2\"/>"
+  },
+  "79": {
+    "id": 79,
+    "name": "fingerprint_sensor",
+    "label": "Biometric Fingerprint",
+    "theme": "emerald",
+    "path": "<path d=\"M2 12C2 6.5 6.5 2 12 2a10 10 0 0 1 8 4M5 19.5C5.5 18 6 15 6 12c0-3.3 2.7-6 6-6 2.5 0 4.6 1.5 5.5 3.7M12 12v3a3 3 0 0 1-3 3M19 14.5a8 8 0 0 1-2 5.5\" fill=\"none\" stroke=\"#34d399\" stroke-width=\"2\"/>"
+  },
+  "80": {
+    "id": 80,
+    "name": "relay_ch1",
+    "label": "Relay CH-1 (ON)",
+    "theme": "emerald",
+    "path": "<rect x=\"3\" y=\"5\" width=\"18\" height=\"14\" rx=\"2\" fill=\"none\" stroke=\"#34d399\" stroke-width=\"2\"/><circle cx=\"8\" cy=\"12\" r=\"2\" fill=\"#34d399\"/>"
+  },
+  "81": {
+    "id": 81,
+    "name": "relay_ch2",
+    "label": "Relay CH-2 (ON)",
+    "theme": "emerald",
+    "path": "<rect x=\"3\" y=\"5\" width=\"18\" height=\"14\" rx=\"2\" fill=\"none\" stroke=\"#34d399\" stroke-width=\"2\"/><circle cx=\"16\" cy=\"12\" r=\"2\" fill=\"#34d399\"/>"
+  },
+  "82": {
+    "id": 82,
+    "name": "relay_ch3",
+    "label": "Relay CH-3 (ON)",
+    "theme": "purple",
+    "path": "<rect x=\"3\" y=\"5\" width=\"18\" height=\"14\" rx=\"2\" fill=\"none\" stroke=\"#c084fc\" stroke-width=\"2\"/><circle cx=\"8\" cy=\"9\" r=\"2\" fill=\"#c084fc\"/><circle cx=\"8\" cy=\"15\" r=\"2\" fill=\"#c084fc\"/>"
+  },
+  "83": {
+    "id": 83,
+    "name": "relay_ch4",
+    "label": "Relay CH-4 (ON)",
+    "theme": "purple",
+    "path": "<rect x=\"3\" y=\"5\" width=\"18\" height=\"14\" rx=\"2\" fill=\"none\" stroke=\"#c084fc\" stroke-width=\"2\"/><circle cx=\"16\" cy=\"9\" r=\"2\" fill=\"#c084fc\"/><circle cx=\"16\" cy=\"15\" r=\"2\" fill=\"#c084fc\"/>"
+  },
+  "84": {
+    "id": 84,
+    "name": "i2c_bus",
+    "label": "I2C Data Bus",
+    "theme": "cyan",
+    "path": "<rect x=\"3\" y=\"7\" width=\"18\" height=\"10\" rx=\"2\" fill=\"none\" stroke=\"#22d3ee\" stroke-width=\"2\"/><line x1=\"7\" y1=\"2\" x2=\"7\" y2=\"7\" stroke=\"#22d3ee\" stroke-width=\"2\"/><line x1=\"17\" y1=\"2\" x2=\"17\" y2=\"7\" stroke=\"#22d3ee\" stroke-width=\"2\"/>"
+  },
+  "85": {
+    "id": 85,
+    "name": "spi_bus",
+    "label": "SPI Serial Bus",
+    "theme": "purple",
+    "path": "<rect x=\"4\" y=\"4\" width=\"16\" height=\"16\" rx=\"2\" fill=\"none\" stroke=\"#c084fc\" stroke-width=\"2\"/><line x1=\"4\" y1=\"9\" x2=\"20\" y2=\"9\" stroke=\"#c084fc\"/><line x1=\"4\" y1=\"15\" x2=\"20\" y2=\"15\" stroke=\"#c084fc\"/>"
+  },
+  "86": {
+    "id": 86,
+    "name": "uart_serial",
+    "label": "UART RX/TX Port",
+    "theme": "amber",
+    "path": "<rect x=\"3\" y=\"5\" width=\"18\" height=\"14\" rx=\"3\" fill=\"none\" stroke=\"#fbbf24\" stroke-width=\"2\"/><polyline points=\"7 10 10 12 7 14\" stroke=\"#fbbf24\" stroke-width=\"2\" fill=\"none\"/><line x1=\"13\" y1=\"14\" x2=\"17\" y2=\"14\" stroke=\"#fbbf24\" stroke-width=\"2\"/>"
+  },
+  "87": {
+    "id": 87,
+    "name": "pwm_motor",
+    "label": "PWM Stepper Motor",
+    "theme": "cyan",
+    "path": "<circle cx=\"12\" cy=\"12\" r=\"9\" fill=\"none\" stroke=\"#22d3ee\" stroke-width=\"2\"/><path d=\"M12 7v5l3 3\" stroke=\"#22d3ee\" stroke-width=\"2\"/>"
+  },
+  "88": {
+    "id": 88,
+    "name": "buzzer_alarm",
+    "label": "Buzzer Piezo",
+    "theme": "red",
+    "path": "<path d=\"M11 5L6 9H2v6h4l5 4V5zM15 9l6 6M21 9l-6 6\" fill=\"none\" stroke=\"#ef4444\" stroke-width=\"2\"/>"
+  },
+  "89": {
+    "id": 89,
+    "name": "seven_segment_led",
+    "label": "7-Segment Display",
+    "theme": "red",
+    "path": "<rect x=\"4\" y=\"3\" width=\"16\" height=\"18\" rx=\"2\" fill=\"none\" stroke=\"#ef4444\" stroke-width=\"2\"/><line x1=\"7\" y1=\"6\" x2=\"17\" y2=\"6\" stroke=\"#ef4444\" stroke-width=\"2\"/><line x1=\"17\" y1=\"6\" x2=\"17\" y2=\"12\" stroke=\"#ef4444\" stroke-width=\"2\"/><line x1=\"7\" y1=\"12\" x2=\"17\" y2=\"12\" stroke=\"#ef4444\" stroke-width=\"2\"/><line x1=\"7\" y1=\"12\" x2=\"7\" y2=\"18\" stroke=\"#ef4444\" stroke-width=\"2\"/><line x1=\"7\" y1=\"18\" x2=\"17\" y2=\"18\" stroke=\"#ef4444\" stroke-width=\"2\"/>"
+  },
+  "90": {
+    "id": 90,
+    "name": "matrix_lcd_16x2",
+    "label": "Matrix LCD Screen",
+    "theme": "emerald",
+    "path": "<rect x=\"2\" y=\"5\" width=\"20\" height=\"14\" rx=\"2\" fill=\"rgba(16,185,129,0.2)\" stroke=\"#34d399\" stroke-width=\"2\"/><line x1=\"5\" y1=\"9\" x2=\"19\" y2=\"9\" stroke=\"#34d399\"/><line x1=\"5\" y1=\"14\" x2=\"15\" y2=\"14\" stroke=\"#34d399\"/>"
+  },
+  "91": {
+    "id": 91,
+    "name": "oled_display",
+    "label": "OLED SSD1306 Display",
+    "theme": "cyan",
+    "path": "<rect x=\"2\" y=\"4\" width=\"20\" height=\"16\" rx=\"2\" fill=\"none\" stroke=\"#22d3ee\" stroke-width=\"2\"/><circle cx=\"12\" cy=\"12\" r=\"3\" fill=\"#22d3ee\"/>"
+  },
+  "92": {
+    "id": 92,
+    "name": "led_indicator",
+    "label": "LED Status Diode",
+    "theme": "emerald",
+    "path": "<circle cx=\"12\" cy=\"12\" r=\"5\" fill=\"#34d399\"/><circle cx=\"12\" cy=\"12\" r=\"9\" fill=\"none\" stroke=\"#34d399\" stroke-width=\"2\"/>"
+  },
+  "93": {
+    "id": 93,
+    "name": "rotary_encoder",
+    "label": "Rotary Encoder Knob",
+    "theme": "purple",
+    "path": "<circle cx=\"12\" cy=\"12\" r=\"9\" fill=\"none\" stroke=\"#c084fc\" stroke-width=\"2\"/><circle cx=\"12\" cy=\"12\" r=\"3\" fill=\"#c084fc\"/><line x1=\"12\" y1=\"3\" x2=\"12\" y2=\"6\" stroke=\"#c084fc\" stroke-width=\"2\"/>"
+  },
+  "94": {
+    "id": 94,
+    "name": "potentiometer",
+    "label": "Analog Potentiometer",
+    "theme": "amber",
+    "path": "<circle cx=\"12\" cy=\"12\" r=\"9\" fill=\"none\" stroke=\"#fbbf24\" stroke-width=\"2\"/><path d=\"M12 12l5-5\" stroke=\"#fbbf24\" stroke-width=\"2.5\"/>"
+  },
+  "95": {
+    "id": 95,
+    "name": "dac_audio",
+    "label": "DAC Audio Output",
+    "theme": "emerald",
+    "path": "<path d=\"M2 12h5l3-7 4 14 3-7h5\" fill=\"none\" stroke=\"#34d399\" stroke-width=\"2\"/>"
+  },
+  "96": {
+    "id": 96,
+    "name": "ac_power_plug",
+    "label": "AC Mains Power",
+    "theme": "emerald",
+    "path": "<path d=\"M12 2v6m0 8v6M8 8v4m8-4v4M5 12h14v2a7 7 0 0 1-14 0v-2z\" fill=\"none\" stroke=\"#34d399\" stroke-width=\"2\"/>"
+  },
+  "97": {
+    "id": 97,
+    "name": "battery_charging",
+    "label": "Battery Charging",
+    "theme": "amber",
+    "path": "<rect x=\"1\" y=\"6\" width=\"18\" height=\"12\" rx=\"2\" fill=\"none\" stroke=\"#fbbf24\" stroke-width=\"2\"/><line x1=\"23\" y1=\"11\" x2=\"23\" y2=\"13\" stroke=\"#fbbf24\" stroke-width=\"2\"/><polygon points=\"10 8 7 13 11 13 9 17 14 11 10 11 10 8\" fill=\"#fbbf24\"/>"
+  },
+  "98": {
+    "id": 98,
+    "name": "battery_100",
+    "label": "Battery 100%",
+    "theme": "emerald",
+    "path": "<rect x=\"1\" y=\"6\" width=\"18\" height=\"12\" rx=\"2\" fill=\"none\" stroke=\"#34d399\" stroke-width=\"2\"/><line x1=\"23\" y1=\"11\" x2=\"23\" y2=\"13\" stroke=\"#34d399\" stroke-width=\"2\"/><rect x=\"3\" y=\"8\" width=\"14\" height=\"8\" rx=\"1\" fill=\"#34d399\"/>"
+  },
+  "99": {
+    "id": 99,
+    "name": "battery_75",
+    "label": "Battery 75%",
+    "theme": "emerald",
+    "path": "<rect x=\"1\" y=\"6\" width=\"18\" height=\"12\" rx=\"2\" fill=\"none\" stroke=\"#34d399\" stroke-width=\"2\"/><line x1=\"23\" y1=\"11\" x2=\"23\" y2=\"13\" stroke=\"#34d399\" stroke-width=\"2\"/><rect x=\"3\" y=\"8\" width=\"10.5\" height=\"8\" rx=\"1\" fill=\"#34d399\"/>"
+  },
+  "100": {
+    "id": 100,
+    "name": "battery_50",
+    "label": "Battery 50%",
+    "theme": "amber",
+    "path": "<rect x=\"1\" y=\"6\" width=\"18\" height=\"12\" rx=\"2\" fill=\"none\" stroke=\"#fbbf24\" stroke-width=\"2\"/><line x1=\"23\" y1=\"11\" x2=\"23\" y2=\"13\" stroke=\"#fbbf24\" stroke-width=\"2\"/><rect x=\"3\" y=\"8\" width=\"7\" height=\"8\" rx=\"1\" fill=\"#fbbf24\"/>"
+  },
+  "101": {
+    "id": 101,
+    "name": "battery_25",
+    "label": "Battery 25%",
+    "theme": "amber",
+    "path": "<rect x=\"1\" y=\"6\" width=\"18\" height=\"12\" rx=\"2\" fill=\"none\" stroke=\"#fbbf24\" stroke-width=\"2\"/><line x1=\"23\" y1=\"11\" x2=\"23\" y2=\"13\" stroke=\"#fbbf24\" stroke-width=\"2\"/><rect x=\"3\" y=\"8\" width=\"3.5\" height=\"8\" rx=\"1\" fill=\"#fbbf24\"/>"
+  },
+  "102": {
+    "id": 102,
+    "name": "battery_critical",
+    "label": "Battery 5% Alert",
+    "theme": "red",
+    "path": "<rect x=\"1\" y=\"6\" width=\"18\" height=\"12\" rx=\"2\" fill=\"none\" stroke=\"#ef4444\" stroke-width=\"2\"/><line x1=\"23\" y1=\"11\" x2=\"23\" y2=\"13\" stroke=\"#ef4444\" stroke-width=\"2\"/><rect x=\"3\" y=\"8\" width=\"2\" height=\"8\" rx=\"1\" fill=\"#ef4444\"/>"
+  },
+  "103": {
+    "id": 103,
+    "name": "battery_eco_save",
+    "label": "Battery Eco Mode",
+    "theme": "emerald",
+    "path": "<rect x=\"1\" y=\"6\" width=\"18\" height=\"12\" rx=\"2\" fill=\"none\" stroke=\"#10b981\" stroke-width=\"2\"/><line x1=\"23\" y1=\"11\" x2=\"23\" y2=\"13\" stroke=\"#10b981\" stroke-width=\"2\"/><path d=\"M9 14s2-4 5-4\" stroke=\"#10b981\" stroke-width=\"2\"/>"
+  },
+  "104": {
+    "id": 104,
+    "name": "solar_panel",
+    "label": "Solar Photovoltaic",
+    "theme": "amber",
+    "path": "<rect x=\"3\" y=\"4\" width=\"18\" height=\"16\" rx=\"2\" fill=\"none\" stroke=\"#fbbf24\" stroke-width=\"2\"/><line x1=\"3\" y1=\"12\" x2=\"21\" y2=\"12\" stroke=\"#fbbf24\"/><line x1=\"9\" y1=\"4\" x2=\"9\" y2=\"20\" stroke=\"#fbbf24\"/><line x1=\"15\" y1=\"4\" x2=\"15\" y2=\"20\" stroke=\"#fbbf24\"/>"
+  },
+  "105": {
+    "id": 105,
+    "name": "generator_power",
+    "label": "Generator Unit",
+    "theme": "purple",
+    "path": "<circle cx=\"12\" cy=\"12\" r=\"9\" fill=\"none\" stroke=\"#c084fc\" stroke-width=\"2\"/><path d=\"M12 6v6l3 3\" stroke=\"#c084fc\" stroke-width=\"2\"/>"
+  },
+  "106": {
+    "id": 106,
+    "name": "ups_backup",
+    "label": "UPS Smart Battery",
+    "theme": "emerald",
+    "path": "<rect x=\"3\" y=\"3\" width=\"18\" height=\"18\" rx=\"3\" fill=\"none\" stroke=\"#34d399\" stroke-width=\"2\"/><path d=\"M8 8h8M8 12h8M8 16h5\" stroke=\"#34d399\" stroke-width=\"2\"/>"
+  },
+  "107": {
+    "id": 107,
+    "name": "voltage_high",
+    "label": "High Voltage Danger",
+    "theme": "amber",
+    "path": "<polygon points=\"13 2 3 14 12 14 11 22 21 10 12 10 13 2\" fill=\"none\" stroke=\"#fbbf24\" stroke-width=\"2\"/>"
+  },
+  "108": {
+    "id": 108,
+    "name": "fuse_breaker",
+    "label": "Circuit Breaker",
+    "theme": "red",
+    "path": "<rect x=\"6\" y=\"2\" width=\"12\" height=\"20\" rx=\"2\" fill=\"none\" stroke=\"#ef4444\" stroke-width=\"2\"/><line x1=\"12\" y1=\"6\" x2=\"12\" y2=\"10\" stroke=\"#ef4444\" stroke-width=\"2\"/><circle cx=\"12\" cy=\"15\" r=\"2\" fill=\"#ef4444\"/>"
+  },
+  "109": {
+    "id": 109,
+    "name": "power_meter",
+    "label": "KWh Power Meter",
+    "theme": "cyan",
+    "path": "<circle cx=\"12\" cy=\"12\" r=\"9\" fill=\"none\" stroke=\"#22d3ee\" stroke-width=\"2\"/><path d=\"M12 12l4-3\" stroke=\"#22d3ee\" stroke-width=\"2\"/>"
+  },
+  "110": {
+    "id": 110,
+    "name": "current_shunt",
+    "label": "Ampere Shunt",
+    "theme": "purple",
+    "path": "<path d=\"M4 12h4l4-8 4 16 4-8h4\" fill=\"none\" stroke=\"#c084fc\" stroke-width=\"2\"/>"
+  },
+  "111": {
+    "id": 111,
+    "name": "transformer_step",
+    "label": "AC Transformer",
+    "theme": "amber",
+    "path": "<circle cx=\"8\" cy=\"12\" r=\"5\" fill=\"none\" stroke=\"#fbbf24\" stroke-width=\"2\"/><circle cx=\"16\" cy=\"12\" r=\"5\" fill=\"none\" stroke=\"#fbbf24\" stroke-width=\"2\"/>"
+  },
+  "112": {
+    "id": 112,
+    "name": "ground_earth",
+    "label": "Chassis Earth Ground",
+    "theme": "emerald",
+    "path": "<line x1=\"12\" y1=\"2\" x2=\"12\" y2=\"12\" stroke=\"#34d399\" stroke-width=\"2\"/><line x1=\"4\" y1=\"12\" x2=\"20\" y2=\"12\" stroke=\"#34d399\" stroke-width=\"2\"/><line x1=\"7\" y1=\"16\" x2=\"17\" y2=\"16\" stroke=\"#34d399\" stroke-width=\"2\"/><line x1=\"10\" y1=\"20\" x2=\"14\" y2=\"20\" stroke=\"#34d399\" stroke-width=\"2\"/>"
+  },
+  "113": {
+    "id": 113,
+    "name": "capacitor_bank",
+    "label": "Capacitor Bank",
+    "theme": "cyan",
+    "path": "<line x1=\"2\" y1=\"12\" x2=\"10\" y2=\"12\" stroke=\"#22d3ee\" stroke-width=\"2\"/><line x1=\"14\" y1=\"12\" x2=\"22\" y2=\"12\" stroke=\"#22d3ee\" stroke-width=\"2\"/><line x1=\"10\" y1=\"5\" x2=\"10\" y2=\"19\" stroke=\"#22d3ee\" stroke-width=\"2\"/><line x1=\"14\" y1=\"5\" x2=\"14\" y2=\"19\" stroke=\"#22d3ee\" stroke-width=\"2\"/>"
+  },
+  "114": {
+    "id": 114,
+    "name": "inductor_coil",
+    "label": "Inductor Choke",
+    "theme": "purple",
+    "path": "<path d=\"M3 12a3 3 0 0 1 6 0 3 3 0 0 1 6 0 3 3 0 0 1 6 0\" fill=\"none\" stroke=\"#c084fc\" stroke-width=\"2\"/>"
+  },
+  "115": {
+    "id": 115,
+    "name": "diode_rectifier",
+    "label": "Rectifier Bridge",
+    "theme": "amber",
+    "path": "<polygon points=\"8 4 16 12 8 20 8 4\" fill=\"none\" stroke=\"#fbbf24\" stroke-width=\"2\"/><line x1=\"16\" y1=\"4\" x2=\"16\" y2=\"20\" stroke=\"#fbbf24\" stroke-width=\"2\"/>"
+  },
+  "116": {
+    "id": 116,
+    "name": "inverter_dc_ac",
+    "label": "DC-AC Inverter",
+    "theme": "cyan",
+    "path": "<rect x=\"3\" y=\"5\" width=\"18\" height=\"14\" rx=\"2\" fill=\"none\" stroke=\"#22d3ee\" stroke-width=\"2\"/><line x1=\"6\" y1=\"10\" x2=\"10\" y2=\"10\" stroke=\"#22d3ee\"/><path d=\"M14 14s1-2 2-2 2 2 2 2\" stroke=\"#22d3ee\" fill=\"none\"/>"
+  },
+  "117": {
+    "id": 117,
+    "name": "power_plug_euro",
+    "label": "Euro Schuko Plug",
+    "theme": "slate",
+    "path": "<circle cx=\"12\" cy=\"12\" r=\"9\" fill=\"none\" stroke=\"#94a3b8\" stroke-width=\"2\"/><circle cx=\"9\" cy=\"12\" r=\"1.5\" fill=\"#94a3b8\"/><circle cx=\"15\" cy=\"12\" r=\"1.5\" fill=\"#94a3b8\"/>"
+  },
+  "118": {
+    "id": 118,
+    "name": "power_plug_us",
+    "label": "NEMA US Plug",
+    "theme": "slate",
+    "path": "<circle cx=\"12\" cy=\"12\" r=\"9\" fill=\"none\" stroke=\"#94a3b8\" stroke-width=\"2\"/><line x1=\"9\" y1=\"9\" x2=\"9\" y2=\"15\" stroke=\"#94a3b8\" stroke-width=\"2\"/><line x1=\"15\" y1=\"9\" x2=\"15\" y2=\"15\" stroke=\"#94a3b8\" stroke-width=\"2\"/>"
+  },
+  "119": {
+    "id": 119,
+    "name": "wireless_charge",
+    "label": "Qi Wireless Charge",
+    "theme": "cyan",
+    "path": "<path d=\"M6 18a8 8 0 0 1 12 0M8 15a5 5 0 0 1 8 0\" fill=\"none\" stroke=\"#22d3ee\" stroke-width=\"2\"/><polygon points=\"12 4 9 9 13 9 11 14 15 9 12 9 12 4\" fill=\"#22d3ee\"/>"
+  },
+  "120": {
+    "id": 120,
+    "name": "energy_leaf",
+    "label": "Green Energy Leaf",
+    "theme": "emerald",
+    "path": "<path d=\"M11 20A7 7 0 0 1 9.8 6.1C15.5 5 17 4.48 19 2c1 2 2 4.18 2 8 0 5.5-4.78 10-10 10z\" fill=\"none\" stroke=\"#10b981\" stroke-width=\"2\"/><path d=\"M2 21c0-3 1.85-5.36 5.08-6C9.5 14.52 12 13 13 12\" stroke=\"#10b981\" stroke-width=\"2\"/>"
+  },
+  "121": {
+    "id": 121,
+    "name": "power_button",
+    "label": "Master Power Switch",
+    "theme": "red",
+    "path": "<path d=\"M18.36 6.64a9 9 0 1 1-12.73 0M12 2v10\" fill=\"none\" stroke=\"#ef4444\" stroke-width=\"2\"/>"
+  },
+  "122": {
+    "id": 122,
+    "name": "power_reset",
+    "label": "System Reset Reboot",
+    "theme": "amber",
+    "path": "<path d=\"M21.5 2v6h-6M21.34 15.57a10 10 0 1 1-.57-8.38l5.67-5.67\" fill=\"none\" stroke=\"#fbbf24\" stroke-width=\"2\"/>"
+  },
+  "123": {
+    "id": 123,
+    "name": "power_sleep",
+    "label": "Standby Sleep Mode",
+    "theme": "purple",
+    "path": "<path d=\"M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z\" fill=\"none\" stroke=\"#c084fc\" stroke-width=\"2\"/>"
+  },
+  "124": {
+    "id": 124,
+    "name": "power_lockout",
+    "label": "LOTO Safety Lockout",
+    "theme": "red",
+    "path": "<rect x=\"5\" y=\"11\" width=\"14\" height=\"10\" rx=\"2\" fill=\"none\" stroke=\"#ef4444\" stroke-width=\"2\"/><path d=\"M8 11V7a4 4 0 0 1 8 0v4\" fill=\"none\" stroke=\"#ef4444\" stroke-width=\"2\"/>"
+  },
+  "125": {
+    "id": 125,
+    "name": "fan_cooling",
+    "label": "Cooling Fan Exhaust",
+    "theme": "cyan",
+    "path": "<circle cx=\"12\" cy=\"12\" r=\"9\" fill=\"none\" stroke=\"#22d3ee\" stroke-width=\"2\"/><path d=\"M12 12a3 3 0 0 1 3-3c2 0 3 2 3 3s-2 3-3 3M12 12a3 3 0 0 1-3 3c0 2 2 3 3 3s3-2 3-3M12 12a3 3 0 0 1-3-3c-2 0-3 2-3 3s2 3 3 3\" fill=\"none\" stroke=\"#22d3ee\" stroke-width=\"1.8\"/>"
+  },
+  "126": {
+    "id": 126,
+    "name": "heatsink_temp",
+    "label": "Heatsink Fin Thermal",
+    "theme": "slate",
+    "path": "<path d=\"M4 4v16M8 4v16M12 4v16M16 4v16M20 4v16\" stroke=\"#94a3b8\" stroke-width=\"2\"/>"
+  },
+  "127": {
+    "id": 127,
+    "name": "surge_suppressor",
+    "label": "Surge Suppressor TVS",
+    "theme": "emerald",
+    "path": "<polygon points=\"13 2 3 14 12 14 11 22 21 10 12 10 13 2\" fill=\"none\" stroke=\"#34d399\" stroke-width=\"2\"/><line x1=\"2\" y1=\"22\" x2=\"22\" y2=\"22\" stroke=\"#34d399\" stroke-width=\"2\"/>"
+  },
+  "128": {
+    "id": 128,
+    "name": "ethernet_lan",
+    "label": "Gigabit LAN RJ45",
+    "theme": "emerald",
+    "path": "<rect x=\"4\" y=\"4\" width=\"16\" height=\"16\" rx=\"2\" fill=\"none\" stroke=\"#34d399\" stroke-width=\"2\"/><rect x=\"8\" y=\"12\" width=\"8\" height=\"8\" fill=\"none\" stroke=\"#34d399\" stroke-width=\"1.5\"/><line x1=\"8\" y1=\"16\" x2=\"16\" y2=\"16\" stroke=\"#34d399\"/>"
+  },
+  "129": {
+    "id": 129,
+    "name": "wifi_full",
+    "label": "WiFi 100% Signal",
+    "theme": "emerald",
+    "path": "<path d=\"M5 12.55a11 11 0 0 1 14.08 0\" fill=\"none\" stroke=\"#34d399\" stroke-width=\"2\"/><path d=\"M1.42 9a16 16 0 0 1 21.16 0\" fill=\"none\" stroke=\"#34d399\" stroke-width=\"2\"/><path d=\"M8.53 16.11a6 6 0 0 1 6.95 0\" fill=\"none\" stroke=\"#34d399\" stroke-width=\"2\"/><circle cx=\"12\" cy=\"20\" r=\"1.2\" fill=\"#34d399\"/>"
+  },
+  "130": {
+    "id": 130,
+    "name": "wifi_med",
+    "label": "WiFi 60% Signal",
+    "theme": "amber",
+    "path": "<path d=\"M5 12.55a11 11 0 0 1 14.08 0\" fill=\"none\" stroke=\"#fbbf24\" stroke-width=\"2\"/><path d=\"M8.53 16.11a6 6 0 0 1 6.95 0\" fill=\"none\" stroke=\"#fbbf24\" stroke-width=\"2\"/><circle cx=\"12\" cy=\"20\" r=\"1.2\" fill=\"#fbbf24\"/>"
+  },
+  "131": {
+    "id": 131,
+    "name": "wifi_low",
+    "label": "WiFi 30% Signal",
+    "theme": "amber",
+    "path": "<path d=\"M8.53 16.11a6 6 0 0 1 6.95 0\" fill=\"none\" stroke=\"#f59e0b\" stroke-width=\"2\"/><circle cx=\"12\" cy=\"20\" r=\"1.2\" fill=\"#f59e0b\"/>"
+  },
+  "132": {
+    "id": 132,
+    "name": "wifi_off",
+    "label": "WiFi Disconnected",
+    "theme": "red",
+    "path": "<line x1=\"1\" y1=\"1\" x2=\"23\" y2=\"23\" stroke=\"#ef4444\" stroke-width=\"2\"/><path d=\"M16.72 11.06A10.94 10.94 0 0 1 19 12.55M5 12.55a10.94 10.94 0 0 1 5.17-2.39M10.71 5.05A16 16 0 0 1 22.58 9M1.42 9a15.91 15.91 0 0 1 4.7-2.88\" fill=\"none\" stroke=\"#ef4444\" stroke-width=\"2\"/><circle cx=\"12\" cy=\"20\" r=\"1\" fill=\"#ef4444\"/>"
+  },
+  "133": {
+    "id": 133,
+    "name": "cellular_5g",
+    "label": "5G Mobile Ultra",
+    "theme": "cyan",
+    "path": "<path d=\"M2 20h3v-8H2v8zM7 20h3v-12H7v12zM12 20h3v-16H12v16zM17 20h3v-19H17v19z\" fill=\"#22d3ee\"/>"
+  },
+  "134": {
+    "id": 134,
+    "name": "cellular_4g",
+    "label": "4G LTE Broadband",
+    "theme": "emerald",
+    "path": "<path d=\"M2 20h3v-8H2v8zM7 20h3v-12H7v12zM12 20h3v-16H12v16z\" fill=\"#34d399\"/><path d=\"M17 20h3v-19H17v19z\" fill=\"none\" stroke=\"#34d399\" stroke-width=\"1.5\"/>"
+  },
+  "135": {
+    "id": 135,
+    "name": "sim_card_slot",
+    "label": "Nano SIM Slot",
+    "theme": "cyan",
+    "path": "<path d=\"M6 2h8l6 6v14a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2z\" fill=\"none\" stroke=\"#22d3ee\" stroke-width=\"2\"/>"
+  },
+  "136": {
+    "id": 136,
+    "name": "bluetooth_mesh",
+    "label": "Bluetooth BLE Mesh",
+    "theme": "cyan",
+    "path": "<polyline points=\"6.5 6.5 17.5 17.5 12 23 12 1 17.5 6.5 6.5 17.5\" fill=\"none\" stroke=\"#22d3ee\" stroke-width=\"2\"/>"
+  },
+  "137": {
+    "id": 137,
+    "name": "hotspot_tether",
+    "label": "Mobile Hotspot",
+    "theme": "purple",
+    "path": "<circle cx=\"12\" cy=\"12\" r=\"3\" fill=\"#c084fc\"/><path d=\"M6 18a8 8 0 0 1 12 0M8 15a5 5 0 0 1 8 0\" fill=\"none\" stroke=\"#c084fc\" stroke-width=\"2\"/>"
+  },
+  "138": {
+    "id": 138,
+    "name": "lorawan_iot",
+    "label": "LoRaWAN Long Range",
+    "theme": "amber",
+    "path": "<circle cx=\"12\" cy=\"18\" r=\"2\" fill=\"#fbbf24\"/><path d=\"M5 13a10 10 0 0 1 14 0M8 16a5 5 0 0 1 8 0\" fill=\"none\" stroke=\"#fbbf24\" stroke-width=\"2\"/>"
+  },
+  "139": {
+    "id": 139,
+    "name": "gps_satellite",
+    "label": "GNSS GPS Satellite",
+    "theme": "cyan",
+    "path": "<circle cx=\"12\" cy=\"12\" r=\"10\" fill=\"none\" stroke=\"#22d3ee\" stroke-width=\"2\"/><line x1=\"2\" y1=\"12\" x2=\"22\" y2=\"12\" stroke=\"#22d3ee\"/><path d=\"M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z\" fill=\"none\" stroke=\"#22d3ee\"/>"
+  },
+  "140": {
+    "id": 140,
+    "name": "router_switch",
+    "label": "Core IP Router",
+    "theme": "purple",
+    "path": "<rect x=\"2\" y=\"8\" width=\"20\" height=\"8\" rx=\"2\" fill=\"none\" stroke=\"#c084fc\" stroke-width=\"2\"/><line x1=\"6\" y1=\"12\" x2=\"6\" y2=\"12.01\" stroke=\"#c084fc\" stroke-width=\"2.5\"/><line x1=\"10\" y1=\"12\" x2=\"10\" y2=\"12.01\" stroke=\"#c084fc\" stroke-width=\"2.5\"/><line x1=\"14\" y1=\"12\" x2=\"14\" y2=\"12.01\" stroke=\"#c084fc\" stroke-width=\"2.5\"/><line x1=\"18\" y1=\"12\" x2=\"18\" y2=\"12.01\" stroke=\"#c084fc\" stroke-width=\"2.5\"/><line x1=\"6\" y1=\"4\" x2=\"6\" y2=\"8\" stroke=\"#c084fc\" stroke-width=\"1.8\"/><line x1=\"18\" y1=\"4\" x2=\"18\" y2=\"8\" stroke=\"#c084fc\" stroke-width=\"1.8\"/>"
+  },
+  "141": {
+    "id": 141,
+    "name": "switch_hub",
+    "label": "Managed 24-Port Switch",
+    "theme": "cyan",
+    "path": "<rect x=\"2\" y=\"6\" width=\"20\" height=\"12\" rx=\"2\" fill=\"none\" stroke=\"#22d3ee\" stroke-width=\"2\"/><circle cx=\"6\" cy=\"12\" r=\"1.5\" fill=\"#22d3ee\"/><circle cx=\"10\" cy=\"12\" r=\"1.5\" fill=\"#22d3ee\"/><circle cx=\"14\" cy=\"12\" r=\"1.5\" fill=\"#22d3ee\"/><circle cx=\"18\" cy=\"12\" r=\"1.5\" fill=\"#22d3ee\"/>"
+  },
+  "142": {
+    "id": 142,
+    "name": "patch_panel",
+    "label": "Rack Patch Panel",
+    "theme": "slate",
+    "path": "<rect x=\"2\" y=\"4\" width=\"20\" height=\"16\" rx=\"2\" fill=\"none\" stroke=\"#94a3b8\" stroke-width=\"2\"/><circle cx=\"6\" cy=\"8\" r=\"1\" fill=\"#94a3b8\"/><circle cx=\"10\" cy=\"8\" r=\"1\" fill=\"#94a3b8\"/><circle cx=\"14\" cy=\"8\" r=\"1\" fill=\"#94a3b8\"/><circle cx=\"18\" cy=\"8\" r=\"1\" fill=\"#94a3b8\"/><circle cx=\"6\" cy=\"16\" r=\"1\" fill=\"#94a3b8\"/><circle cx=\"10\" cy=\"16\" r=\"1\" fill=\"#94a3b8\"/><circle cx=\"14\" cy=\"16\" r=\"1\" fill=\"#94a3b8\"/><circle cx=\"18\" cy=\"16\" r=\"1\" fill=\"#94a3b8\"/>"
+  },
+  "143": {
+    "id": 143,
+    "name": "firewall_wall",
+    "label": "Hardware Firewall",
+    "theme": "red",
+    "path": "<rect x=\"3\" y=\"3\" width=\"18\" height=\"18\" rx=\"2\" fill=\"none\" stroke=\"#ef4444\" stroke-width=\"2\"/><line x1=\"3\" y1=\"9\" x2=\"21\" y2=\"9\" stroke=\"#ef4444\"/><line x1=\"3\" y1=\"15\" x2=\"21\" y2=\"15\" stroke=\"#ef4444\"/><line x1=\"8\" y1=\"3\" x2=\"8\" y2=\"9\" stroke=\"#ef4444\"/><line x1=\"16\" y1=\"3\" x2=\"16\" y2=\"9\" stroke=\"#ef4444\"/><line x1=\"12\" y1=\"9\" x2=\"12\" y2=\"15\" stroke=\"#ef4444\"/><line x1=\"8\" y1=\"15\" x2=\"8\" y2=\"21\" stroke=\"#ef4444\"/><line x1=\"16\" y1=\"15\" x2=\"16\" y2=\"21\" stroke=\"#ef4444\"/>"
+  },
+  "144": {
+    "id": 144,
+    "name": "vpn_tunnel",
+    "label": "IPSec VPN Tunnel",
+    "theme": "emerald",
+    "path": "<rect x=\"3\" y=\"11\" width=\"18\" height=\"11\" rx=\"2\" fill=\"none\" stroke=\"#34d399\" stroke-width=\"2\"/><path d=\"M7 11V7a5 5 0 0 1 10 0v4\" fill=\"none\" stroke=\"#34d399\" stroke-width=\"2\"/><circle cx=\"12\" cy=\"16\" r=\"1.5\" fill=\"#34d399\"/>"
+  },
+  "145": {
+    "id": 145,
+    "name": "cloud_online",
+    "label": "Cloud Platform",
+    "theme": "cyan",
+    "path": "<path d=\"M18 10h-1.26A8 8 0 1 0 9 20h9a5 5 0 0 0 0-10z\" fill=\"none\" stroke=\"#22d3ee\" stroke-width=\"2\"/>"
+  },
+  "146": {
+    "id": 146,
+    "name": "cloud_upload",
+    "label": "Cloud Sync Upload",
+    "theme": "emerald",
+    "path": "<path d=\"M18 10h-1.26A8 8 0 1 0 9 20h9a5 5 0 0 0 0-10z\" fill=\"none\" stroke=\"#34d399\" stroke-width=\"2\"/><polyline points=\"16 16 12 12 8 16\" fill=\"none\" stroke=\"#34d399\" stroke-width=\"2\"/><line x1=\"12\" y1=\"12\" x2=\"12\" y2=\"21\" stroke=\"#34d399\" stroke-width=\"2\"/>"
+  },
+  "147": {
+    "id": 147,
+    "name": "cloud_download",
+    "label": "Cloud Fetch Download",
+    "theme": "cyan",
+    "path": "<path d=\"M18 10h-1.26A8 8 0 1 0 9 20h9a5 5 0 0 0 0-10z\" fill=\"none\" stroke=\"#22d3ee\" stroke-width=\"2\"/><polyline points=\"8 17 12 21 16 17\" fill=\"none\" stroke=\"#22d3ee\" stroke-width=\"2\"/><line x1=\"12\" y1=\"12\" x2=\"12\" y2=\"21\" stroke=\"#22d3ee\" stroke-width=\"2\"/>"
+  },
+  "148": {
+    "id": 148,
+    "name": "cloud_sync",
+    "label": "Cloud Bidirectional",
+    "theme": "amber",
+    "path": "<path d=\"M21.5 2v6h-6M21.34 15.57a10 10 0 1 1-.57-8.38l5.67-5.67\" fill=\"none\" stroke=\"#fbbf24\" stroke-width=\"2\"/>"
+  },
+  "149": {
+    "id": 149,
+    "name": "cloud_offline",
+    "label": "Cloud Offline Mode",
+    "theme": "slate",
+    "path": "<path d=\"M22.61 16.95A5 5 0 0 0 18 10h-1.26a8 8 0 0 0-7.05-6M5 5a8 8 0 0 0-4 7h1a5 5 0 0 0 4 5h12\" fill=\"none\" stroke=\"#94a3b8\" stroke-width=\"2\"/><line x1=\"1\" y1=\"1\" x2=\"23\" y2=\"23\" stroke=\"#ef4444\" stroke-width=\"2\"/>"
+  },
+  "150": {
+    "id": 150,
+    "name": "server_blade",
+    "label": "Linux Blade Host",
+    "theme": "purple",
+    "path": "<rect x=\"2\" y=\"2\" width=\"20\" height=\"8\" rx=\"2\" fill=\"none\" stroke=\"#c084fc\" stroke-width=\"2\"/><rect x=\"2\" y=\"14\" width=\"20\" height=\"8\" rx=\"2\" fill=\"none\" stroke=\"#c084fc\" stroke-width=\"2\"/><circle cx=\"6\" cy=\"6\" r=\"1\" fill=\"#c084fc\"/><circle cx=\"6\" cy=\"18\" r=\"1\" fill=\"#c084fc\"/>"
+  },
+  "151": {
+    "id": 151,
+    "name": "server_rack",
+    "label": "Datacenter Server Rack",
+    "theme": "purple",
+    "path": "<rect x=\"4\" y=\"2\" width=\"16\" height=\"20\" rx=\"2\" fill=\"none\" stroke=\"#c084fc\" stroke-width=\"2\"/><line x1=\"4\" y1=\"7\" x2=\"20\" y2=\"7\" stroke=\"#c084fc\"/><line x1=\"4\" y1=\"12\" x2=\"20\" y2=\"12\" stroke=\"#c084fc\"/><line x1=\"4\" y1=\"17\" x2=\"20\" y2=\"17\" stroke=\"#c084fc\"/>"
+  },
+  "152": {
+    "id": 152,
+    "name": "database_sql",
+    "label": "PostgreSQL DB",
+    "theme": "cyan",
+    "path": "<ellipse cx=\"12\" cy=\"5\" rx=\"9\" ry=\"3\" fill=\"none\" stroke=\"#22d3ee\" stroke-width=\"2\"/><path d=\"M21 12c0 1.66-4 3-9 3s-9-1.34-9-3\" fill=\"none\" stroke=\"#22d3ee\" stroke-width=\"2\"/><path d=\"M3 5v14c0 1.66 4 3 9 3s9-1.34 9-3V5\" fill=\"none\" stroke=\"#22d3ee\" stroke-width=\"2\"/>"
+  },
+  "153": {
+    "id": 153,
+    "name": "database_sync",
+    "label": "DB Replication Sync",
+    "theme": "emerald",
+    "path": "<ellipse cx=\"12\" cy=\"5\" rx=\"9\" ry=\"3\" fill=\"none\" stroke=\"#34d399\" stroke-width=\"2\"/><path d=\"M21 12c0 1.66-4 3-9 3s-9-1.34-9-3M3 5v14c0 1.66 4 3 9 3s9-1.34 9-3V5\" fill=\"none\" stroke=\"#34d399\" stroke-width=\"2\"/>"
+  },
+  "154": {
+    "id": 154,
+    "name": "redis_cache",
+    "label": "Redis In-Memory Key",
+    "theme": "red",
+    "path": "<polygon points=\"12 2 2 7 12 12 22 7 12 2\" fill=\"none\" stroke=\"#ef4444\" stroke-width=\"2\"/><polyline points=\"2 17 12 22 22 17\" fill=\"none\" stroke=\"#ef4444\" stroke-width=\"2\"/><polyline points=\"2 12 12 17 22 12\" fill=\"none\" stroke=\"#ef4444\" stroke-width=\"2\"/>"
+  },
+  "155": {
+    "id": 155,
+    "name": "kafka_stream",
+    "label": "Kafka Event Stream",
+    "theme": "purple",
+    "path": "<circle cx=\"6\" cy=\"12\" r=\"3\" fill=\"#c084fc\"/><circle cx=\"18\" cy=\"6\" r=\"3\" fill=\"#c084fc\"/><circle cx=\"18\" cy=\"18\" r=\"3\" fill=\"#c084fc\"/><line x1=\"8.5\" y1=\"10.5\" x2=\"15.5\" y2=\"7.5\" stroke=\"#c084fc\" stroke-width=\"2\"/><line x1=\"8.5\" y1=\"13.5\" x2=\"15.5\" y2=\"16.5\" stroke=\"#c084fc\" stroke-width=\"2\"/>"
+  },
+  "156": {
+    "id": 156,
+    "name": "mqtt_broker",
+    "label": "MQTT Broker Queue",
+    "theme": "amber",
+    "path": "<circle cx=\"12\" cy=\"12\" r=\"9\" fill=\"none\" stroke=\"#fbbf24\" stroke-width=\"2\"/><path d=\"M12 7v5l3 3\" stroke=\"#fbbf24\" stroke-width=\"2\"/>"
+  },
+  "157": {
+    "id": 157,
+    "name": "webrtc_media",
+    "label": "WebRTC P2P Peer",
+    "theme": "emerald",
+    "path": "<circle cx=\"18\" cy=\"5\" r=\"3\" fill=\"none\" stroke=\"#34d399\" stroke-width=\"2\"/><circle cx=\"6\" cy=\"12\" r=\"3\" fill=\"none\" stroke=\"#34d399\" stroke-width=\"2\"/><circle cx=\"18\" cy=\"19\" r=\"3\" fill=\"none\" stroke=\"#34d399\" stroke-width=\"2\"/><line x1=\"8.59\" y1=\"13.51\" x2=\"15.42\" y2=\"17.49\" stroke=\"#34d399\" stroke-width=\"2\"/><line x1=\"15.41\" y1=\"6.51\" x2=\"8.59\" y2=\"10.49\" stroke=\"#34d399\" stroke-width=\"2\"/>"
+  },
+  "158": {
+    "id": 158,
+    "name": "rtsp_stream",
+    "label": "RTSP Video Camera",
+    "theme": "purple",
+    "path": "<polygon points=\"23 7 16 12 23 17 23 7\" fill=\"rgba(192,132,252,0.3)\" stroke=\"#c084fc\" stroke-width=\"1.8\"/><rect x=\"1\" y=\"5\" width=\"15\" height=\"14\" rx=\"2\" fill=\"none\" stroke=\"#c084fc\" stroke-width=\"2\"/>"
+  },
+  "159": {
+    "id": 159,
+    "name": "sip_proxy",
+    "label": "SIP Proxy Kamailio",
+    "theme": "cyan",
+    "path": "<rect x=\"2\" y=\"3\" width=\"20\" height=\"18\" rx=\"3\" fill=\"none\" stroke=\"#22d3ee\" stroke-width=\"2\"/><line x1=\"7\" y1=\"8\" x2=\"17\" y2=\"8\" stroke=\"#22d3ee\"/><line x1=\"7\" y1=\"12\" x2=\"17\" y2=\"12\" stroke=\"#22d3ee\"/><line x1=\"7\" y1=\"16\" x2=\"13\" y2=\"16\" stroke=\"#22d3ee\"/>"
+  },
+  "160": {
+    "id": 160,
+    "name": "audio_waveform",
+    "label": "Audio DSP Waveform",
+    "theme": "cyan",
+    "path": "<path d=\"M2 12h3l2-6 4 12 3-8 2 5 2-3h4\" fill=\"none\" stroke=\"#22d3ee\" stroke-width=\"2\"/>"
+  },
+  "161": {
+    "id": 161,
+    "name": "opus_hd_codec",
+    "label": "Opus HD 48kHz Codec",
+    "theme": "emerald",
+    "path": "<rect x=\"2\" y=\"4\" width=\"20\" height=\"16\" rx=\"3\" fill=\"none\" stroke=\"#34d399\" stroke-width=\"2\"/><text x=\"12\" y=\"15\" font-family=\"monospace\" font-size=\"7\" font-weight=\"bold\" fill=\"#34d399\" text-anchor=\"middle\">OPUS</text>"
+  },
+  "162": {
+    "id": 162,
+    "name": "g711_alaw",
+    "label": "G.711u PSTN Codec",
+    "theme": "slate",
+    "path": "<rect x=\"2\" y=\"4\" width=\"20\" height=\"16\" rx=\"3\" fill=\"none\" stroke=\"#94a3b8\" stroke-width=\"2\"/><text x=\"12\" y=\"15\" font-family=\"monospace\" font-size=\"7\" font-weight=\"bold\" fill=\"#94a3b8\" text-anchor=\"middle\">G711</text>"
+  },
+  "163": {
+    "id": 163,
+    "name": "echo_cancellation",
+    "label": "AEC Echo Filter",
+    "theme": "purple",
+    "path": "<circle cx=\"12\" cy=\"12\" r=\"9\" fill=\"none\" stroke=\"#c084fc\" stroke-width=\"2\"/><path d=\"M8 12s1.5-3 4-3 4 3 4 3-1.5 3-4 3-4-3-4-3z\" stroke=\"#c084fc\" stroke-width=\"2\" fill=\"none\"/>"
+  },
+  "164": {
+    "id": 164,
+    "name": "jitter_buffer",
+    "label": "Jitter Buffer DSP",
+    "theme": "amber",
+    "path": "<rect x=\"3\" y=\"6\" width=\"18\" height=\"12\" rx=\"2\" fill=\"none\" stroke=\"#fbbf24\" stroke-width=\"2\"/><line x1=\"7\" y1=\"10\" x2=\"7\" y2=\"14\" stroke=\"#fbbf24\" stroke-width=\"2\"/><line x1=\"12\" y1=\"8\" x2=\"12\" y2=\"16\" stroke=\"#fbbf24\" stroke-width=\"2\"/><line x1=\"17\" y1=\"10\" x2=\"17\" y2=\"14\" stroke=\"#fbbf24\" stroke-width=\"2\"/>"
+  },
+  "165": {
+    "id": 165,
+    "name": "video_camera_hd",
+    "label": "HD Video Camera",
+    "theme": "purple",
+    "path": "<polygon points=\"23 7 16 12 23 17 23 7\" fill=\"none\" stroke=\"#c084fc\" stroke-width=\"2\"/><rect x=\"1\" y=\"5\" width=\"15\" height=\"14\" rx=\"2\" fill=\"none\" stroke=\"#c084fc\" stroke-width=\"2\"/>"
+  },
+  "166": {
+    "id": 166,
+    "name": "camera_flip",
+    "label": "Camera Flip Selfie",
+    "theme": "cyan",
+    "path": "<path d=\"M20 7h-3a2 2 0 0 1-2-2 2 2 0 0 0-2-2H9a2 2 0 0 0-2 2 2 2 0 0 1-2 2H2a2 2 0 0 0-2 2v10a2 2 0 0 0 2 2h18a2 2 0 0 0 2-2V9a2 2 0 0 0-2-2z\" fill=\"none\" stroke=\"#22d3ee\" stroke-width=\"2\"/><path d=\"M8 13a4 4 0 0 1 8 0\" stroke=\"#22d3ee\" stroke-width=\"2\"/>"
+  },
+  "167": {
+    "id": 167,
+    "name": "camera_off",
+    "label": "Video Camera Muted",
+    "theme": "red",
+    "path": "<line x1=\"1\" y1=\"1\" x2=\"23\" y2=\"23\" stroke=\"#ef4444\" stroke-width=\"2\"/><path d=\"M21 21H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h3m3-3h6l2 3h4a2 2 0 0 1 2 2v9.34m-7.72-2.06a4 4 0 1 1-5.56-5.56\" fill=\"none\" stroke=\"#ef4444\" stroke-width=\"2\"/>"
+  },
+  "168": {
+    "id": 168,
+    "name": "screen_share",
+    "label": "Screen Share Desktop",
+    "theme": "emerald",
+    "path": "<rect x=\"2\" y=\"3\" width=\"20\" height=\"14\" rx=\"2\" fill=\"none\" stroke=\"#34d399\" stroke-width=\"2\"/><polyline points=\"8 21 12 17 16 21\" fill=\"none\" stroke=\"#34d399\" stroke-width=\"2\"/><line x1=\"12\" y1=\"17\" x2=\"12\" y2=\"21\" stroke=\"#34d399\" stroke-width=\"2\"/>"
+  },
+  "169": {
+    "id": 169,
+    "name": "pip_picture_in_pic",
+    "label": "Picture-in-Picture",
+    "theme": "purple",
+    "path": "<rect x=\"2\" y=\"4\" width=\"20\" height=\"16\" rx=\"2\" fill=\"none\" stroke=\"#c084fc\" stroke-width=\"2\"/><rect x=\"12\" y=\"10\" width=\"8\" height=\"8\" rx=\"1\" fill=\"#c084fc\"/>"
+  },
+  "170": {
+    "id": 170,
+    "name": "fullscreen_expand",
+    "label": "Fullscreen Expand",
+    "theme": "cyan",
+    "path": "<polyline points=\"15 3 21 3 21 9\" fill=\"none\" stroke=\"#22d3ee\" stroke-width=\"2\"/><polyline points=\"9 21 3 21 3 15\" fill=\"none\" stroke=\"#22d3ee\" stroke-width=\"2\"/><line x1=\"21\" y1=\"3\" x2=\"14\" y2=\"10\" stroke=\"#22d3ee\" stroke-width=\"2\"/><line x1=\"3\" y1=\"21\" x2=\"10\" y2=\"14\" stroke=\"#22d3ee\" stroke-width=\"2\"/>"
+  },
+  "171": {
+    "id": 171,
+    "name": "minimize_screen",
+    "label": "Minimize Screen",
+    "theme": "slate",
+    "path": "<polyline points=\"4 14 10 14 10 20\" fill=\"none\" stroke=\"#94a3b8\" stroke-width=\"2\"/><polyline points=\"20 10 14 10 14 4\" fill=\"none\" stroke=\"#94a3b8\" stroke-width=\"2\"/><line x1=\"14\" y1=\"10\" x2=\"21\" y2=\"3\" stroke=\"#94a3b8\" stroke-width=\"2\"/><line x1=\"3\" y1=\"21\" x2=\"10\" y2=\"14\" stroke=\"#94a3b8\" stroke-width=\"2\"/>"
+  },
+  "172": {
+    "id": 172,
+    "name": "video_grid_view",
+    "label": "Gallery Grid View",
+    "theme": "cyan",
+    "path": "<rect x=\"3\" y=\"3\" width=\"7\" height=\"7\" rx=\"1\" fill=\"none\" stroke=\"#22d3ee\" stroke-width=\"2\"/><rect x=\"14\" y=\"3\" width=\"7\" height=\"7\" rx=\"1\" fill=\"none\" stroke=\"#22d3ee\" stroke-width=\"2\"/><rect x=\"3\" y=\"14\" width=\"7\" height=\"7\" rx=\"1\" fill=\"none\" stroke=\"#22d3ee\" stroke-width=\"2\"/><rect x=\"14\" y=\"14\" width=\"7\" height=\"7\" rx=\"1\" fill=\"none\" stroke=\"#22d3ee\" stroke-width=\"2\"/>"
+  },
+  "173": {
+    "id": 173,
+    "name": "video_speaker_focus",
+    "label": "Active Speaker Focus",
+    "theme": "purple",
+    "path": "<rect x=\"2\" y=\"2\" width=\"20\" height=\"14\" rx=\"2\" fill=\"none\" stroke=\"#c084fc\" stroke-width=\"2\"/><circle cx=\"12\" cy=\"9\" r=\"3\" fill=\"#c084fc\"/><rect x=\"4\" y=\"18\" width=\"4\" height=\"4\" rx=\"1\" fill=\"#c084fc\"/><rect x=\"10\" y=\"18\" width=\"4\" height=\"4\" rx=\"1\" fill=\"#c084fc\"/><rect x=\"16\" y=\"18\" width=\"4\" height=\"4\" rx=\"1\" fill=\"#c084fc\"/>"
+  },
+  "174": {
+    "id": 174,
+    "name": "ptz_pan_tilt",
+    "label": "PTZ Camera Control",
+    "theme": "amber",
+    "path": "<circle cx=\"12\" cy=\"12\" r=\"9\" fill=\"none\" stroke=\"#fbbf24\" stroke-width=\"2\"/><polyline points=\"12 6 12 18\" stroke=\"#fbbf24\" stroke-width=\"2\"/><polyline points=\"6 12 18 12\" stroke=\"#fbbf24\" stroke-width=\"2\"/>"
+  },
+  "175": {
+    "id": 175,
+    "name": "zoom_in_cam",
+    "label": "Optical Zoom In",
+    "theme": "cyan",
+    "path": "<circle cx=\"11\" cy=\"11\" r=\"8\" fill=\"none\" stroke=\"#22d3ee\" stroke-width=\"2\"/><line x1=\"21\" y1=\"21\" x2=\"16.65\" y2=\"16.65\" stroke=\"#22d3ee\" stroke-width=\"2\"/><line x1=\"11\" y1=\"8\" x2=\"11\" y2=\"14\" stroke=\"#22d3ee\" stroke-width=\"2\"/><line x1=\"8\" y1=\"11\" x2=\"14\" y2=\"11\" stroke=\"#22d3ee\" stroke-width=\"2\"/>"
+  },
+  "176": {
+    "id": 176,
+    "name": "zoom_out_cam",
+    "label": "Optical Zoom Out",
+    "theme": "cyan",
+    "path": "<circle cx=\"11\" cy=\"11\" r=\"8\" fill=\"none\" stroke=\"#22d3ee\" stroke-width=\"2\"/><line x1=\"21\" y1=\"21\" x2=\"16.65\" y2=\"16.65\" stroke=\"#22d3ee\" stroke-width=\"2\"/><line x1=\"8\" y1=\"11\" x2=\"14\" y2=\"11\" stroke=\"#22d3ee\" stroke-width=\"2\"/>"
+  },
+  "177": {
+    "id": 177,
+    "name": "night_vision_ir",
+    "label": "IR Night Vision",
+    "theme": "emerald",
+    "path": "<circle cx=\"12\" cy=\"12\" r=\"10\" fill=\"none\" stroke=\"#34d399\" stroke-width=\"2\"/><circle cx=\"12\" cy=\"12\" r=\"3\" fill=\"#34d399\"/><path d=\"M12 2v2M12 20v2M2 12h2M20 12h2\" stroke=\"#34d399\" stroke-width=\"2\"/>"
+  },
+  "178": {
+    "id": 178,
+    "name": "motion_alert_box",
+    "label": "Motion Detection Box",
+    "theme": "red",
+    "path": "<rect x=\"3\" y=\"3\" width=\"18\" height=\"18\" rx=\"2\" fill=\"none\" stroke=\"#ef4444\" stroke-width=\"2\" stroke-dasharray=\"4 2\"/><circle cx=\"12\" cy=\"12\" r=\"3\" fill=\"#ef4444\"/>"
+  },
+  "179": {
+    "id": 179,
+    "name": "audio_equalizer",
+    "label": "Parametric EQ",
+    "theme": "cyan",
+    "path": "<line x1=\"4\" y1=\"21\" x2=\"4\" y2=\"14\" stroke=\"#22d3ee\" stroke-width=\"2\"/><line x1=\"4\" y1=\"10\" x2=\"4\" y2=\"3\" stroke=\"#22d3ee\" stroke-width=\"2\"/><line x1=\"12\" y1=\"21\" x2=\"12\" y2=\"12\" stroke=\"#22d3ee\" stroke-width=\"2\"/><line x1=\"12\" y1=\"8\" x2=\"12\" y2=\"3\" stroke=\"#22d3ee\" stroke-width=\"2\"/><line x1=\"20\" y1=\"21\" x2=\"20\" y2=\"16\" stroke=\"#22d3ee\" stroke-width=\"2\"/><line x1=\"20\" y1=\"12\" x2=\"20\" y2=\"3\" stroke=\"#22d3ee\" stroke-width=\"2\"/><line x1=\"1\" y1=\"14\" x2=\"7\" y2=\"14\" stroke=\"#22d3ee\" stroke-width=\"2\"/><line x1=\"9\" y1=\"8\" x2=\"15\" y2=\"8\" stroke=\"#22d3ee\" stroke-width=\"2\"/><line x1=\"17\" y1=\"16\" x2=\"23\" y2=\"16\" stroke=\"#22d3ee\" stroke-width=\"2\"/>"
+  },
+  "180": {
+    "id": 180,
+    "name": "sim_card",
+    "label": "SIM Card",
+    "theme": "cyan",
+    "path": "<path d=\"M6 2h8l6 6v14a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2z\" fill=\"none\" stroke=\"#22d3ee\" stroke-width=\"2\"/><rect x=\"8\" y=\"10\" width=\"8\" height=\"8\" rx=\"1\" fill=\"none\" stroke=\"#22d3ee\" stroke-width=\"1.5\"/><line x1=\"8\" y1=\"14\" x2=\"16\" y2=\"14\" stroke=\"#22d3ee\" stroke-width=\"1.5\"/><line x1=\"12\" y1=\"10\" x2=\"12\" y2=\"18\" stroke=\"#22d3ee\" stroke-width=\"1.5\"/>"
+  },
+  "181": {
+    "id": 181,
+    "name": "network_trunk",
+    "label": "Network Trunk",
+    "theme": "emerald",
+    "path": "<rect x=\"4\" y=\"4\" width=\"16\" height=\"16\" rx=\"2\" fill=\"none\" stroke=\"#34d399\" stroke-width=\"2\"/><rect x=\"8\" y=\"12\" width=\"8\" height=\"8\" fill=\"none\" stroke=\"#34d399\" stroke-width=\"1.5\"/><line x1=\"8\" y1=\"16\" x2=\"16\" y2=\"16\" stroke=\"#34d399\" stroke-width=\"1.5\"/><line x1=\"12\" y1=\"4\" x2=\"12\" y2=\"12\" stroke=\"#34d399\" stroke-width=\"1.5\"/>"
+  },
+  "182": {
+    "id": 182,
+    "name": "srtp_shield",
+    "label": "SRTP Security Shield",
+    "theme": "purple",
+    "path": "<path d=\"M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z\" fill=\"none\" stroke=\"#a855f7\" stroke-width=\"2\"/><path d=\"M12 22V2\" stroke=\"#a855f7\" stroke-width=\"1.5\"/>"
+  },
+  "183": {
+    "id": 183,
+    "name": "srtp_lock_key",
+    "label": "SRTP Master Key",
+    "theme": "emerald",
+    "path": "<path d=\"M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z\" fill=\"none\" stroke=\"#34d399\" stroke-width=\"2\"/><rect x=\"9\" y=\"10\" width=\"6\" height=\"5\" rx=\"1\" fill=\"#34d399\"/>"
+  },
+  "184": {
+    "id": 184,
+    "name": "tls_handshake",
+    "label": "TLS 1.3 Cipher Handshake",
+    "theme": "cyan",
+    "path": "<circle cx=\"8\" cy=\"12\" r=\"5\" fill=\"none\" stroke=\"#22d3ee\" stroke-width=\"2\"/><circle cx=\"16\" cy=\"12\" r=\"5\" fill=\"none\" stroke=\"#22d3ee\" stroke-width=\"2\"/><polyline points=\"6 12 18 12\" stroke=\"#22d3ee\" stroke-width=\"2\"/>"
+  },
+  "185": {
+    "id": 185,
+    "name": "media_play",
+    "label": "Play Media",
+    "theme": "emerald",
+    "path": "<polygon points=\"5 3 19 12 5 21 5 3\" fill=\"#34d399\"/>"
+  },
+  "186": {
+    "id": 186,
+    "name": "media_pause",
+    "label": "Pause Media",
+    "theme": "amber",
+    "path": "<rect x=\"6\" y=\"4\" width=\"4\" height=\"16\" fill=\"#fbbf24\" rx=\"1\"/><rect x=\"14\" y=\"4\" width=\"4\" height=\"16\" fill=\"#fbbf24\" rx=\"1\"/>"
+  },
+  "187": {
+    "id": 187,
+    "name": "media_stop",
+    "label": "Stop Media",
+    "theme": "red",
+    "path": "<rect x=\"4\" y=\"4\" width=\"16\" height=\"16\" rx=\"2\" fill=\"#ef4444\"/>"
+  },
+  "188": {
+    "id": 188,
+    "name": "media_rewind",
+    "label": "Rewind Seek",
+    "theme": "cyan",
+    "path": "<polygon points=\"11 19 2 12 11 5 11 19\" fill=\"#22d3ee\"/><polygon points=\"22 19 13 12 22 5 22 19\" fill=\"#22d3ee\"/>"
+  },
+  "189": {
+    "id": 189,
+    "name": "media_fastforward",
+    "label": "Fast Forward Seek",
+    "theme": "cyan",
+    "path": "<polygon points=\"13 19 22 12 13 5 13 19\" fill=\"#22d3ee\"/><polygon points=\"2 19 11 12 2 5 2 19\" fill=\"#22d3ee\"/>"
+  },
+  "190": {
+    "id": 190,
+    "name": "audio_shuffle",
+    "label": "Shuffle Tracks",
+    "theme": "purple",
+    "path": "<polyline points=\"16 3 21 3 21 8\" fill=\"none\" stroke=\"#c084fc\" stroke-width=\"2\"/><line x1=\"4\" y1=\"20\" x2=\"21\" y2=\"3\" stroke=\"#c084fc\" stroke-width=\"2\"/><polyline points=\"21 16 21 21 16 21\" fill=\"none\" stroke=\"#c084fc\" stroke-width=\"2\"/><line x1=\"15\" y1=\"15\" x2=\"21\" y2=\"21\" stroke=\"#c084fc\" stroke-width=\"2\"/><line x1=\"4\" y1=\"4\" x2=\"9\" y2=\"9\" stroke=\"#c084fc\" stroke-width=\"2\"/>"
+  },
+  "191": {
+    "id": 191,
+    "name": "audio_repeat",
+    "label": "Repeat Loop",
+    "theme": "cyan",
+    "path": "<polyline points=\"17 1 21 5 17 9\" fill=\"none\" stroke=\"#22d3ee\" stroke-width=\"2\"/><path d=\"M3 11V9a4 4 0 0 1 4-4h14\" fill=\"none\" stroke=\"#22d3ee\" stroke-width=\"2\"/><polyline points=\"7 23 3 19 7 15\" fill=\"none\" stroke=\"#22d3ee\" stroke-width=\"2\"/><path d=\"M21 13v2a4 4 0 0 1-4 4H3\" fill=\"none\" stroke=\"#22d3ee\" stroke-width=\"2\"/>"
+  },
+  "192": {
+    "id": 192,
+    "name": "padlock_locked",
+    "label": "Door Vault Locked",
+    "theme": "emerald",
+    "path": "<rect x=\"3\" y=\"11\" width=\"18\" height=\"11\" rx=\"2\" fill=\"none\" stroke=\"#34d399\" stroke-width=\"2\"/><path d=\"M7 11V7a5 5 0 0 1 10 0v4\" fill=\"none\" stroke=\"#34d399\" stroke-width=\"2\"/>"
+  },
+  "193": {
+    "id": 193,
+    "name": "padlock_unlocked",
+    "label": "Door Vault Unlocked",
+    "theme": "amber",
+    "path": "<rect x=\"3\" y=\"11\" width=\"18\" height=\"11\" rx=\"2\" fill=\"none\" stroke=\"#fbbf24\" stroke-width=\"2\"/><path d=\"M7 11V7a5 5 0 0 1 9.9-1\" fill=\"none\" stroke=\"#fbbf24\" stroke-width=\"2\"/>"
+  },
+  "194": {
+    "id": 194,
+    "name": "key_pass",
+    "label": "Physical Key",
+    "theme": "cyan",
+    "path": "<path d=\"M21 2l-2 2m-1.5 1.5L14 9l-3-3L2 15l7 7 9-9 3.5-3.5z\" fill=\"none\" stroke=\"#22d3ee\" stroke-width=\"2\"/>"
+  },
+  "195": {
+    "id": 195,
+    "name": "shield_check",
+    "label": "Shield Verified",
+    "theme": "emerald",
+    "path": "<path d=\"M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z\" fill=\"none\" stroke=\"#34d399\" stroke-width=\"2\"/><polyline points=\"9 12 11 14 15 10\" fill=\"none\" stroke=\"#34d399\" stroke-width=\"2\"/>"
+  },
+  "196": {
+    "id": 196,
+    "name": "shield_alert",
+    "label": "Security Threat Alert",
+    "theme": "red",
+    "path": "<path d=\"M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z\" fill=\"none\" stroke=\"#ef4444\" stroke-width=\"2\"/><line x1=\"12\" y1=\"8\" x2=\"12\" y2=\"12\" stroke=\"#ef4444\" stroke-width=\"2\"/><circle cx=\"12\" cy=\"16\" r=\"1\" fill=\"#ef4444\"/>"
+  },
+  "197": {
+    "id": 197,
+    "name": "retina_scan",
+    "label": "Iris Retina Biometric",
+    "theme": "cyan",
+    "path": "<circle cx=\"12\" cy=\"12\" r=\"9\" fill=\"none\" stroke=\"#22d3ee\" stroke-width=\"2\"/><circle cx=\"12\" cy=\"12\" r=\"3\" fill=\"#22d3ee\"/><line x1=\"3\" y1=\"12\" x2=\"21\" y2=\"12\" stroke=\"#22d3ee\" stroke-width=\"1.5\"/>"
+  },
+  "198": {
+    "id": 198,
+    "name": "face_id_scan",
+    "label": "Face ID Scanner",
+    "theme": "purple",
+    "path": "<path d=\"M4 8V5a1 1 0 0 1 1-1h3M16 4h3a1 1 0 0 1 1 1v3M4 16v3a1 1 0 0 0 1 1h3M16 20h3a1 1 0 0 0 1-1v-3\" stroke=\"#c084fc\" stroke-width=\"2\"/><circle cx=\"9\" cy=\"10\" r=\"1\" fill=\"#c084fc\"/><circle cx=\"15\" cy=\"10\" r=\"1\" fill=\"#c084fc\"/><path d=\"M9 15s1 1 3 1 3-1 3-1\" stroke=\"#c084fc\" stroke-width=\"2\"/>"
+  },
+  "199": {
+    "id": 199,
+    "name": "smart_card_id",
+    "label": "Badge SmartCard",
+    "theme": "cyan",
+    "path": "<rect x=\"3\" y=\"4\" width=\"18\" height=\"16\" rx=\"2\" fill=\"none\" stroke=\"#22d3ee\" stroke-width=\"2\"/><circle cx=\"9\" cy=\"10\" r=\"2\" fill=\"#22d3ee\"/><line x1=\"15\" y1=\"9\" x2=\"18\" y2=\"9\" stroke=\"#22d3ee\"/><line x1=\"15\" y1=\"13\" x2=\"18\" y2=\"13\" stroke=\"#22d3ee\"/><line x1=\"7\" y1=\"16\" x2=\"17\" y2=\"16\" stroke=\"#22d3ee\"/>"
+  },
+  "200": {
+    "id": 200,
+    "name": "siren_flasher",
+    "label": "Strobe Siren Alarm",
+    "theme": "red",
+    "path": "<path d=\"M12 2a7 7 0 0 0-7 7v4l-2 3h18l-2-3V9a7 7 0 0 0-7-7z\" fill=\"none\" stroke=\"#ef4444\" stroke-width=\"2\"/><path d=\"M12 18v3M8 21h8\" stroke=\"#ef4444\" stroke-width=\"2\"/><line x1=\"12\" y1=\"2\" x2=\"12\" y2=\"0\" stroke=\"#ef4444\"/>"
+  },
+  "201": {
+    "id": 201,
+    "name": "tamper_switch",
+    "label": "Enclosure Tamper Switch",
+    "theme": "amber",
+    "path": "<rect x=\"4\" y=\"4\" width=\"16\" height=\"16\" rx=\"3\" fill=\"none\" stroke=\"#fbbf24\" stroke-width=\"2\"/><circle cx=\"12\" cy=\"12\" r=\"3\" fill=\"#fbbf24\"/>"
+  },
+  "202": {
+    "id": 202,
+    "name": "cctv_dome",
+    "label": "CCTV Dome Surveillance",
+    "theme": "purple",
+    "path": "<path d=\"M3 12a9 9 0 0 1 18 0H3z\" fill=\"none\" stroke=\"#c084fc\" stroke-width=\"2\"/><circle cx=\"12\" cy=\"12\" r=\"4\" fill=\"#c084fc\"/>"
+  },
+  "203": {
+    "id": 203,
+    "name": "fire_flame",
+    "label": "Fire Hazard Alert",
+    "theme": "red",
+    "path": "<path d=\"M8.5 14.5A2.5 2.5 0 0 0 11 12c0-1.38-.5-2-1-3-1.072-2.143-.224-4.054 2-6 .5 2.5 2 4.9 4 6.5 2 1.6 3 3.5 3 5.5a7 7 0 1 1-14 0c0-1.153.433-2.294 1-3a2.5 2.5 0 0 0 2.5 2.5z\" fill=\"none\" stroke=\"#ef4444\" stroke-width=\"2\"/>"
+  },
+  "204": {
+    "id": 204,
+    "name": "gas_leak_alert",
+    "label": "Toxic Gas Alert",
+    "theme": "amber",
+    "path": "<circle cx=\"12\" cy=\"12\" r=\"9\" fill=\"none\" stroke=\"#fbbf24\" stroke-width=\"2\"/><path d=\"M12 8v4M12 16h.01\" stroke=\"#fbbf24\" stroke-width=\"2\"/>"
+  },
+  "205": {
+    "id": 205,
+    "name": "glass_break",
+    "label": "Acoustic Glass Break",
+    "theme": "cyan",
+    "path": "<polygon points=\"6 2 18 2 22 8 12 22 2 8 6 2\" fill=\"none\" stroke=\"#22d3ee\" stroke-width=\"2\"/><line x1=\"2\" y1=\"8\" x2=\"22\" y2=\"8\" stroke=\"#22d3ee\"/>"
+  },
+  "206": {
+    "id": 206,
+    "name": "panic_button_sos",
+    "label": "SOS Emergency Panic",
+    "theme": "red",
+    "path": "<circle cx=\"12\" cy=\"12\" r=\"10\" fill=\"#ef4444\"/><text x=\"12\" y=\"15\" font-family=\"monospace\" font-size=\"7\" font-weight=\"black\" fill=\"#ffffff\" text-anchor=\"middle\">SOS</text>"
+  },
+  "207": {
+    "id": 207,
+    "name": "geofence_perimeter",
+    "label": "Geofence Barrier",
+    "theme": "emerald",
+    "path": "<polygon points=\"1 6 1 22 8 18 16 22 23 18 23 2 16 6 8 2 1 6\" fill=\"none\" stroke=\"#34d399\" stroke-width=\"2\"/>"
+  },
+  "208": {
+    "id": 208,
+    "name": "passcode_hash",
+    "label": "SHA-256 Crypto Hash",
+    "theme": "purple",
+    "path": "<line x1=\"4\" y1=\"9\" x2=\"20\" y2=\"9\" stroke=\"#c084fc\" stroke-width=\"2\"/><line x1=\"4\" y1=\"15\" x2=\"20\" y2=\"15\" stroke=\"#c084fc\" stroke-width=\"2\"/><line x1=\"10\" y1=\"3\" x2=\"8\" y2=\"21\" stroke=\"#c084fc\" stroke-width=\"2\"/><line x1=\"16\" y1=\"3\" x2=\"14\" y2=\"21\" stroke=\"#c084fc\" stroke-width=\"2\"/>"
+  },
+  "209": {
+    "id": 209,
+    "name": "audit_log",
+    "label": "Security Audit Trail",
+    "theme": "cyan",
+    "path": "<path d=\"M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z\" fill=\"none\" stroke=\"#22d3ee\" stroke-width=\"2\"/><polyline points=\"14 2 14 8 20 8\" fill=\"none\" stroke=\"#22d3ee\" stroke-width=\"2\"/><line x1=\"16\" y1=\"13\" x2=\"8\" y2=\"13\" stroke=\"#22d3ee\"/><line x1=\"16\" y1=\"17\" x2=\"8\" y2=\"17\" stroke=\"#22d3ee\"/>"
+  },
+  "210": {
+    "id": 210,
+    "name": "two_factor_2fa",
+    "label": "2FA Authenticator",
+    "theme": "emerald",
+    "path": "<rect x=\"5\" y=\"2\" width=\"14\" height=\"20\" rx=\"2\" fill=\"none\" stroke=\"#34d399\" stroke-width=\"2\"/><line x1=\"12\" y1=\"18\" x2=\"12.01\" y2=\"18\" stroke=\"#34d399\" stroke-width=\"3\"/><polyline points=\"9 10 11 12 15 8\" stroke=\"#34d399\" stroke-width=\"2\" fill=\"none\"/>"
+  },
+  "211": {
+    "id": 211,
+    "name": "secret_vault",
+    "label": "Safe Deposit Vault",
+    "theme": "amber",
+    "path": "<rect x=\"3\" y=\"3\" width=\"18\" height=\"18\" rx=\"3\" fill=\"none\" stroke=\"#fbbf24\" stroke-width=\"2\"/><circle cx=\"12\" cy=\"12\" r=\"4\" fill=\"none\" stroke=\"#fbbf24\" stroke-width=\"2\"/><line x1=\"12\" y1=\"12\" x2=\"15\" y2=\"12\" stroke=\"#fbbf24\" stroke-width=\"2\"/>"
+  },
+  "212": {
+    "id": 212,
+    "name": "antivirus_scan",
+    "label": "Malware Antivirus Clean",
+    "theme": "emerald",
+    "path": "<path d=\"M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z\" fill=\"none\" stroke=\"#10b981\" stroke-width=\"2\"/><path d=\"M9 12l2 2 4-4\" stroke=\"#10b981\" stroke-width=\"2\" fill=\"none\"/>"
+  },
+  "213": {
+    "id": 213,
+    "name": "ddos_shield",
+    "label": "DDoS Traffic Scrubbing",
+    "theme": "purple",
+    "path": "<path d=\"M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z\" fill=\"none\" stroke=\"#c084fc\" stroke-width=\"2\"/><line x1=\"2\" y1=\"12\" x2=\"22\" y2=\"12\" stroke=\"#c084fc\" stroke-width=\"2\"/>"
+  },
+  "214": {
+    "id": 214,
+    "name": "ssh_terminal_key",
+    "label": "SSH RSA Private Key",
+    "theme": "cyan",
+    "path": "<polyline points=\"4 17 10 11 4 5\" fill=\"none\" stroke=\"#22d3ee\" stroke-width=\"2\"/><line x1=\"12\" y1=\"19\" x2=\"20\" y2=\"19\" stroke=\"#22d3ee\" stroke-width=\"2\"/>"
+  },
+  "215": {
+    "id": 215,
+    "name": "api_token_lock",
+    "label": "API Key Token Lock",
+    "theme": "amber",
+    "path": "<circle cx=\"8\" cy=\"12\" r=\"4\" fill=\"none\" stroke=\"#fbbf24\" stroke-width=\"2\"/><line x1=\"12\" y1=\"12\" x2=\"20\" y2=\"12\" stroke=\"#fbbf24\" stroke-width=\"2\"/><line x1=\"17\" y1=\"12\" x2=\"17\" y2=\"15\" stroke=\"#fbbf24\" stroke-width=\"2\"/>"
+  },
+  "216": {
+    "id": 216,
+    "name": "ssl_cert_padlock",
+    "label": "HTTPS Valid SSL Cert",
+    "theme": "emerald",
+    "path": "<rect x=\"4\" y=\"10\" width=\"16\" height=\"11\" rx=\"2\" fill=\"none\" stroke=\"#34d399\" stroke-width=\"2\"/><path d=\"M7 10V6a5 5 0 0 1 10 0v4\" fill=\"none\" stroke=\"#34d399\" stroke-width=\"2\"/><circle cx=\"12\" cy=\"15\" r=\"1.5\" fill=\"#34d399\"/>"
+  },
+  "217": {
+    "id": 217,
+    "name": "session_timeout",
+    "label": "Session Expired Timer",
+    "theme": "slate",
+    "path": "<circle cx=\"12\" cy=\"12\" r=\"10\" fill=\"none\" stroke=\"#94a3b8\" stroke-width=\"2\"/><polyline points=\"12 6 12 12 16 14\" stroke=\"#94a3b8\" stroke-width=\"2\" fill=\"none\"/><line x1=\"2\" y1=\"2\" x2=\"22\" y2=\"22\" stroke=\"#ef4444\" stroke-width=\"2\"/>"
+  },
+  "218": {
+    "id": 218,
+    "name": "ip_blacklist",
+    "label": "Banned IP Address",
+    "theme": "red",
+    "path": "<circle cx=\"12\" cy=\"12\" r=\"10\" fill=\"none\" stroke=\"#ef4444\" stroke-width=\"2\"/><line x1=\"4.93\" y1=\"4.93\" x2=\"19.07\" y2=\"19.07\" stroke=\"#ef4444\" stroke-width=\"2\"/>"
+  },
+  "219": {
+    "id": 219,
+    "name": "ip_whitelist",
+    "label": "Allowed IP Address",
+    "theme": "emerald",
+    "path": "<circle cx=\"12\" cy=\"12\" r=\"10\" fill=\"none\" stroke=\"#34d399\" stroke-width=\"2\"/><polyline points=\"8 12 11 15 16 9\" stroke=\"#34d399\" stroke-width=\"2\" fill=\"none\"/>"
+  },
+  "220": {
+    "id": 220,
+    "name": "fail2ban_jail",
+    "label": "Fail2Ban Security Jail",
+    "theme": "purple",
+    "path": "<rect x=\"3\" y=\"3\" width=\"18\" height=\"18\" rx=\"2\" fill=\"none\" stroke=\"#c084fc\" stroke-width=\"2\"/><line x1=\"8\" y1=\"3\" x2=\"8\" y2=\"21\" stroke=\"#c084fc\" stroke-width=\"1.8\"/><line x1=\"12\" y1=\"3\" x2=\"12\" y2=\"21\" stroke=\"#c084fc\" stroke-width=\"1.8\"/><line x1=\"16\" y1=\"3\" x2=\"16\" y2=\"21\" stroke=\"#c084fc\" stroke-width=\"1.8\"/>"
+  },
+  "221": {
+    "id": 221,
+    "name": "watermark_security",
+    "label": "Digital Watermark",
+    "theme": "cyan",
+    "path": "<circle cx=\"12\" cy=\"12\" r=\"9\" fill=\"none\" stroke=\"#22d3ee\" stroke-width=\"1.5\" stroke-dasharray=\"2 2\"/><text x=\"12\" y=\"14.5\" font-family=\"monospace\" font-size=\"6\" font-weight=\"bold\" fill=\"#22d3ee\" text-anchor=\"middle\">AUTH</text>"
+  },
+  "222": {
+    "id": 222,
+    "name": "disaster_recovery",
+    "label": "Disaster Backup Mirror",
+    "theme": "amber",
+    "path": "<path d=\"M21.5 2v6h-6M21.34 15.57a10 10 0 1 1-.57-8.38l5.67-5.67\" fill=\"none\" stroke=\"#fbbf24\" stroke-width=\"2\"/>"
+  },
+  "223": {
+    "id": 223,
+    "name": "quarantine_isolate",
+    "label": "Quarantine Isolation",
+    "theme": "red",
+    "path": "<polygon points=\"12 2 2 22 22 22 12 2\" fill=\"none\" stroke=\"#ef4444\" stroke-width=\"2\"/><circle cx=\"12\" cy=\"13\" r=\"3\" fill=\"#ef4444\"/>"
+  },
+  "224": {
+    "id": 224,
+    "name": "home_dashboard",
+    "label": "Home Dashboard",
+    "theme": "cyan",
+    "path": "<path d=\"M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z\" fill=\"none\" stroke=\"#22d3ee\" stroke-width=\"2\"/><polyline points=\"9 22 9 12 15 12 15 22\" fill=\"none\" stroke=\"#22d3ee\" stroke-width=\"2\"/>"
+  },
+  "225": {
+    "id": 225,
+    "name": "user_avatar",
+    "label": "User Account",
+    "theme": "cyan",
+    "path": "<path d=\"M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2\" fill=\"none\" stroke=\"#22d3ee\" stroke-width=\"2\"/><circle cx=\"12\" cy=\"7\" r=\"4\" fill=\"none\" stroke=\"#22d3ee\" stroke-width=\"2\"/>"
+  },
+  "226": {
+    "id": 226,
+    "name": "settings_gear",
+    "label": "System Config",
+    "theme": "slate",
+    "path": "<circle cx=\"12\" cy=\"12\" r=\"3\" fill=\"none\" stroke=\"#94a3b8\" stroke-width=\"2\"/><path d=\"M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1-2.83 2.83l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-4 0v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1 0-4h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 2.83-2.83l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 4 0v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 0 4h-.09a1.65 1.65 0 0 0-1.51 1z\" fill=\"none\" stroke=\"#94a3b8\" stroke-width=\"2\"/>"
+  },
+  "227": {
+    "id": 227,
+    "name": "wrench_tools",
+    "label": "Maintenance Tool",
+    "theme": "amber",
+    "path": "<path d=\"M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z\" fill=\"none\" stroke=\"#fbbf24\" stroke-width=\"2\"/>"
+  },
+  "228": {
+    "id": 228,
+    "name": "terminal_cli",
+    "label": "Terminal Console",
+    "theme": "emerald",
+    "path": "<polyline points=\"4 17 10 11 4 5\" fill=\"none\" stroke=\"#34d399\" stroke-width=\"2\"/><line x1=\"12\" y1=\"19\" x2=\"20\" y2=\"19\" stroke=\"#34d399\" stroke-width=\"2\"/>"
+  },
+  "229": {
+    "id": 229,
+    "name": "chevron_left",
+    "label": "Chevron Left",
+    "theme": "slate",
+    "path": "<polyline points=\"15 18 9 12 15 6\" fill=\"none\" stroke=\"#94a3b8\" stroke-width=\"2.5\"/>"
+  },
+  "230": {
+    "id": 230,
+    "name": "chevron_right",
+    "label": "Chevron Right",
+    "theme": "slate",
+    "path": "<polyline points=\"9 18 15 12 9 6\" fill=\"none\" stroke=\"#94a3b8\" stroke-width=\"2.5\"/>"
+  },
+  "231": {
+    "id": 231,
+    "name": "chevron_up",
+    "label": "Chevron Up",
+    "theme": "slate",
+    "path": "<polyline points=\"18 15 12 9 6 15\" fill=\"none\" stroke=\"#94a3b8\" stroke-width=\"2.5\"/>"
+  },
+  "232": {
+    "id": 232,
+    "name": "chevron_down",
+    "label": "Chevron Down",
+    "theme": "slate",
+    "path": "<polyline points=\"6 9 12 15 18 9\" fill=\"none\" stroke=\"#94a3b8\" stroke-width=\"2.5\"/>"
+  },
+  "233": {
+    "id": 233,
+    "name": "menu_hamburger",
+    "label": "Navigation Menu",
+    "theme": "cyan",
+    "path": "<line x1=\"3\" y1=\"6\" x2=\"21\" y2=\"6\" stroke=\"#22d3ee\" stroke-width=\"2\"/><line x1=\"3\" y1=\"12\" x2=\"21\" y2=\"12\" stroke=\"#22d3ee\" stroke-width=\"2\"/><line x1=\"3\" y1=\"18\" x2=\"21\" y2=\"18\" stroke=\"#22d3ee\" stroke-width=\"2\"/>"
+  },
+  "234": {
+    "id": 234,
+    "name": "more_vert",
+    "label": "More Actions",
+    "theme": "slate",
+    "path": "<circle cx=\"12\" cy=\"5\" r=\"1.5\" fill=\"#94a3b8\"/><circle cx=\"12\" cy=\"12\" r=\"1.5\" fill=\"#94a3b8\"/><circle cx=\"12\" cy=\"19\" r=\"1.5\" fill=\"#94a3b8\"/>"
+  },
+  "235": {
+    "id": 235,
+    "name": "more_horiz",
+    "label": "Horizontal Actions",
+    "theme": "slate",
+    "path": "<circle cx=\"5\" cy=\"12\" r=\"1.5\" fill=\"#94a3b8\"/><circle cx=\"12\" cy=\"12\" r=\"1.5\" fill=\"#94a3b8\"/><circle cx=\"19\" cy=\"12\" r=\"1.5\" fill=\"#94a3b8\"/>"
+  },
+  "236": {
+    "id": 236,
+    "name": "slider_controls",
+    "label": "Audio Mixer Sliders",
+    "theme": "cyan",
+    "path": "<line x1=\"4\" y1=\"21\" x2=\"4\" y2=\"14\" stroke=\"#22d3ee\" stroke-width=\"2\"/><line x1=\"4\" y1=\"10\" x2=\"4\" y2=\"3\" stroke=\"#22d3ee\" stroke-width=\"2\"/><line x1=\"12\" y1=\"21\" x2=\"12\" y2=\"12\" stroke=\"#22d3ee\" stroke-width=\"2\"/><line x1=\"12\" y1=\"8\" x2=\"12\" y2=\"3\" stroke=\"#22d3ee\" stroke-width=\"2\"/><line x1=\"20\" y1=\"21\" x2=\"20\" y2=\"16\" stroke=\"#22d3ee\" stroke-width=\"2\"/><line x1=\"20\" y1=\"12\" x2=\"20\" y2=\"3\" stroke=\"#22d3ee\" stroke-width=\"2\"/>"
+  },
+  "237": {
+    "id": 237,
+    "name": "toggle_on_switch",
+    "label": "Switch ON",
+    "theme": "emerald",
+    "path": "<rect x=\"1\" y=\"5\" width=\"22\" height=\"14\" rx=\"7\" fill=\"none\" stroke=\"#34d399\" stroke-width=\"2\"/><circle cx=\"16\" cy=\"12\" r=\"4\" fill=\"#34d399\"/>"
+  },
+  "238": {
+    "id": 238,
+    "name": "toggle_off_switch",
+    "label": "Switch OFF",
+    "theme": "slate",
+    "path": "<rect x=\"1\" y=\"5\" width=\"22\" height=\"14\" rx=\"7\" fill=\"none\" stroke=\"#64748b\" stroke-width=\"2\"/><circle cx=\"8\" cy=\"12\" r=\"4\" fill=\"#64748b\"/>"
+  },
+  "239": {
+    "id": 239,
+    "name": "checkbox_checked",
+    "label": "Checkbox Checked",
+    "theme": "emerald",
+    "path": "<rect x=\"3\" y=\"3\" width=\"18\" height=\"18\" rx=\"3\" fill=\"none\" stroke=\"#34d399\" stroke-width=\"2\"/><polyline points=\"8 12 11 15 16 9\" fill=\"none\" stroke=\"#34d399\" stroke-width=\"2.5\"/>"
+  },
+  "240": {
+    "id": 240,
+    "name": "checkbox_empty",
+    "label": "Checkbox Empty",
+    "theme": "slate",
+    "path": "<rect x=\"3\" y=\"3\" width=\"18\" height=\"18\" rx=\"3\" fill=\"none\" stroke=\"#64748b\" stroke-width=\"2\"/>"
+  },
+  "241": {
+    "id": 241,
+    "name": "check_success",
+    "label": "Operation Success",
+    "theme": "emerald",
+    "path": "<polyline points=\"20 6 9 17 4 12\" fill=\"none\" stroke=\"#34d399\" stroke-width=\"3\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>"
+  },
+  "242": {
+    "id": 242,
+    "name": "cross_cancel",
+    "label": "Operation Failed",
+    "theme": "red",
+    "path": "<line x1=\"18\" y1=\"6\" x2=\"6\" y2=\"18\" stroke=\"#ef4444\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"6\" y1=\"6\" x2=\"18\" y2=\"18\" stroke=\"#ef4444\" stroke-width=\"3\" stroke-linecap=\"round\"/>"
+  },
+  "243": {
+    "id": 243,
+    "name": "info_circle",
+    "label": "Information Info",
+    "theme": "cyan",
+    "path": "<circle cx=\"12\" cy=\"12\" r=\"10\" fill=\"none\" stroke=\"#22d3ee\" stroke-width=\"2\"/><line x1=\"12\" y1=\"16\" x2=\"12\" y2=\"12\" stroke=\"#22d3ee\" stroke-width=\"2\"/><circle cx=\"12\" cy=\"8\" r=\"1\" fill=\"#22d3ee\"/>"
+  },
+  "244": {
+    "id": 244,
+    "name": "help_question",
+    "label": "Help Question",
+    "theme": "amber",
+    "path": "<circle cx=\"12\" cy=\"12\" r=\"10\" fill=\"none\" stroke=\"#fbbf24\" stroke-width=\"2\"/><path d=\"M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3M12 17h.01\" stroke=\"#fbbf24\" stroke-width=\"2\"/>"
+  },
+  "245": {
+    "id": 245,
+    "name": "clock_timer",
+    "label": "Realtime Chrono",
+    "theme": "cyan",
+    "path": "<circle cx=\"12\" cy=\"12\" r=\"10\" fill=\"none\" stroke=\"#22d3ee\" stroke-width=\"2\"/><polyline points=\"12 6 12 12 14 14\" fill=\"none\" stroke=\"#22d3ee\" stroke-width=\"2\"/>"
+  },
+  "246": {
+    "id": 246,
+    "name": "calendar_date",
+    "label": "Calendar Schedule",
+    "theme": "emerald",
+    "path": "<rect x=\"3\" y=\"4\" width=\"18\" height=\"18\" rx=\"2\" fill=\"none\" stroke=\"#34d399\" stroke-width=\"2\"/><line x1=\"16\" y1=\"2\" x2=\"16\" y2=\"6\" stroke=\"#34d399\"/><line x1=\"8\" y1=\"2\" x2=\"8\" y2=\"6\" stroke=\"#34d399\"/><line x1=\"3\" y1=\"10\" x2=\"21\" y2=\"10\" stroke=\"#34d399\"/>"
+  },
+  "247": {
+    "id": 247,
+    "name": "metric_speedometer",
+    "label": "83M ops/sec Speed",
+    "theme": "emerald",
+    "path": "<path d=\"M12 15l3.5-3.5\" stroke=\"#34d399\" stroke-width=\"2\"/><path d=\"M20.3 18a9 9 0 1 0-16.6 0\" fill=\"none\" stroke=\"#34d399\" stroke-width=\"2\"/>"
+  },
+  "248": {
+    "id": 248,
+    "name": "progress_donut",
+    "label": "Memory Donut Ring",
+    "theme": "purple",
+    "path": "<circle cx=\"12\" cy=\"12\" r=\"9\" fill=\"none\" stroke=\"#c084fc\" stroke-width=\"3\" stroke-dasharray=\"35 20\"/>"
+  },
+  "249": {
+    "id": 249,
+    "name": "trash_delete",
+    "label": "Trash Recycle Bin",
+    "theme": "red",
+    "path": "<polyline points=\"3 6 5 6 21 6\" stroke=\"#ef4444\" stroke-width=\"2\"/><path d=\"M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2\" stroke=\"#ef4444\" stroke-width=\"2\" fill=\"none\"/>"
+  },
+  "250": {
+    "id": 250,
+    "name": "download_file",
+    "label": "File Downloader",
+    "theme": "cyan",
+    "path": "<path d=\"M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4\" stroke=\"#22d3ee\" stroke-width=\"2\" fill=\"none\"/><polyline points=\"7 10 12 15 17 10\" stroke=\"#22d3ee\" stroke-width=\"2\" fill=\"none\"/><line x1=\"12\" y1=\"15\" x2=\"12\" y2=\"3\" stroke=\"#22d3ee\" stroke-width=\"2\"/>"
+  },
+  "251": {
+    "id": 251,
+    "name": "upload_file",
+    "label": "File Uploader",
+    "theme": "emerald",
+    "path": "<path d=\"M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4\" stroke=\"#34d399\" stroke-width=\"2\" fill=\"none\"/><polyline points=\"17 8 12 3 7 8\" stroke=\"#34d399\" stroke-width=\"2\" fill=\"none\"/><line x1=\"12\" y1=\"3\" x2=\"12\" y2=\"15\" stroke=\"#34d399\" stroke-width=\"2\"/>"
+  },
+  "252": {
+    "id": 252,
+    "name": "folder_directory",
+    "label": "Folder Storage",
+    "theme": "amber",
+    "path": "<path d=\"M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z\" fill=\"none\" stroke=\"#fbbf24\" stroke-width=\"2\"/>"
+  },
+  "253": {
+    "id": 253,
+    "name": "qr_barcode",
+    "label": "QR Code Barcode",
+    "theme": "cyan",
+    "path": "<rect x=\"3\" y=\"3\" width=\"7\" height=\"7\" fill=\"none\" stroke=\"#22d3ee\" stroke-width=\"2\"/><rect x=\"14\" y=\"3\" width=\"7\" height=\"7\" fill=\"none\" stroke=\"#22d3ee\" stroke-width=\"2\"/><rect x=\"3\" y=\"14\" width=\"7\" height=\"7\" fill=\"none\" stroke=\"#22d3ee\" stroke-width=\"2\"/><rect x=\"14\" y=\"14\" width=\"3\" height=\"3\" fill=\"#22d3ee\"/><rect x=\"18\" y=\"18\" width=\"3\" height=\"3\" fill=\"#22d3ee\"/>"
+  },
+  "254": {
+    "id": 254,
+    "name": "nfc_tap_pay",
+    "label": "NFC Contactless",
+    "theme": "emerald",
+    "path": "<path d=\"M6 18a8 8 0 0 1 12 0M8 15a5 5 0 0 1 8 0\" fill=\"none\" stroke=\"#34d399\" stroke-width=\"2\"/><circle cx=\"12\" cy=\"18\" r=\"1\" fill=\"#34d399\"/>"
+  },
+  "255": {
+    "id": 255,
+    "name": "titan_all_highway",
+    "label": "Titan 255 Highway",
+    "theme": "emerald",
+    "path": "<path d=\"M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z\" fill=\"none\" stroke=\"#34d399\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><polyline points=\"16 2 20 6 16 10\" fill=\"none\" stroke=\"#6ee7b7\" stroke-width=\"2.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><line x1=\"20\" y1=\"6\" x2=\"11\" y2=\"15\" stroke=\"#6ee7b7\" stroke-width=\"2.5\" stroke-linecap=\"round\"/>"
+  },
+  "256": {
+    "id": 256,
+    "name": "search",
+    "label": "Search",
+    "theme": "cyan",
+    "path": "<circle cx=\"11\" cy=\"11\" r=\"8\"/><line x1=\"21\" y1=\"21\" x2=\"16.65\" y2=\"16.65\"/>"
+  },
+  "257": {
+    "id": 257,
+    "name": "home",
+    "label": "Home",
+    "theme": "cyan",
+    "path": "<path d=\"M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z\"/><polyline points=\"9 22 9 12 15 12 15 22\"/>"
+  },
+  "258": {
+    "id": 258,
+    "name": "settings",
+    "label": "Settings",
+    "theme": "cyan",
+    "path": "<circle cx=\"12\" cy=\"12\" r=\"3\"/><path d=\"M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1 0 2.83 2 2 0 0 1-2.83 0l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-2 2 2 2 0 0 1-2-2v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83 0 2 2 0 0 1 0-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1-2-2 2 2 0 0 1 2-2h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 0-2.83 2 2 0 0 1 2.83 0l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 2-2 2 2 0 0 1 2 2v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 0 2 2 0 0 1 0 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 2 2 2 2 0 0 1-2 2h-.09a1.65 1.65 0 0 0-1.51 1z\"/>"
+  },
+  "259": {
+    "id": 259,
+    "name": "user",
+    "label": "User",
+    "theme": "cyan",
+    "path": "<path d=\"M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2\"/><circle cx=\"12\" cy=\"7\" r=\"4\"/>"
+  },
+  "260": {
+    "id": 260,
+    "name": "users",
+    "label": "Users",
+    "theme": "cyan",
+    "path": "<path d=\"M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2\"/><circle cx=\"9\" cy=\"7\" r=\"4\"/><path d=\"M23 21v-2a4 4 0 0 0-3-3.87\"/><path d=\"M16 3.13a4 4 0 0 1 0 7.75\"/>"
+  },
+  "261": {
+    "id": 261,
+    "name": "bell",
+    "label": "Bell",
+    "theme": "cyan",
+    "path": "<path d=\"M18 8A6 6 0 0 0 6 8c0 7-3 9-3 9h18s-3-2-3-9\"/><path d=\"M13.73 21a2 2 0 0 1-3.46 0\"/>"
+  },
+  "262": {
+    "id": 262,
+    "name": "filter",
+    "label": "Filter",
+    "theme": "cyan",
+    "path": "<polygon points=\"22 3 2 3 10 12.46 10 19 14 21 14 12.46 22 3\"/>"
+  },
+  "263": {
+    "id": 263,
+    "name": "share",
+    "label": "Share",
+    "theme": "cyan",
+    "path": "<circle cx=\"18\" cy=\"5\" r=\"3\"/><circle cx=\"6\" cy=\"12\" r=\"3\"/><circle cx=\"18\" cy=\"19\" r=\"3\"/><line x1=\"8.59\" y1=\"13.51\" x2=\"15.42\" y2=\"17.49\"/><line x1=\"15.41\" y1=\"6.51\" x2=\"8.59\" y2=\"10.49\"/>"
+  },
+  "264": {
+    "id": 264,
+    "name": "link",
+    "label": "Link",
+    "theme": "cyan",
+    "path": "<path d=\"M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71\"/><path d=\"M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71\"/>"
+  },
+  "265": {
+    "id": 265,
+    "name": "external_link",
+    "label": "External Link",
+    "theme": "cyan",
+    "path": "<path d=\"M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6\"/><polyline points=\"15 3 21 3 21 9\"/><line x1=\"10\" y1=\"14\" x2=\"21\" y2=\"3\"/>"
+  },
+  "266": {
+    "id": 266,
+    "name": "menu",
+    "label": "Menu",
+    "theme": "cyan",
+    "path": "<line x1=\"3\" y1=\"12\" x2=\"21\" y2=\"12\"/><line x1=\"3\" y1=\"6\" x2=\"21\" y2=\"6\"/><line x1=\"3\" y1=\"18\" x2=\"21\" y2=\"18\"/>"
+  },
+  "267": {
+    "id": 267,
+    "name": "grid",
+    "label": "Grid",
+    "theme": "cyan",
+    "path": "<rect x=\"3\" y=\"3\" width=\"7\" height=\"7\"/><rect x=\"14\" y=\"3\" width=\"7\" height=\"7\"/><rect x=\"14\" y=\"14\" width=\"7\" height=\"7\"/><rect x=\"3\" y=\"14\" width=\"7\" height=\"7\"/>"
+  },
+  "268": {
+    "id": 268,
+    "name": "list",
+    "label": "List",
+    "theme": "cyan",
+    "path": "<line x1=\"8\" y1=\"6\" x2=\"21\" y2=\"6\"/><line x1=\"8\" y1=\"12\" x2=\"21\" y2=\"12\"/><line x1=\"8\" y1=\"18\" x2=\"21\" y2=\"18\"/><line x1=\"3\" y1=\"6\" x2=\"3.01\" y2=\"6\"/><line x1=\"3\" y1=\"12\" x2=\"3.01\" y2=\"12\"/><line x1=\"3\" y1=\"18\" x2=\"3.01\" y2=\"18\"/>"
+  },
+  "269": {
+    "id": 269,
+    "name": "more_horizontal",
+    "label": "More Horizontal",
+    "theme": "cyan",
+    "path": "<circle cx=\"12\" cy=\"12\" r=\"1\"/><circle cx=\"19\" cy=\"12\" r=\"1\"/><circle cx=\"5\" cy=\"12\" r=\"1\"/>"
+  },
+  "270": {
+    "id": 270,
+    "name": "more_vertical",
+    "label": "More Vertical",
+    "theme": "cyan",
+    "path": "<circle cx=\"12\" cy=\"12\" r=\"1\"/><circle cx=\"12\" cy=\"5\" r=\"1\"/><circle cx=\"12\" cy=\"19\" r=\"1\"/>"
+  },
+  "271": {
+    "id": 271,
+    "name": "chevron_up",
+    "label": "Chevron Up",
+    "theme": "cyan",
+    "path": "<polyline points=\"18 15 12 9 6 15\"/>"
+  },
+  "272": {
+    "id": 272,
+    "name": "chevron_down",
+    "label": "Chevron Down",
+    "theme": "cyan",
+    "path": "<polyline points=\"6 9 12 15 18 9\"/>"
+  },
+  "273": {
+    "id": 273,
+    "name": "chevron_left",
+    "label": "Chevron Left",
+    "theme": "cyan",
+    "path": "<polyline points=\"15 18 9 12 15 6\"/>"
+  },
+  "274": {
+    "id": 274,
+    "name": "chevron_right",
+    "label": "Chevron Right",
+    "theme": "cyan",
+    "path": "<polyline points=\"9 18 15 12 9 6\"/>"
+  },
+  "275": {
+    "id": 275,
+    "name": "arrow_up",
+    "label": "Arrow Up",
+    "theme": "cyan",
+    "path": "<line x1=\"12\" y1=\"19\" x2=\"12\" y2=\"5\"/><polyline points=\"5 12 12 5 19 12\"/>"
+  },
+  "276": {
+    "id": 276,
+    "name": "arrow_down",
+    "label": "Arrow Down",
+    "theme": "cyan",
+    "path": "<line x1=\"12\" y1=\"5\" x2=\"12\" y2=\"19\"/><polyline points=\"19 12 12 19 5 12\"/>"
+  },
+  "277": {
+    "id": 277,
+    "name": "arrow_left",
+    "label": "Arrow Left",
+    "theme": "cyan",
+    "path": "<line x1=\"19\" y1=\"12\" x2=\"5\" y2=\"12\"/><polyline points=\"12 19 5 12 12 5\"/>"
+  },
+  "278": {
+    "id": 278,
+    "name": "arrow_right",
+    "label": "Arrow Right",
+    "theme": "cyan",
+    "path": "<line x1=\"5\" y1=\"12\" x2=\"19\" y2=\"12\"/><polyline points=\"12 5 19 12 12 19\"/>"
+  },
+  "279": {
+    "id": 279,
+    "name": "expand",
+    "label": "Expand",
+    "theme": "cyan",
+    "path": "<polyline points=\"15 3 21 3 21 9\"/><polyline points=\"9 21 3 21 3 15\"/><line x1=\"21\" y1=\"3\" x2=\"14\" y2=\"10\"/><line x1=\"3\" y1=\"21\" x2=\"10\" y2=\"14\"/>"
+  },
+  "280": {
+    "id": 280,
+    "name": "edit",
+    "label": "Edit",
+    "theme": "cyan",
+    "path": "<path d=\"M11 4H4a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-7\"/><path d=\"M18.5 2.5a2.121 2.121 0 0 1 3 3L12 15l-4 1 1-4 9.5-9.5z\"/>"
+  },
+  "281": {
+    "id": 281,
+    "name": "trash",
+    "label": "Trash",
+    "theme": "cyan",
+    "path": "<polyline points=\"3 6 5 6 21 6\"/><path d=\"M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2\"/><line x1=\"10\" y1=\"11\" x2=\"10\" y2=\"17\"/><line x1=\"14\" y1=\"11\" x2=\"14\" y2=\"17\"/>"
+  },
+  "282": {
+    "id": 282,
+    "name": "plus",
+    "label": "Plus",
+    "theme": "cyan",
+    "path": "<line x1=\"12\" y1=\"5\" x2=\"12\" y2=\"19\"/><line x1=\"5\" y1=\"12\" x2=\"19\" y2=\"12\"/>"
+  },
+  "283": {
+    "id": 283,
+    "name": "minus",
+    "label": "Minus",
+    "theme": "cyan",
+    "path": "<line x1=\"5\" y1=\"12\" x2=\"19\" y2=\"12\"/>"
+  },
+  "284": {
+    "id": 284,
+    "name": "check",
+    "label": "Check",
+    "theme": "cyan",
+    "path": "<polyline points=\"20 6 9 17 4 12\"/>"
+  },
+  "285": {
+    "id": 285,
+    "name": "close",
+    "label": "Close",
+    "theme": "cyan",
+    "path": "<line x1=\"18\" y1=\"6\" x2=\"6\" y2=\"18\"/><line x1=\"6\" y1=\"6\" x2=\"18\" y2=\"18\"/>"
+  },
+  "286": {
+    "id": 286,
+    "name": "copy",
+    "label": "Copy",
+    "theme": "cyan",
+    "path": "<rect x=\"9\" y=\"9\" width=\"13\" height=\"13\" rx=\"2\" ry=\"2\"/><path d=\"M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1\"/>"
+  },
+  "287": {
+    "id": 287,
+    "name": "save",
+    "label": "Save",
+    "theme": "cyan",
+    "path": "<path d=\"M19 21H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11l5 5v11a2 2 0 0 1-2 2z\"/><polyline points=\"17 21 17 13 7 13 7 21\"/><polyline points=\"7 3 7 8 15 8\"/>"
+  },
+  "288": {
+    "id": 288,
+    "name": "download",
+    "label": "Download",
+    "theme": "cyan",
+    "path": "<path d=\"M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4\"/><polyline points=\"7 10 12 15 17 10\"/><line x1=\"12\" y1=\"15\" x2=\"12\" y2=\"3\"/>"
+  },
+  "289": {
+    "id": 289,
+    "name": "upload",
+    "label": "Upload",
+    "theme": "cyan",
+    "path": "<path d=\"M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4\"/><polyline points=\"17 8 12 3 7 8\"/><line x1=\"12\" y1=\"3\" x2=\"12\" y2=\"15\"/>"
+  },
+  "290": {
+    "id": 290,
+    "name": "file",
+    "label": "File",
+    "theme": "cyan",
+    "path": "<path d=\"M13 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V9z\"/><polyline points=\"13 2 13 9 20 9\"/>"
+  },
+  "291": {
+    "id": 291,
+    "name": "file_text",
+    "label": "File Text",
+    "theme": "cyan",
+    "path": "<path d=\"M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z\"/><polyline points=\"14 2 14 8 20 8\"/><line x1=\"16\" y1=\"13\" x2=\"8\" y2=\"13\"/><line x1=\"16\" y1=\"17\" x2=\"8\" y2=\"17\"/><polyline points=\"10 9 9 9 8 9\"/>"
+  },
+  "292": {
+    "id": 292,
+    "name": "folder",
+    "label": "Folder",
+    "theme": "cyan",
+    "path": "<path d=\"M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z\"/>"
+  },
+  "293": {
+    "id": 293,
+    "name": "folder_plus",
+    "label": "Folder Plus",
+    "theme": "cyan",
+    "path": "<path d=\"M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z\"/><line x1=\"12\" y1=\"11\" x2=\"12\" y2=\"17\"/><line x1=\"9\" y1=\"14\" x2=\"15\" y2=\"14\"/>"
+  },
+  "294": {
+    "id": 294,
+    "name": "folder_minus",
+    "label": "Folder Minus",
+    "theme": "cyan",
+    "path": "<path d=\"M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z\"/><line x1=\"9\" y1=\"14\" x2=\"15\" y2=\"14\"/>"
+  },
+  "295": {
+    "id": 295,
+    "name": "image",
+    "label": "Image",
+    "theme": "cyan",
+    "path": "<rect x=\"3\" y=\"3\" width=\"18\" height=\"18\" rx=\"2\" ry=\"2\"/><circle cx=\"8.5\" cy=\"8.5\" r=\"1.5\"/><polyline points=\"21 15 16 10 5 21\"/>"
+  },
+  "296": {
+    "id": 296,
+    "name": "video",
+    "label": "Video",
+    "theme": "cyan",
+    "path": "<polygon points=\"23 7 16 12 23 17 23 7\"/><rect x=\"1\" y=\"5\" width=\"15\" height=\"14\" rx=\"2\" ry=\"2\"/>"
+  },
+  "297": {
+    "id": 297,
+    "name": "music",
+    "label": "Music",
+    "theme": "cyan",
+    "path": "<path d=\"M9 18V5l12-2v13\"/><circle cx=\"6\" cy=\"18\" r=\"3\"/><circle cx=\"18\" cy=\"16\" r=\"3\"/>"
+  },
+  "298": {
+    "id": 298,
+    "name": "eye",
+    "label": "Eye",
+    "theme": "cyan",
+    "path": "<path d=\"M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z\"/><circle cx=\"12\" cy=\"12\" r=\"3\"/>"
+  },
+  "299": {
+    "id": 299,
+    "name": "eye_off",
+    "label": "Eye Off",
+    "theme": "cyan",
+    "path": "<path d=\"M17.94 17.94A10.07 10.07 0 0 1 12 20c-7 0-11-8-11-8a18.45 18.45 0 0 1 5.06-5.94M9.9 4.24A9.12 9.12 0 0 1 12 4c7 0 11 8 11 8a18.5 18.5 0 0 1-2.16 3.19m-6.72-1.07a3 3 0 1 1-4.24-4.24\"/><line x1=\"1\" y1=\"1\" x2=\"23\" y2=\"23\"/>"
+  },
+  "300": {
+    "id": 300,
+    "name": "lock",
+    "label": "Lock",
+    "theme": "cyan",
+    "path": "<rect x=\"3\" y=\"11\" width=\"18\" height=\"11\" rx=\"2\" ry=\"2\"/><path d=\"M7 11V7a5 5 0 0 1 10 0v4\"/>"
+  },
+  "301": {
+    "id": 301,
+    "name": "unlock",
+    "label": "Unlock",
+    "theme": "cyan",
+    "path": "<rect x=\"3\" y=\"11\" width=\"18\" height=\"11\" rx=\"2\" ry=\"2\"/><path d=\"M7 11V7a5 5 0 0 1 9.9-1\"/>"
+  },
+  "302": {
+    "id": 302,
+    "name": "key",
+    "label": "Key",
+    "theme": "cyan",
+    "path": "<path d=\"M21 2l-2 2m-1.5 1.5L14 9l-1.5-1.5L11 9l-1.5-1.5L8 9l-4 4a5.5 5.5 0 1 0 7.78 7.78l4-4 1.5 1.5 1.5-1.5 1.5 1.5 1.5-1.5L22 4.5 21 2z\"/><circle cx=\"7.5\" cy=\"16.5\" r=\"1.5\"/>"
+  },
+  "303": {
+    "id": 303,
+    "name": "bookmark",
+    "label": "Bookmark",
+    "theme": "cyan",
+    "path": "<path d=\"M19 21l-7-5-7 5V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2z\"/>"
+  },
+  "304": {
+    "id": 304,
+    "name": "star",
+    "label": "Star",
+    "theme": "cyan",
+    "path": "<polygon points=\"12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2\"/>"
+  },
+  "305": {
+    "id": 305,
+    "name": "heart",
+    "label": "Heart",
+    "theme": "cyan",
+    "path": "<path d=\"M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z\"/>"
+  },
+  "306": {
+    "id": 306,
+    "name": "pin",
+    "label": "Pin",
+    "theme": "cyan",
+    "path": "<line x1=\"12\" y1=\"17\" x2=\"12\" y2=\"22\"/><path d=\"M5 17h14v-2l-2-2V5a2 2 0 0 0-2-2H9a2 2 0 0 0-2 2v8l-2 2v2z\"/>"
+  },
+  "307": {
+    "id": 307,
+    "name": "flag",
+    "label": "Flag",
+    "theme": "cyan",
+    "path": "<path d=\"M4 15s1-1 4-1 5 2 8 2 4-1 4-1V3s-1 1-4 1-5-2-8-2-4 1-4 1z\"/><line x1=\"4\" y1=\"22\" x2=\"4\" y2=\"15\"/>"
+  },
+  "308": {
+    "id": 308,
+    "name": "tag",
+    "label": "Tag",
+    "theme": "cyan",
+    "path": "<path d=\"M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z\"/><line x1=\"7\" y1=\"7\" x2=\"7.01\" y2=\"7\"/>"
+  },
+  "309": {
+    "id": 309,
+    "name": "scissors",
+    "label": "Scissors",
+    "theme": "cyan",
+    "path": "<circle cx=\"6\" cy=\"6\" r=\"3\"/><circle cx=\"6\" cy=\"18\" r=\"3\"/><line x1=\"20\" y1=\"4\" x2=\"8.12\" y2=\"15.88\"/><line x1=\"14.47\" y1=\"14.48\" x2=\"20\" y2=\"20\"/><line x1=\"8.12\" y1=\"8.12\" x2=\"12\" y2=\"12\"/>"
+  },
+  "310": {
+    "id": 310,
+    "name": "code",
+    "label": "Code",
+    "theme": "cyan",
+    "path": "<polyline points=\"16 18 22 12 16 6\"/><polyline points=\"8 6 2 12 8 18\"/>"
+  },
+  "311": {
+    "id": 311,
+    "name": "terminal",
+    "label": "Terminal",
+    "theme": "cyan",
+    "path": "<polyline points=\"4 17 10 11 4 5\"/><line x1=\"12\" y1=\"19\" x2=\"20\" y2=\"19\"/>"
+  },
+  "312": {
+    "id": 312,
+    "name": "cpu",
+    "label": "CPU",
+    "theme": "cyan",
+    "path": "<rect x=\"4\" y=\"4\" width=\"16\" height=\"16\" rx=\"2\"/><rect x=\"9\" y=\"9\" width=\"6\" height=\"6\"/><line x1=\"9\" y1=\"1\" x2=\"9\" y2=\"4\"/><line x1=\"15\" y1=\"1\" x2=\"15\" y2=\"4\"/><line x1=\"9\" y1=\"20\" x2=\"9\" y2=\"23\"/><line x1=\"15\" y1=\"20\" x2=\"15\" y2=\"23\"/><line x1=\"20\" y1=\"9\" x2=\"23\" y2=\"9\"/><line x1=\"20\" y1=\"14\" x2=\"23\" y2=\"14\"/><line x1=\"1\" y1=\"9\" x2=\"4\" y2=\"9\"/><line x1=\"1\" y1=\"14\" x2=\"4\" y2=\"14\"/>"
+  },
+  "313": {
+    "id": 313,
+    "name": "database",
+    "label": "Database",
+    "theme": "cyan",
+    "path": "<ellipse cx=\"12\" cy=\"5\" rx=\"9\" ry=\"3\"/><path d=\"M21 12c0 1.66-4 3-9 3s-9-1.34-9-3\"/><path d=\"M3 5v14c0 1.66 4 3 9 3s9-1.34 9-3V5\"/>"
+  },
+  "314": {
+    "id": 314,
+    "name": "server",
+    "label": "Server",
+    "theme": "cyan",
+    "path": "<rect x=\"2\" y=\"2\" width=\"20\" height=\"8\" rx=\"2\" ry=\"2\"/><rect x=\"2\" y=\"14\" width=\"20\" height=\"8\" rx=\"2\" ry=\"2\"/><line x1=\"6\" y1=\"6\" x2=\"6.01\" y2=\"6\"/><line x1=\"6\" y1=\"18\" x2=\"6.01\" y2=\"18\"/>"
+  },
+  "315": {
+    "id": 315,
+    "name": "cloud",
+    "label": "Cloud",
+    "theme": "cyan",
+    "path": "<path d=\"M18 10h-1.26A8 8 0 1 0 9 20h9a5 5 0 0 0 0-10z\"/>"
+  },
+  "316": {
+    "id": 316,
+    "name": "cloud_rain",
+    "label": "Cloud Rain",
+    "theme": "cyan",
+    "path": "<line x1=\"16\" y1=\"13\" x2=\"16\" y2=\"21\"/><line x1=\"8\" y1=\"13\" x2=\"8\" y2=\"21\"/><line x1=\"12\" y1=\"15\" x2=\"12\" y2=\"23\"/><path d=\"M20 16.58A5 5 0 0 0 18 7h-1.26A8 8 0 1 0 4 15.25\"/>"
+  },
+  "317": {
+    "id": 317,
+    "name": "cloud_snow",
+    "label": "Cloud Snow",
+    "theme": "cyan",
+    "path": "<path d=\"M20 17.58A5 5 0 0 0 18 8h-1.26A8 8 0 1 0 4 16.25\"/><line x1=\"8\" y1=\"16\" x2=\"8.01\" y2=\"16\"/><line x1=\"8\" y1=\"20\" x2=\"8.01\" y2=\"20\"/><line x1=\"12\" y1=\"18\" x2=\"12.01\" y2=\"18\"/><line x1=\"12\" y1=\"22\" x2=\"12.01\" y2=\"22\"/><line x1=\"16\" y1=\"16\" x2=\"16.01\" y2=\"16\"/><line x1=\"16\" y1=\"20\" x2=\"16.01\" y2=\"20\"/>"
+  },
+  "318": {
+    "id": 318,
+    "name": "git_branch",
+    "label": "Git Branch",
+    "theme": "cyan",
+    "path": "<line x1=\"6\" y1=\"3\" x2=\"6\" y2=\"15\"/><circle cx=\"18\" cy=\"6\" r=\"3\"/><circle cx=\"6\" cy=\"18\" r=\"3\"/><path d=\"M18 9a9 9 0 0 1-9 9\"/>"
+  },
+  "319": {
+    "id": 319,
+    "name": "git_commit",
+    "label": "Git Commit",
+    "theme": "cyan",
+    "path": "<circle cx=\"12\" cy=\"12\" r=\"4\"/><line x1=\"1.05\" y1=\"12\" x2=\"7\" y2=\"12\"/><line x1=\"17.01\" y1=\"12\" x2=\"22.96\" y2=\"12\"/>"
+  },
+  "320": {
+    "id": 320,
+    "name": "git_pull_request",
+    "label": "Git Pull Request",
+    "theme": "cyan",
+    "path": "<circle cx=\"18\" cy=\"18\" r=\"3\"/><circle cx=\"6\" cy=\"6\" r=\"3\"/><path d=\"M13 6h3a2 2 0 0 1 2 2v7\"/><line x1=\"6\" y1=\"9\" x2=\"6\" y2=\"21\"/>"
+  },
+  "321": {
+    "id": 321,
+    "name": "git_merge",
+    "label": "Git Merge",
+    "theme": "cyan",
+    "path": "<circle cx=\"18\" cy=\"18\" r=\"3\"/><circle cx=\"6\" cy=\"6\" r=\"3\"/><path d=\"M6 21V9a9 9 0 0 0 9 9\"/>"
+  },
+  "322": {
+    "id": 322,
+    "name": "bug",
+    "label": "Bug",
+    "theme": "cyan",
+    "path": "<rect x=\"8\" y=\"6\" width=\"8\" height=\"14\" rx=\"4\"/><path d=\"M19 7l-3 2\"/><path d=\"M5 7l3 2\"/><path d=\"M19 19l-3-2\"/><path d=\"M5 19l3-2\"/><line x1=\"20\" y1=\"13\" x2=\"4\" y2=\"13\"/>"
+  },
+  "323": {
+    "id": 323,
+    "name": "wifi",
+    "label": "WiFi",
+    "theme": "cyan",
+    "path": "<path d=\"M5 12.55a11 11 0 0 1 14.08 0\"/><path d=\"M1.42 9a16 16 0 0 1 21.16 0\"/><path d=\"M8.53 16.11a6 6 0 0 1 6.95 0\"/><line x1=\"12\" y1=\"20\" x2=\"12.01\" y2=\"20\"/>"
+  },
+  "324": {
+    "id": 324,
+    "name": "wifi_off",
+    "label": "WiFi Off",
+    "theme": "cyan",
+    "path": "<line x1=\"1\" y1=\"1\" x2=\"23\" y2=\"23\"/><path d=\"M16.72 11.06A10.94 10.94 0 0 1 19 12.55\"/><path d=\"M5 12.55a10.94 10.94 0 0 1 5.17-2.39\"/><path d=\"M10.71 5.05A16 16 0 0 1 22.58 9\"/><path d=\"M1.42 9a15.91 15.91 0 0 1 4.7-2.88\"/><path d=\"M8.53 16.11a6 6 0 0 1 6.95 0\"/><line x1=\"12\" y1=\"20\" x2=\"12.01\" y2=\"20\"/>"
+  },
+  "325": {
+    "id": 325,
+    "name": "bluetooth",
+    "label": "Bluetooth",
+    "theme": "cyan",
+    "path": "<polyline points=\"6.5 6.5 17.5 17.5 12 23 12 1 17.5 6.5 6.5 17.5\"/>"
+  },
+  "326": {
+    "id": 326,
+    "name": "battery",
+    "label": "Battery",
+    "theme": "cyan",
+    "path": "<rect x=\"1\" y=\"6\" width=\"18\" height=\"12\" rx=\"2\"/><line x1=\"23\" y1=\"10\" x2=\"23\" y2=\"14\"/>"
+  },
+  "327": {
+    "id": 327,
+    "name": "battery_charging",
+    "label": "Battery Charging",
+    "theme": "cyan",
+    "path": "<path d=\"M5 18H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h3.19M15 6h2a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2h-3.19\"/><line x1=\"23\" y1=\"13\" x2=\"23\" y2=\"11\"/><polyline points=\"11 6 7 12 13 12 9 18\"/>"
+  },
+  "328": {
+    "id": 328,
+    "name": "plug",
+    "label": "Plug",
+    "theme": "cyan",
+    "path": "<path d=\"M12 22v-5\"/><path d=\"M9 8V2\"/><path d=\"M15 2v6\"/><path d=\"M18 8v5a6 6 0 0 1-12 0V8z\"/>"
+  },
+  "329": {
+    "id": 329,
+    "name": "globe",
+    "label": "Globe",
+    "theme": "cyan",
+    "path": "<circle cx=\"12\" cy=\"12\" r=\"10\"/><line x1=\"2\" y1=\"12\" x2=\"22\" y2=\"12\"/><path d=\"M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z\"/>"
+  },
+  "330": {
+    "id": 330,
+    "name": "monitor",
+    "label": "Monitor",
+    "theme": "cyan",
+    "path": "<rect x=\"2\" y=\"3\" width=\"20\" height=\"14\" rx=\"2\"/><line x1=\"8\" y1=\"21\" x2=\"16\" y2=\"21\"/><line x1=\"12\" y1=\"17\" x2=\"12\" y2=\"21\"/>"
+  },
+  "331": {
+    "id": 331,
+    "name": "smartphone",
+    "label": "Smartphone",
+    "theme": "cyan",
+    "path": "<rect x=\"5\" y=\"2\" width=\"14\" height=\"20\" rx=\"2\" ry=\"2\"/><line x1=\"12\" y1=\"18\" x2=\"12.01\" y2=\"18\"/>"
+  },
+  "332": {
+    "id": 332,
+    "name": "tablet",
+    "label": "Tablet",
+    "theme": "cyan",
+    "path": "<rect x=\"4\" y=\"2\" width=\"16\" height=\"20\" rx=\"2\"/><line x1=\"12\" y1=\"18\" x2=\"12.01\" y2=\"18\"/>"
+  },
+  "333": {
+    "id": 333,
+    "name": "keyboard",
+    "label": "Keyboard",
+    "theme": "cyan",
+    "path": "<rect x=\"2\" y=\"4\" width=\"20\" height=\"16\" rx=\"2\"/><line x1=\"6\" y1=\"8\" x2=\"6.01\" y2=\"8\"/><line x1=\"10\" y1=\"8\" x2=\"10.01\" y2=\"8\"/><line x1=\"14\" y1=\"8\" x2=\"14.01\" y2=\"8\"/><line x1=\"18\" y1=\"8\" x2=\"18.01\" y2=\"8\"/><line x1=\"6\" y1=\"12\" x2=\"6.01\" y2=\"12\"/><line x1=\"18\" y1=\"12\" x2=\"18.01\" y2=\"12\"/><line x1=\"10\" y1=\"12\" x2=\"14\" y2=\"12\"/><line x1=\"8\" y1=\"16\" x2=\"16\" y2=\"16\"/>"
+  },
+  "334": {
+    "id": 334,
+    "name": "mouse",
+    "label": "Mouse",
+    "theme": "cyan",
+    "path": "<rect x=\"6\" y=\"3\" width=\"12\" height=\"18\" rx=\"6\"/><line x1=\"12\" y1=\"7\" x2=\"12\" y2=\"11\"/>"
+  },
+  "335": {
+    "id": 335,
+    "name": "printer",
+    "label": "Printer",
+    "theme": "cyan",
+    "path": "<polyline points=\"6 9 6 2 18 2 18 9\"/><path d=\"M6 18H4a2 2 0 0 1-2-2v-5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2h-2\"/><rect x=\"6\" y=\"14\" width=\"12\" height=\"8\"/>"
+  },
+  "336": {
+    "id": 336,
+    "name": "hard_drive",
+    "label": "Hard Drive",
+    "theme": "cyan",
+    "path": "<line x1=\"22\" y1=\"12\" x2=\"2\" y2=\"12\"/><path d=\"M5.45 5.11L2 12v6a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2v-6l-3.45-6.89A2 2 0 0 0 16.76 4H7.24a2 2 0 0 0-1.79 1.11z\"/><line x1=\"6\" y1=\"16\" x2=\"6.01\" y2=\"16\"/><line x1=\"10\" y1=\"16\" x2=\"10.01\" y2=\"16\"/>"
+  },
+  "337": {
+    "id": 337,
+    "name": "usb_flash",
+    "label": "USB Flash",
+    "theme": "cyan",
+    "path": "<rect x=\"4\" y=\"10\" width=\"16\" height=\"10\" rx=\"2\"/><line x1=\"8\" y1=\"10\" x2=\"8\" y2=\"4\"/><line x1=\"16\" y1=\"10\" x2=\"16\" y2=\"4\"/><line x1=\"8\" y1=\"4\" x2=\"16\" y2=\"4\"/><line x1=\"10\" y1=\"6\" x2=\"10\" y2=\"8\"/><line x1=\"14\" y1=\"6\" x2=\"14\" y2=\"8\"/>"
+  },
+  "338": {
+    "id": 338,
+    "name": "qr_code",
+    "label": "QR Code",
+    "theme": "cyan",
+    "path": "<rect x=\"3\" y=\"3\" width=\"7\" height=\"7\"/><rect x=\"14\" y=\"3\" width=\"7\" height=\"7\"/><rect x=\"14\" y=\"14\" width=\"7\" height=\"7\"/><rect x=\"3\" y=\"14\" width=\"7\" height=\"7\"/><line x1=\"7\" y1=\"7\" x2=\"7.01\" y2=\"7\"/><line x1=\"17\" y1=\"7\" x2=\"17.01\" y2=\"7\"/><line x1=\"7\" y1=\"17\" x2=\"7.01\" y2=\"17\"/>"
+  },
+  "339": {
+    "id": 339,
+    "name": "barcode",
+    "label": "Barcode",
+    "theme": "cyan",
+    "path": "<line x1=\"3\" y1=\"5\" x2=\"3\" y2=\"19\"/><line x1=\"6\" y1=\"5\" x2=\"6\" y2=\"19\"/><line x1=\"10\" y1=\"5\" x2=\"10\" y2=\"19\"/><line x1=\"13\" y1=\"5\" x2=\"13\" y2=\"19\"/><line x1=\"17\" y1=\"5\" x2=\"17\" y2=\"19\"/><line x1=\"21\" y1=\"5\" x2=\"21\" y2=\"19\"/>"
+  },
+  "340": {
+    "id": 340,
+    "name": "credit_card",
+    "label": "Credit Card",
+    "theme": "cyan",
+    "path": "<rect x=\"1\" y=\"4\" width=\"22\" height=\"16\" rx=\"2\" ry=\"2\"/><line x1=\"1\" y1=\"10\" x2=\"23\" y2=\"10\"/>"
+  },
+  "341": {
+    "id": 341,
+    "name": "wallet",
+    "label": "Wallet",
+    "theme": "cyan",
+    "path": "<path d=\"M20 12V8H6a2 2 0 0 1-2-2c0-1.1.9-2 2-2h12v4\"/><path d=\"M4 6v12a2 2 0 0 0 2 2h14v-4\"/><circle cx=\"18\" cy=\"14\" r=\"1\"/>"
+  },
+  "342": {
+    "id": 342,
+    "name": "shopping_cart",
+    "label": "Shopping Cart",
+    "theme": "cyan",
+    "path": "<circle cx=\"9\" cy=\"21\" r=\"1\"/><circle cx=\"20\" cy=\"21\" r=\"1\"/><path d=\"M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6\"/>"
+  },
+  "343": {
+    "id": 343,
+    "name": "shopping_bag",
+    "label": "Shopping Bag",
+    "theme": "cyan",
+    "path": "<path d=\"M6 2L3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z\"/><line x1=\"3\" y1=\"6\" x2=\"21\" y2=\"6\"/><path d=\"M16 10a4 4 0 0 1-8 0\"/>"
+  },
+  "344": {
+    "id": 344,
+    "name": "dollar_sign",
+    "label": "Dollar Sign",
+    "theme": "cyan",
+    "path": "<line x1=\"12\" y1=\"1\" x2=\"12\" y2=\"23\"/><path d=\"M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6\"/>"
+  },
+  "345": {
+    "id": 345,
+    "name": "euro",
+    "label": "Euro",
+    "theme": "cyan",
+    "path": "<path d=\"M4 10h12M4 14h9m6.4-5.6a9 9 0 1 0 0 7.2\"/>"
+  },
+  "346": {
+    "id": 346,
+    "name": "pound",
+    "label": "Pound",
+    "theme": "cyan",
+    "path": "<path d=\"M18 7c0-5.333-8-5.333-8 0v10h8m-8-5h6M6 21h12\"/>"
+  },
+  "347": {
+    "id": 347,
+    "name": "bitcoin",
+    "label": "Bitcoin",
+    "theme": "cyan",
+    "path": "<path d=\"M11.767 19.089c4.924.868 6.14-6.025 1.216-6.894m-1.216 6.894L5.86 18.05l1.04-5.9 5.86 1.034m-1.04 5.9-1.04 5.9m2.08-11.8L12.76 1.35M6.9 12.15l5.86 1.035m0 0c4.924.869 3.708-6.025-1.216-6.894L5.684 5.257l1.04-5.9 5.86 1.035m0 0 1.04-5.9\"/>"
+  },
+  "348": {
+    "id": 348,
+    "name": "coins",
+    "label": "Coins",
+    "theme": "cyan",
+    "path": "<ellipse cx=\"8\" cy=\"8\" rx=\"6\" ry=\"3\"/><path d=\"M2 8v4c0 1.66 2.69 3 6 3s6-1.34 6-3V8\"/><path d=\"M2 12v4c0 1.66 2.69 3 6 3s6-1.34 6-3v-4\"/><ellipse cx=\"16\" cy=\"16\" rx=\"6\" ry=\"3\"/><path d=\"M10 16v4c0 1.66 2.69 3 6 3s6-1.34 6-3v-4\"/>"
+  },
+  "349": {
+    "id": 349,
+    "name": "receipt",
+    "label": "Receipt",
+    "theme": "cyan",
+    "path": "<path d=\"M4 2v20l2-1 2 1 2-1 2 1 2-1 2 1 2-1 2 1 2-1 2 1V2l-2 1-2-1-2 1-2-1-2 1-2-1-2 1-2-1-2 1-2-1z\"/><line x1=\"8\" y1=\"7\" x2=\"16\" y2=\"7\"/><line x1=\"8\" y1=\"11\" x2=\"16\" y2=\"11\"/><line x1=\"8\" y1=\"15\" x2=\"12\" y2=\"15\"/>"
+  },
+  "350": {
+    "id": 350,
+    "name": "percent",
+    "label": "Percent",
+    "theme": "cyan",
+    "path": "<line x1=\"19\" y1=\"5\" x2=\"5\" y2=\"19\"/><circle cx=\"6.5\" cy=\"6.5\" r=\"2.5\"/><circle cx=\"17.5\" cy=\"17.5\" r=\"2.5\"/>"
+  },
+  "351": {
+    "id": 351,
+    "name": "calculator",
+    "label": "Calculator",
+    "theme": "cyan",
+    "path": "<rect x=\"4\" y=\"2\" width=\"16\" height=\"20\" rx=\"2\"/><line x1=\"8\" y1=\"6\" x2=\"16\" y2=\"6\"/><line x1=\"16\" y1=\"14\" x2=\"16\" y2=\"18\"/><path d=\"M16 10h.01M12 10h.01M8 10h.01M12 14h.01M8 14h.01M12 18h.01M8 18h.01\"/>"
+  },
+  "352": {
+    "id": 352,
+    "name": "trending_up",
+    "label": "Trending Up",
+    "theme": "cyan",
+    "path": "<polyline points=\"23 6 13.5 15.5 8.5 10.5 1 18\"/><polyline points=\"17 6 23 6 23 12\"/>"
+  },
+  "353": {
+    "id": 353,
+    "name": "trending_down",
+    "label": "Trending Down",
+    "theme": "cyan",
+    "path": "<polyline points=\"23 18 13.5 8.5 8.5 13.5 1 6\"/><polyline points=\"17 18 23 18 23 12\"/>"
+  },
+  "354": {
+    "id": 354,
+    "name": "activity_line",
+    "label": "Activity Line",
+    "theme": "cyan",
+    "path": "<polyline points=\"22 12 18 12 15 21 9 3 6 12 2 12\"/>"
+  },
+  "355": {
+    "id": 355,
+    "name": "pie_chart",
+    "label": "Pie Chart",
+    "theme": "cyan",
+    "path": "<path d=\"M21.21 15.89A10 10 0 1 1 8 2.83\"/><path d=\"M22 12A10 10 0 0 0 12 2v10z\"/>"
+  },
+  "356": {
+    "id": 356,
+    "name": "bar_chart",
+    "label": "Bar Chart",
+    "theme": "cyan",
+    "path": "<line x1=\"12\" y1=\"20\" x2=\"12\" y2=\"10\"/><line x1=\"18\" y1=\"20\" x2=\"18\" y2=\"4\"/><line x1=\"6\" y1=\"20\" x2=\"6\" y2=\"16\"/>"
+  },
+  "357": {
+    "id": 357,
+    "name": "bank_landmark",
+    "label": "Bank Landmark",
+    "theme": "cyan",
+    "path": "<line x1=\"3\" y1=\"21\" x2=\"21\" y2=\"21\"/><line x1=\"3\" y1=\"10\" x2=\"21\" y2=\"10\"/><polyline points=\"12 3 2 10 22 10 12 3\"/><line x1=\"6\" y1=\"10\" x2=\"6\" y2=\"21\"/><line x1=\"10\" y1=\"10\" x2=\"10\" y2=\"21\"/><line x1=\"14\" y1=\"10\" x2=\"14\" y2=\"21\"/><line x1=\"18\" y1=\"10\" x2=\"18\" y2=\"21\"/>"
+  },
+  "358": {
+    "id": 358,
+    "name": "piggy_bank",
+    "label": "Piggy Bank",
+    "theme": "cyan",
+    "path": "<path d=\"M19 5c-1.5 0-2.8 1.4-3 2-3.5-1.5-11-.3-11 5 0 1.8 0 3 2 4.5V20h4v-2h3v2h4v-4c1-.5 1.5-1 2-2V7a2 2 0 0 0-2-2z\"/><path d=\"M16 11h.01\"/>"
+  },
+  "359": {
+    "id": 359,
+    "name": "safe_vault",
+    "label": "Safe Vault",
+    "theme": "cyan",
+    "path": "<rect x=\"3\" y=\"3\" width=\"18\" height=\"18\" rx=\"2\"/><circle cx=\"12\" cy=\"12\" r=\"4\"/><path d=\"M12 8v8m-4-4h8\"/>"
+  },
+  "360": {
+    "id": 360,
+    "name": "invoice",
+    "label": "Invoice",
+    "theme": "cyan",
+    "path": "<rect x=\"4\" y=\"2\" width=\"16\" height=\"20\" rx=\"2\"/><line x1=\"8\" y1=\"6\" x2=\"16\" y2=\"6\"/><line x1=\"8\" y1=\"10\" x2=\"12\" y2=\"10\"/><line x1=\"8\" y1=\"14\" x2=\"16\" y2=\"14\"/><line x1=\"8\" y1=\"18\" x2=\"14\" y2=\"18\"/>"
+  },
+  "361": {
+    "id": 361,
+    "name": "box_parcel",
+    "label": "Box Parcel",
+    "theme": "cyan",
+    "path": "<path d=\"M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z\"/><polyline points=\"3.27 6.96 12 12.01 20.73 6.96\"/><line x1=\"12\" y1=\"22.08\" x2=\"12\" y2=\"12\"/>"
+  },
+  "362": {
+    "id": 362,
+    "name": "delivery_truck",
+    "label": "Delivery Truck",
+    "theme": "cyan",
+    "path": "<rect x=\"1\" y=\"3\" width=\"15\" height=\"13\"/><polygon points=\"16 8 20 8 23 11 23 16 16 16 16 8\"/><circle cx=\"5.5\" cy=\"18.5\" r=\"2.5\"/><circle cx=\"18.5\" cy=\"18.5\" r=\"2.5\"/>"
+  },
+  "363": {
+    "id": 363,
+    "name": "gift_box",
+    "label": "Gift Box",
+    "theme": "cyan",
+    "path": "<polyline points=\"20 12 20 22 4 22 4 12\"/><rect x=\"2\" y=\"7\" width=\"20\" height=\"5\"/><line x1=\"12\" y1=\"22\" x2=\"12\" y2=\"7\"/><path d=\"M12 7H7.5a2.5 2.5 0 0 1 0-5C11 2 12 7 12 7z\"/><path d=\"M12 7h4.5a2.5 2.5 0 0 0 0-5C13 2 12 7 12 7z\"/>"
+  },
+  "364": {
+    "id": 364,
+    "name": "award_ribbon",
+    "label": "Award Ribbon",
+    "theme": "cyan",
+    "path": "<circle cx=\"12\" cy=\"8\" r=\"7\"/><polyline points=\"8.21 13.89 7 23 12 20 17 23 15.79 13.88\"/>"
+  },
+  "365": {
+    "id": 365,
+    "name": "royal_crown",
+    "label": "Royal Crown",
+    "theme": "cyan",
+    "path": "<path d=\"M2 4l3 12h14l3-12-6 7-4-7-4 7-6-7zm3 16h14v2H5v-2z\"/>"
+  },
+  "366": {
+    "id": 366,
+    "name": "justice_scale",
+    "label": "Justice Scale",
+    "theme": "cyan",
+    "path": "<path d=\"M12 3v18m-8-7l4-9 4 9H4zm12 0l4-9 4 9h-8z\"/>"
+  },
+  "367": {
+    "id": 367,
+    "name": "briefcase",
+    "label": "Briefcase",
+    "theme": "cyan",
+    "path": "<rect x=\"2\" y=\"7\" width=\"20\" height=\"14\" rx=\"2\" ry=\"2\"/><path d=\"M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16\"/>"
+  },
+  "368": {
+    "id": 368,
+    "name": "compass_north",
+    "label": "Compass North",
+    "theme": "cyan",
+    "path": "<circle cx=\"12\" cy=\"12\" r=\"10\"/><polygon points=\"16.24 7.76 14.12 14.12 7.76 16.24 9.88 9.88 16.24 7.76\"/>"
+  },
+  "369": {
+    "id": 369,
+    "name": "anchor_marine",
+    "label": "Anchor Marine",
+    "theme": "cyan",
+    "path": "<circle cx=\"12\" cy=\"5\" r=\"3\"/><line x1=\"12\" y1=\"22\" x2=\"12\" y2=\"8\"/><path d=\"M5 12H2a10 10 0 0 0 20 0h-3\"/>"
+  },
+  "370": {
+    "id": 370,
+    "name": "stethoscope",
+    "label": "Stethoscope",
+    "theme": "cyan",
+    "path": "<path d=\"M4.5 3v5a4.5 4.5 0 0 0 9 0V3M18 14v4a4 4 0 0 1-8 0v-6\"/><circle cx=\"18\" cy=\"12\" r=\"2\"/>"
+  },
+  "371": {
+    "id": 371,
+    "name": "pill_capsule",
+    "label": "Pill Capsule",
+    "theme": "cyan",
+    "path": "<path d=\"M10.5 20.5l10-10a4.95 4.95 0 1 0-7-7l-10 10a4.95 4.95 0 1 0 7 7Z\"/><line x1=\"8.5\" y1=\"8.5\" x2=\"15.5\" y2=\"15.5\"/>"
+  },
+  "372": {
+    "id": 372,
+    "name": "thermometer",
+    "label": "Thermometer",
+    "theme": "cyan",
+    "path": "<path d=\"M14 14.76V3.5a2.5 2.5 0 0 0-5 0v11.26a4.5 4.5 0 1 0 5 0z\"/>"
+  },
+  "373": {
+    "id": 373,
+    "name": "icu_bed",
+    "label": "ICU Bed",
+    "theme": "cyan",
+    "path": "<path d=\"M2 4v16M2 8h18a2 2 0 0 1 2 2v10M2 17h20M6 8v9\"/>"
+  },
+  "374": {
+    "id": 374,
+    "name": "ambulance",
+    "label": "Ambulance",
+    "theme": "cyan",
+    "path": "<rect x=\"1\" y=\"8\" width=\"15\" height=\"9\" rx=\"1\"/><path d=\"M16 11h4l3 3v3h-7v-6z\"/><circle cx=\"5.5\" cy=\"18.5\" r=\"2.5\"/><circle cx=\"18.5\" cy=\"18.5\" r=\"2.5\"/><line x1=\"8\" y1=\"11\" x2=\"8\" y2=\"15\"/><line x1=\"6\" y1=\"13\" x2=\"10\" y2=\"13\"/>"
+  },
+  "375": {
+    "id": 375,
+    "name": "hospital_red_cross",
+    "label": "Hospital Red Cross",
+    "theme": "cyan",
+    "path": "<rect x=\"3\" y=\"3\" width=\"18\" height=\"18\" rx=\"4\"/><line x1=\"12\" y1=\"8\" x2=\"12\" y2=\"16\"/><line x1=\"8\" y1=\"12\" x2=\"16\" y2=\"12\"/>"
+  },
+  "376": {
+    "id": 376,
+    "name": "heart_pulse_ecg",
+    "label": "Heart Pulse ECG",
+    "theme": "cyan",
+    "path": "<path d=\"M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.3 1.5 4.05 3 5.5l7 7Z\"/><path d=\"M3.22 12H9.5l1.5-3 2 6.5 1.5-3.5h6.28\"/>"
+  },
+  "377": {
+    "id": 377,
+    "name": "dna_helix",
+    "label": "DNA Helix",
+    "theme": "cyan",
+    "path": "<path d=\"M2 15c6.667-6 13.333 0 20-6M2 9c6.667 6 13.333 0 20 6m-5-3h.01M7 12h.01M12 9h.01M12 15h.01\"/>"
+  },
+  "378": {
+    "id": 378,
+    "name": "syringe_injection",
+    "label": "Syringe Injection",
+    "theme": "cyan",
+    "path": "<path d=\"m18 2 4 4-2 2-4-4 2-2zM15 5l4 4-8 8H7v-4l8-8zM5 19l-3 3\"/>"
+  },
+  "379": {
+    "id": 379,
+    "name": "microscope",
+    "label": "Microscope",
+    "theme": "cyan",
+    "path": "<path d=\"M6 18h8M3 22h18M14 22a7 7 0 1 0-7-7M9 9l3-3 5 5-3 3-5-5zM12 6l-2-2\"/>"
+  },
+  "380": {
+    "id": 380,
+    "name": "lungs_pulmonary",
+    "label": "Lungs Pulmonary",
+    "theme": "cyan",
+    "path": "<path d=\"M12 4v8m-4-6c-3 0-6 3-6 7 0 5 3 7 6 7s4-2 4-5V9zm8 0c3 0 6 3 6 7 0 5-3 7-6 7s-4-2-4-5V9z\"/>"
+  },
+  "381": {
+    "id": 381,
+    "name": "brain_cortex",
+    "label": "Brain Cortex",
+    "theme": "cyan",
+    "path": "<path d=\"M9.5 4a3.5 3.5 0 0 0-3.5 3.5c0 .4.1.8.2 1.2A3.5 3.5 0 0 0 4 12a3.5 3.5 0 0 0 2.2 3.3A3.5 3.5 0 0 0 9.5 20H12V4H9.5zm5 0a3.5 3.5 0 0 1 3.5 3.5c0 .4-.1.8-.2 1.2A3.5 3.5 0 0 1 20 12a3.5 3.5 0 0 1-2.2 3.3A3.5 3.5 0 0 1 14.5 20H12V4h2.5z\"/>"
+  },
+  "382": {
+    "id": 382,
+    "name": "bone_orthopedic",
+    "label": "Bone Orthopedic",
+    "theme": "cyan",
+    "path": "<path d=\"M17 4a3 3 0 0 1 3 3 3 3 0 0 1-2.2 2.9L7.9 19.8A3 3 0 1 1 4 17a3 3 0 0 1 2.9-2.2L16.8 4.9A3 3 0 0 1 17 4z\"/>"
+  },
+  "383": {
+    "id": 383,
+    "name": "blood_droplet",
+    "label": "Blood Droplet",
+    "theme": "cyan",
+    "path": "<path d=\"M12 2.69l5.66 5.66a8 8 0 1 1-11.31 0z\"/>"
+  },
+  "384": {
+    "id": 384,
+    "name": "first_aid_kit",
+    "label": "First Aid Kit",
+    "theme": "cyan",
+    "path": "<rect x=\"2\" y=\"6\" width=\"20\" height=\"16\" rx=\"2\"/><path d=\"M8 6V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2\"/><line x1=\"12\" y1=\"11\" x2=\"12\" y2=\"17\"/><line x1=\"9\" y1=\"14\" x2=\"15\" y2=\"14\"/>"
+  },
+  "385": {
+    "id": 385,
+    "name": "shield_health_alert",
+    "label": "Shield Health Alert",
+    "theme": "cyan",
+    "path": "<path d=\"M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z\"/><line x1=\"12\" y1=\"8\" x2=\"12\" y2=\"12\"/><line x1=\"12\" y1=\"16\" x2=\"12.01\" y2=\"16\"/>"
+  },
+  "386": {
+    "id": 386,
+    "name": "clinical_cross",
+    "label": "Clinical Cross",
+    "theme": "cyan",
+    "path": "<path d=\"M9 3h6v6h6v6h-6v6H9v-6H3V9h6V3z\"/>"
+  },
+  "387": {
+    "id": 387,
+    "name": "science_flask",
+    "label": "Science Flask",
+    "theme": "cyan",
+    "path": "<path d=\"M10 2v5.5l-6.5 11a2 2 0 0 0 1.7 3h13.6a2 2 0 0 0 1.7-3L14 7.5V2h-4z\"/><line x1=\"8.5\" y1=\"14\" x2=\"15.5\" y2=\"14\"/>"
+  },
+  "388": {
+    "id": 388,
+    "name": "lab_test_tube",
+    "label": "Lab Test Tube",
+    "theme": "cyan",
+    "path": "<path d=\"M14.5 2v17.5a4.5 4.5 0 0 1-9 0V2h9zM8 8h4\"/>"
+  },
+  "389": {
+    "id": 389,
+    "name": "nuclear_atom",
+    "label": "Nuclear Atom",
+    "theme": "cyan",
+    "path": "<circle cx=\"12\" cy=\"12\" r=\"2\"/><ellipse cx=\"12\" cy=\"12\" rx=\"9\" ry=\"4\" transform=\"rotate(45 12 12)\"/><ellipse cx=\"12\" cy=\"12\" rx=\"9\" ry=\"4\" transform=\"rotate(-45 12 12)\"/>"
+  },
+  "390": {
+    "id": 390,
+    "name": "burn_flame",
+    "label": "Burn Flame",
+    "theme": "cyan",
+    "path": "<path d=\"M8.5 14.5A2.5 2.5 0 0 0 11 12c0-1.38-.5-2-1-3-1.072-2.143-.224-4.054 2-6 .5 2.5 2 4.9 4 6.5 2 1.6 3 3.5 3 5.5a7 7 0 1 1-14 0c0-1.153.433-2.294 1-3a2.5 2.5 0 0 0 2.5 2.5z\"/>"
+  },
+  "391": {
+    "id": 391,
+    "name": "medical_bandage",
+    "label": "Medical Bandage",
+    "theme": "cyan",
+    "path": "<rect x=\"3\" y=\"7\" width=\"18\" height=\"10\" rx=\"3\" transform=\"rotate(45 12 12)\"/><circle cx=\"12\" cy=\"12\" r=\"1.5\"/>"
+  },
+  "392": {
+    "id": 392,
+    "name": "virus_cell",
+    "label": "Virus Cell",
+    "theme": "cyan",
+    "path": "<circle cx=\"12\" cy=\"12\" r=\"5\"/><path d=\"M12 2v3m0 14v3M2 12h3m14 0h3M4.9 4.9l2.1 2.1m10 10 2.1 2.1M4.9 19.1l2.1-2.1m10-10 2.1-2.1\"/>"
+  },
+  "393": {
+    "id": 393,
+    "name": "eye_drop",
+    "label": "Eye Drop",
+    "theme": "cyan",
+    "path": "<path d=\"m14 7 3 3-8 8H6v-3l8-8zM18 3l3 3-1.5 1.5-3-3L18 3zM2 22h4\"/>"
+  },
+  "394": {
+    "id": 394,
+    "name": "wheelchair_mobility",
+    "label": "Wheelchair Mobility",
+    "theme": "cyan",
+    "path": "<circle cx=\"9\" cy=\"4\" r=\"2\"/><path d=\"M12 8H8v7h4m3-3a5 5 0 1 1-5 5\"/>"
+  },
+  "395": {
+    "id": 395,
+    "name": "dental_teeth",
+    "label": "Dental Teeth",
+    "theme": "cyan",
+    "path": "<path d=\"M6 3c-2 0-3 2-3 4 0 5 2 13 4 13s2-6 3-8c1 2 1 8 3 8s4-8 4-13c0-2-1-4-3-4-2 0-3 2-4 2s-2-2-4-2z\"/>"
+  },
+  "396": {
+    "id": 396,
+    "name": "prescription_rx",
+    "label": "Prescription Rx",
+    "theme": "cyan",
+    "path": "<path d=\"M4 3h6a4 4 0 0 1 4 4 4 4 0 0 1-4 4H4V3zm6 8 5 8m0-4 4 4\"/>"
+  },
+  "397": {
+    "id": 397,
+    "name": "scalpel_surgery",
+    "label": "Scalpel Surgery",
+    "theme": "cyan",
+    "path": "<path d=\"m19 5-3-3-9 9 3 3 9-9zM7 14l-5 5h5l2-2\"/>"
+  },
+  "398": {
+    "id": 398,
+    "name": "oxygen_mask_o2",
+    "label": "Oxygen Mask O2",
+    "theme": "cyan",
+    "path": "<path d=\"M12 3c-4 0-7 4-7 9 0 4 2 8 7 8s7-4 7-8c0-5-3-9-7-9zm0 13a3 3 0 1 1 0-6 3 3 0 0 1 0 6z\"/>"
+  },
+  "399": {
+    "id": 399,
+    "name": "crutch_ortho",
+    "label": "Crutch Ortho",
+    "theme": "cyan",
+    "path": "<path d=\"M5 3h14M8 7h8m-4 0v14M8 12h8\"/>"
+  },
+  "400": {
+    "id": 400,
+    "name": "chat_bubble",
+    "label": "Chat Bubble",
+    "theme": "cyan",
+    "path": "<path d=\"M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z\"/>"
+  },
+  "401": {
+    "id": 401,
+    "name": "mail_envelope",
+    "label": "Mail Envelope",
+    "theme": "cyan",
+    "path": "<path d=\"M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z\"/><polyline points=\"22,6 12,13 2,6\"/>"
+  },
+  "402": {
+    "id": 402,
+    "name": "mail_open",
+    "label": "Mail Open",
+    "theme": "cyan",
+    "path": "<path d=\"M21.2 8.4c.5.38.8.97.8 1.6v10a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V10a2 2 0 0 1 .8-1.6l8-6a2 2 0 0 1 2.4 0l8 6z\"/><path d=\"m22 10-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 10\"/>"
+  },
+  "403": {
+    "id": 403,
+    "name": "send_plane",
+    "label": "Send Plane",
+    "theme": "cyan",
+    "path": "<line x1=\"22\" y1=\"2\" x2=\"11\" y2=\"13\"/><polygon points=\"22 2 15 22 11 13 2 9 22 2\"/>"
+  },
+  "404": {
+    "id": 404,
+    "name": "calendar_event",
+    "label": "Calendar Event",
+    "theme": "cyan",
+    "path": "<rect x=\"3\" y=\"4\" width=\"18\" height=\"18\" rx=\"2\" ry=\"2\"/><line x1=\"16\" y1=\"2\" x2=\"16\" y2=\"6\"/><line x1=\"8\" y1=\"2\" x2=\"8\" y2=\"6\"/><line x1=\"3\" y1=\"10\" x2=\"21\" y2=\"10\"/>"
+  },
+  "405": {
+    "id": 405,
+    "name": "clock_time",
+    "label": "Clock Time",
+    "theme": "cyan",
+    "path": "<circle cx=\"12\" cy=\"12\" r=\"10\"/><polyline points=\"12 6 12 12 16 14\"/>"
+  },
+  "406": {
+    "id": 406,
+    "name": "gps_location_pin",
+    "label": "GPS Location Pin",
+    "theme": "cyan",
+    "path": "<path d=\"M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z\"/><circle cx=\"12\" cy=\"10\" r=\"3\"/>"
+  },
+  "407": {
+    "id": 407,
+    "name": "map_folded",
+    "label": "Map Folded",
+    "theme": "cyan",
+    "path": "<polygon points=\"1 6 1 22 8 18 16 22 23 18 23 2 16 6 8 2 1 6\"/><line x1=\"8\" y1=\"2\" x2=\"8\" y2=\"18\"/><line x1=\"16\" y1=\"6\" x2=\"16\" y2=\"22\"/>"
+  },
+  "408": {
+    "id": 408,
+    "name": "phone_outgoing_call",
+    "label": "Phone Outgoing Call",
+    "theme": "cyan",
+    "path": "<path d=\"M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z\"/><polyline points=\"15 2 22 2 22 9\"/><line x1=\"22\" y1=\"2\" x2=\"15\" y2=\"9\"/>"
+  },
+  "409": {
+    "id": 409,
+    "name": "phone_forward_arrow",
+    "label": "Phone Forward Arrow",
+    "theme": "cyan",
+    "path": "<path d=\"M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z\"/><polyline points=\"18 2 22 6 18 10\"/><line x1=\"14\" y1=\"6\" x2=\"22\" y2=\"6\"/>"
+  },
+  "410": {
+    "id": 410,
+    "name": "phone_missed_cross",
+    "label": "Phone Missed Cross",
+    "theme": "cyan",
+    "path": "<path d=\"M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z\"/><line x1=\"23\" y1=\"1\" x2=\"17\" y2=\"7\"/><line x1=\"17\" y1=\"1\" x2=\"23\" y2=\"7\"/>"
+  },
+  "411": {
+    "id": 411,
+    "name": "video_camera_live",
+    "label": "Video Camera Live",
+    "theme": "cyan",
+    "path": "<polygon points=\"23 7 16 12 23 17 23 7\"/><rect x=\"1\" y=\"5\" width=\"15\" height=\"14\" rx=\"2\" ry=\"2\"/>"
+  },
+  "412": {
+    "id": 412,
+    "name": "microphone_audio",
+    "label": "Microphone Audio",
+    "theme": "cyan",
+    "path": "<path d=\"M12 1a3 3 0 0 0-3 3v8a3 3 0 0 0 6 0V4a3 3 0 0 0-3-3z\"/><path d=\"M19 10v2a7 7 0 0 1-14 0v-2\"/><line x1=\"12\" y1=\"19\" x2=\"12\" y2=\"23\"/><line x1=\"8\" y1=\"23\" x2=\"16\" y2=\"23\"/>"
+  },
+  "413": {
+    "id": 413,
+    "name": "microphone_mute_slash",
+    "label": "Microphone Mute Slash",
+    "theme": "cyan",
+    "path": "<line x1=\"1\" y1=\"1\" x2=\"23\" y2=\"23\"/><path d=\"M9 9v3a3 3 0 0 0 5.12 2.12M15 9.34V4a3 3 0 0 0-5.94-.6\"/><path d=\"M17 16.95A7 7 0 0 1 5 12v-2m14 0v2a7 7 0 0 1-.11 1.23\"/><line x1=\"12\" y1=\"19\" x2=\"12\" y2=\"23\"/><line x1=\"8\" y1=\"23\" x2=\"16\" y2=\"23\"/>"
+  },
+  "414": {
+    "id": 414,
+    "name": "volume_high_3_wave",
+    "label": "Volume High 3-Wave",
+    "theme": "cyan",
+    "path": "<polygon points=\"11 5 6 9 2 9 2 15 6 15 11 19 11 5\"/><path d=\"M19.07 4.93a10 10 0 0 1 0 14.14M15.54 8.46a5 5 0 0 1 0 7.07\"/>"
+  },
+  "415": {
+    "id": 415,
+    "name": "volume_mute_x",
+    "label": "Volume Mute X",
+    "theme": "cyan",
+    "path": "<polygon points=\"11 5 6 9 2 9 2 15 6 15 11 19 11 5\"/><line x1=\"23\" y1=\"9\" x2=\"17\" y2=\"15\"/><line x1=\"17\" y1=\"9\" x2=\"23\" y2=\"15\"/>"
+  },
+  "416": {
+    "id": 416,
+    "name": "volume_low_1_wave",
+    "label": "Volume Low 1-Wave",
+    "theme": "cyan",
+    "path": "<polygon points=\"11 5 6 9 2 9 2 15 6 15 11 19 11 5\"/><path d=\"M15.54 8.46a5 5 0 0 1 0 7.07\"/>"
+  },
+  "417": {
+    "id": 417,
+    "name": "media_play_triangle",
+    "label": "Media Play Triangle",
+    "theme": "cyan",
+    "path": "<polygon points=\"5 3 19 12 5 21 5 3\"/>"
+  },
+  "418": {
+    "id": 418,
+    "name": "media_pause_bars",
+    "label": "Media Pause Bars",
+    "theme": "cyan",
+    "path": "<rect x=\"6\" y=\"4\" width=\"4\" height=\"16\"/><rect x=\"14\" y=\"4\" width=\"4\" height=\"16\"/>"
+  },
+  "419": {
+    "id": 419,
+    "name": "media_stop_square",
+    "label": "Media Stop Square",
+    "theme": "cyan",
+    "path": "<rect x=\"4\" y=\"4\" width=\"16\" height=\"16\" rx=\"2\"/>"
+  },
+  "420": {
+    "id": 420,
+    "name": "skip_forward_track",
+    "label": "Skip Forward Track",
+    "theme": "cyan",
+    "path": "<polygon points=\"5 4 15 12 5 20 5 4\"/><line x1=\"19\" y1=\"5\" x2=\"19\" y2=\"19\"/>"
+  },
+  "421": {
+    "id": 421,
+    "name": "skip_back_track",
+    "label": "Skip Back Track",
+    "theme": "cyan",
+    "path": "<polygon points=\"19 20 9 12 19 4 19 20\"/><line x1=\"5\" y1=\"19\" x2=\"5\" y2=\"5\"/>"
+  },
+  "422": {
+    "id": 422,
+    "name": "shuffle_track",
+    "label": "Shuffle Track",
+    "theme": "cyan",
+    "path": "<polyline points=\"16 3 21 3 21 8\"/><line x1=\"4\" y1=\"20\" x2=\"21\" y2=\"3\"/><polyline points=\"21 16 21 21 16 21\"/><line x1=\"15\" y1=\"15\" x2=\"21\" y2=\"21\"/><line x1=\"4\" y1=\"4\" x2=\"9\" y2=\"9\"/>"
+  },
+  "423": {
+    "id": 423,
+    "name": "repeat_loop",
+    "label": "Repeat Loop",
+    "theme": "cyan",
+    "path": "<polyline points=\"17 1 21 5 17 9\"/><path d=\"M3 11V9a4 4 0 0 1 4-4h14\"/><polyline points=\"7 23 3 19 7 15\"/><path d=\"M21 13v2a4 4 0 0 1-4 4H3\"/>"
+  },
+  "424": {
+    "id": 424,
+    "name": "radio_portable",
+    "label": "Radio Portable",
+    "theme": "cyan",
+    "path": "<circle cx=\"12\" cy=\"12\" r=\"2\"/><path d=\"M16.24 7.76a6 6 0 0 1 0 8.49m-8.48-.01a6 6 0 0 1 0-8.49m11.31-2.82a10 10 0 0 1 0 14.14m-14.14 0a10 10 0 0 1 0-14.14\"/>"
+  },
+  "425": {
+    "id": 425,
+    "name": "podcast_cast",
+    "label": "Podcast Cast",
+    "theme": "cyan",
+    "path": "<circle cx=\"12\" cy=\"11\" r=\"1\"/><path d=\"M11 17a1 1 0 0 1 2 0c0 .5-.34 3-.5 4.5a.5.5 0 0 1-1 0c-.16-1.5-.5-4-.5-4.5z\"/><path d=\"M8 14a5 5 0 1 1 8 0M5 11a9 9 0 1 1 14 0\"/>"
+  },
+  "426": {
+    "id": 426,
+    "name": "megaphone_bullhorn",
+    "label": "Megaphone Bullhorn",
+    "theme": "cyan",
+    "path": "<path d=\"M3 11l18-5v12L3 13v-2zM11.6 16.8a3 3 0 1 1-5.8-1.6\"/>"
+  },
+  "427": {
+    "id": 427,
+    "name": "rss_feed_feed",
+    "label": "RSS Feed Feed",
+    "theme": "cyan",
+    "path": "<path d=\"M4 11a9 9 0 0 1 9 9M4 4a16 16 0 0 1 16 16\"/><circle cx=\"5\" cy=\"19\" r=\"1\"/>"
+  },
+  "428": {
+    "id": 428,
+    "name": "message_circle_round",
+    "label": "Message Circle Round",
+    "theme": "cyan",
+    "path": "<path d=\"M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z\"/>"
+  },
+  "429": {
+    "id": 429,
+    "name": "thumbs_up_like",
+    "label": "Thumbs Up Like",
+    "theme": "cyan",
+    "path": "<path d=\"M14 9V5a3 3 0 0 0-3-3l-4 9v11h11.28a2 2 0 0 0 2-1.7l1.38-9a2 2 0 0 0-2-2.3zM7 22H4a2 2 0 0 1-2-2v-7a2 2 0 0 1 2-2h3\"/>"
+  },
+  "430": {
+    "id": 430,
+    "name": "sun_bright",
+    "label": "Sun Bright",
+    "theme": "cyan",
+    "path": "<circle cx=\"12\" cy=\"12\" r=\"5\"/><line x1=\"12\" y1=\"1\" x2=\"12\" y2=\"3\"/><line x1=\"12\" y1=\"21\" x2=\"12\" y2=\"23\"/><line x1=\"4.22\" y1=\"4.22\" x2=\"5.64\" y2=\"5.64\"/><line x1=\"18.36\" y1=\"18.36\" x2=\"19.78\" y2=\"19.78\"/><line x1=\"1\" y1=\"12\" x2=\"3\" y2=\"12\"/><line x1=\"21\" y1=\"12\" x2=\"23\" y2=\"12\"/><line x1=\"4.22\" y1=\"19.78\" x2=\"5.64\" y2=\"18.36\"/><line x1=\"18.36\" y1=\"5.64\" x2=\"19.78\" y2=\"4.22\"/>"
+  },
+  "431": {
+    "id": 431,
+    "name": "moon_crescent",
+    "label": "Moon Crescent",
+    "theme": "cyan",
+    "path": "<path d=\"M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z\"/>"
+  },
+  "432": {
+    "id": 432,
+    "name": "cloud_sun_day",
+    "label": "Cloud Sun Day",
+    "theme": "cyan",
+    "path": "<path d=\"M12 2v2m-7.07 2.93 1.41 1.41M2 12h2m2.93 7.07 1.41-1.41\"/><path d=\"M17 12a5 5 0 0 0-5-5c-.75 0-1.47.16-2.11.46A6 6 0 0 0 3 13a6 6 0 0 0 6 6h8a5 5 0 0 0 0-10z\"/>"
+  },
+  "433": {
+    "id": 433,
+    "name": "sunrise_dawn",
+    "label": "Sunrise Dawn",
+    "theme": "cyan",
+    "path": "<path d=\"M12 2v6m-7.07.93 1.41 1.41M2 16h2m16 0h2m-4.34-5.66 1.41-1.41M18 16a6 6 0 0 0-12 0\"/><line x1=\"2\" y1=\"20\" x2=\"22\" y2=\"20\"/>"
+  },
+  "434": {
+    "id": 434,
+    "name": "sunset_dusk",
+    "label": "Sunset Dusk",
+    "theme": "cyan",
+    "path": "<path d=\"M12 10v6m-7.07-7.07 1.41 1.41M2 18h2m16 0h2m-4.34-5.66 1.41-1.41M18 18a6 6 0 0 0-12 0\"/><line x1=\"2\" y1=\"22\" x2=\"22\" y2=\"22\"/>"
+  },
+  "435": {
+    "id": 435,
+    "name": "wind_breeze",
+    "label": "Wind Breeze",
+    "theme": "cyan",
+    "path": "<path d=\"M9.59 4.59A2 2 0 1 1 11 8H2m10.59 11.41A2 2 0 1 0 14 16H2m15.73-8.27A2.5 2.5 0 1 1 19.5 12H2\"/>"
+  },
+  "436": {
+    "id": 436,
+    "name": "umbrella_rain",
+    "label": "Umbrella Rain",
+    "theme": "cyan",
+    "path": "<path d=\"M23 12a11.05 11.05 0 0 0-22 0zm-5 7a3 3 0 0 1-6 0v-7\"/>"
+  },
+  "437": {
+    "id": 437,
+    "name": "snowflake_crystal",
+    "label": "Snowflake Crystal",
+    "theme": "cyan",
+    "path": "<line x1=\"12\" y1=\"2\" x2=\"12\" y2=\"22\"/><line x1=\"2\" y1=\"12\" x2=\"22\" y2=\"12\"/><line x1=\"4.93\" y1=\"4.93\" x2=\"19.07\" y2=\"19.07\"/><line x1=\"19.07\" y1=\"4.93\" x2=\"4.93\" y2=\"19.07\"/>"
+  },
+  "438": {
+    "id": 438,
+    "name": "lightning_zap",
+    "label": "Lightning Zap",
+    "theme": "cyan",
+    "path": "<polygon points=\"13 2 3 14 12 14 11 22 21 10 12 10 13 2\"/>"
+  },
+  "439": {
+    "id": 439,
+    "name": "water_droplets",
+    "label": "Water Droplets",
+    "theme": "cyan",
+    "path": "<path d=\"M7 16.3c2.2 0 4-1.83 4-4.05 0-1.16-.57-2.26-1.71-3.19S7.29 6.75 7 5.3c-.29 1.45-1.14 2.84-2.29 3.76S3 11.1 3 12.25c0 2.22 1.8 4.05 4 4.05z\"/><path d=\"M12.56 6.6A10.97 10.97 0 0 0 14 3.02c.5 2.5 2 4.9 4 6.5s3 3.5 3 5.5a7 7 0 0 1-10.45 6.07\"/>"
+  },
+  "440": {
+    "id": 440,
+    "name": "rainbow_arc",
+    "label": "Rainbow Arc",
+    "theme": "cyan",
+    "path": "<path d=\"M22 17a10 10 0 0 0-20 0m16 0a6 6 0 0 0-12 0m8 0a2 2 0 0 0-4 0\"/>"
+  },
+  "441": {
+    "id": 441,
+    "name": "thermometer_hot",
+    "label": "Thermometer Hot",
+    "theme": "cyan",
+    "path": "<path d=\"M14 14.76V3.5a2.5 2.5 0 0 0-5 0v11.26a4.5 4.5 0 1 0 5 0z\"/><path d=\"M4 10h4M4 6h4M4 14h4\"/>"
+  },
+  "442": {
+    "id": 442,
+    "name": "forest_tree",
+    "label": "Forest Tree",
+    "theme": "cyan",
+    "path": "<polygon points=\"12 2 7 9 10 9 5 16 19 16 14 9 17 9 12 2\"/><line x1=\"12\" y1=\"16\" x2=\"12\" y2=\"22\"/>"
+  },
+  "443": {
+    "id": 443,
+    "name": "plant_leaf",
+    "label": "Plant Leaf",
+    "theme": "cyan",
+    "path": "<path d=\"M11 20A7 7 0 0 1 9.8 6.1C15.5 5 17 4.48 19 2c1 2 2 4.18 2 8 0 5.5-4.78 10-10 10Z\"/><path d=\"M2 21c0-3 1.85-5.36 5.08-6C9.5 14.52 12 13 13 12\"/>"
+  },
+  "444": {
+    "id": 444,
+    "name": "spring_flower",
+    "label": "Spring Flower",
+    "theme": "cyan",
+    "path": "<circle cx=\"12\" cy=\"12\" r=\"3\"/><path d=\"M12 16.5A4.5 4.5 0 1 1 7.5 12 4.5 4.5 0 1 1 12 7.5a4.5 4.5 0 1 1 4.5 4.5 4.5 4.5 0 1 1-4.5 4.5z\"/>"
+  },
+  "445": {
+    "id": 445,
+    "name": "mountain_peak",
+    "label": "Mountain Peak",
+    "theme": "cyan",
+    "path": "<path d=\"m8 3 4 8 5-5 5 15H2L8 3z\"/>"
+  },
+  "446": {
+    "id": 446,
+    "name": "ocean_waves",
+    "label": "Ocean Waves",
+    "theme": "cyan",
+    "path": "<path d=\"M2 6c.6.5 1.2 1 2.5 1C7 7 7 5 9.5 5c2.6 0 2.4 2 5 2 2.5 0 2.5-2 5-2 1.3 0 1.9.5 2.5 1M2 12c.6.5 1.2 1 2.5 1 2.5 0 2.5-2 5-2 2.6 0 2.4 2 5 2 2.5 0 2.5-2 5-2 1.3 0 1.9.5 2.5 1M2 18c.6.5 1.2 1 2.5 1 2.5 0 2.5-2 5-2 2.6 0 2.4 2 5 2 2.5 0 2.5-2 5-2 1.3 0 1.9.5 2.5 1\"/>"
+  },
+  "447": {
+    "id": 447,
+    "name": "campfire_flame",
+    "label": "Campfire Flame",
+    "theme": "cyan",
+    "path": "<path d=\"M12 2c1 3 4 6 4 9a4 4 0 0 1-8 0c0-3 3-6 4-9z\"/><line x1=\"4\" y1=\"21\" x2=\"20\" y2=\"17\"/><line x1=\"4\" y1=\"17\" x2=\"20\" y2=\"21\"/>"
+  },
+  "448": {
+    "id": 448,
+    "name": "tornado_cyclone",
+    "label": "Tornado Cyclone",
+    "theme": "cyan",
+    "path": "<path d=\"M21 4H3m15 4H6m10 4H8m6 4h-4m3 4h-2\"/>"
+  },
+  "449": {
+    "id": 449,
+    "name": "target_bullseye",
+    "label": "Target Bullseye",
+    "theme": "cyan",
+    "path": "<circle cx=\"12\" cy=\"12\" r=\"10\"/><circle cx=\"12\" cy=\"12\" r=\"6\"/><circle cx=\"12\" cy=\"12\" r=\"2\"/>"
+  },
+  "450": {
+    "id": 450,
+    "name": "sparkles_magic",
+    "label": "Sparkles Magic",
+    "theme": "cyan",
+    "path": "<path d=\"m12 3-1.9 5.8a2 2 0 0 1-1.3 1.3L3 12l5.8 1.9a2 2 0 0 1 1.3 1.3L12 21l1.9-5.8a2 2 0 0 1 1.3-1.3L21 12l-5.8-1.9a2 2 0 0 1-1.3-1.3L12 3z\"/>"
+  },
+  "451": {
+    "id": 451,
+    "name": "moon_stars_night",
+    "label": "Moon Stars Night",
+    "theme": "cyan",
+    "path": "<path d=\"M12 3a6 6 0 0 0 9 9 9 9 0 1 1-9-9Z\"/><path d=\"M19 3v4m2-2h-4\"/>"
+  },
+  "452": {
+    "id": 452,
+    "name": "sun_dim_eco",
+    "label": "Sun Dim Eco",
+    "theme": "cyan",
+    "path": "<circle cx=\"12\" cy=\"12\" r=\"4\"/><path d=\"M12 2v2m0 16v2M4.93 4.93l1.41 1.41m11.32 11.32 1.41 1.41M2 12h2m16 0h2M6.34 17.66l-1.41 1.41m14.14-14.14-1.41 1.41\"/>"
+  },
+  "453": {
+    "id": 453,
+    "name": "cloud_fog_mist",
+    "label": "Cloud Fog Mist",
+    "theme": "cyan",
+    "path": "<path d=\"M4 14.9A7 7 0 1 1 15.71 8h1.79a4.5 4.5 0 0 1 2.5 8.2\"/><line x1=\"2\" y1=\"20\" x2=\"22\" y2=\"20\"/><line x1=\"4\" y1=\"17\" x2=\"20\" y2=\"17\"/>"
+  },
+  "454": {
+    "id": 454,
+    "name": "cloud_lightning_storm",
+    "label": "Cloud Lightning Storm",
+    "theme": "cyan",
+    "path": "<path d=\"M19 16.9A5 5 0 0 0 18 7h-1.26a8 8 0 1 0-11.62 9\"/><polyline points=\"13 11 9 17 15 17 11 23\"/>"
+  },
+  "455": {
+    "id": 455,
+    "name": "thermometer_cold",
+    "label": "Thermometer Cold",
+    "theme": "cyan",
+    "path": "<path d=\"M14 14.76V3.5a2.5 2.5 0 0 0-5 0v11.26a4.5 4.5 0 1 0 5 0z\"/><path d=\"M20 9l-4 4m0-4l4 4\"/>"
+  },
+  "456": {
+    "id": 456,
+    "name": "feather_quill",
+    "label": "Feather Quill",
+    "theme": "cyan",
+    "path": "<path d=\"M20.24 12.24a6 6 0 0 0-8.49-8.49L5 10.5V19h8.5z\"/><line x1=\"16\" y1=\"8\" x2=\"2\" y2=\"22\"/><line x1=\"17.5\" y1=\"15\" x2=\"9\" y2=\"15\"/>"
+  },
+  "457": {
+    "id": 457,
+    "name": "globe_americas",
+    "label": "Globe Americas",
+    "theme": "cyan",
+    "path": "<circle cx=\"12\" cy=\"12\" r=\"10\"/><path d=\"M12 2a14.5 14.5 0 0 0 0 20 14.5 14.5 0 0 0 0-20zM2 12h20\"/>"
+  },
+  "458": {
+    "id": 458,
+    "name": "earth_planet",
+    "label": "Earth Planet",
+    "theme": "cyan",
+    "path": "<circle cx=\"12\" cy=\"12\" r=\"10\"/><path d=\"M3.6 9h16.8M3.6 15h16.8\"/>"
+  },
+  "459": {
+    "id": 459,
+    "name": "tent_camp",
+    "label": "Tent Camp",
+    "theme": "cyan",
+    "path": "<path d=\"M19 21 12 4 5 21M5 21h14M12 4v17\"/>"
+  },
+  "460": {
+    "id": 460,
+    "name": "shield_check_ok",
+    "label": "Shield Check OK",
+    "theme": "cyan",
+    "path": "<path d=\"M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z\"/><polyline points=\"9 12 11 14 15 10\"/>"
+  },
+  "461": {
+    "id": 461,
+    "name": "shield_x_blocked",
+    "label": "Shield X Blocked",
+    "theme": "cyan",
+    "path": "<path d=\"M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z\"/><line x1=\"15\" y1=\"9\" x2=\"9\" y2=\"15\"/><line x1=\"9\" y1=\"9\" x2=\"15\" y2=\"15\"/>"
+  },
+  "462": {
+    "id": 462,
+    "name": "shield_alert_warning",
+    "label": "Shield Alert Warning",
+    "theme": "cyan",
+    "path": "<path d=\"M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z\"/><line x1=\"12\" y1=\"8\" x2=\"12\" y2=\"12\"/><line x1=\"12\" y1=\"16\" x2=\"12.01\" y2=\"16\"/>"
+  },
+  "463": {
+    "id": 463,
+    "name": "fingerprint_biometric",
+    "label": "Fingerprint Biometric",
+    "theme": "cyan",
+    "path": "<path d=\"M12 10a2 2 0 0 0-2 2c0 1.02-.1 2.51-.26 4M14 13.12c0 2.38 0 6.38-1 8.88M2 12h1a2 2 0 0 1 2 2v2a2 2 0 0 0 2 2h.5M20 12h-1a2 2 0 0 0-2 2v2a2 2 0 0 1-2 2h-.5M8 6a6 6 0 0 1 8 0c0 1.5-.5 3-1.5 4.5M6 10a8 8 0 0 1 12 0c0 2-1 4-2 6\"/>"
+  },
+  "464": {
+    "id": 464,
+    "name": "scan_viewfinder",
+    "label": "Scan Viewfinder",
+    "theme": "cyan",
+    "path": "<path d=\"M3 7V5a2 2 0 0 1 2-2h2M17 3h2a2 2 0 0 1 2 2v2M21 17v2a2 2 0 0 1-2 2h-2M7 21H5a2 2 0 0 1-2-2v-2\"/>"
+  },
+  "465": {
+    "id": 465,
+    "name": "key_round",
+    "label": "Key Round",
+    "theme": "cyan",
+    "path": "<circle cx=\"7.5\" cy=\"15.5\" r=\"5.5\"/><path d=\"m21 2-9.6 9.6M15.5 7.5l3 3M18.5 4.5l3 3\"/>"
+  },
+  "466": {
+    "id": 466,
+    "name": "lock_keyhole",
+    "label": "Lock Keyhole",
+    "theme": "cyan",
+    "path": "<rect x=\"3\" y=\"11\" width=\"18\" height=\"11\" rx=\"2\" ry=\"2\"/><path d=\"M7 11V7a5 5 0 0 1 10 0v4\"/><circle cx=\"12\" cy=\"16.5\" r=\"1.5\"/>"
+  },
+  "467": {
+    "id": 467,
+    "name": "user_check_verified",
+    "label": "User Check Verified",
+    "theme": "cyan",
+    "path": "<path d=\"M16 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2\"/><circle cx=\"8.5\" cy=\"7\" r=\"4\"/><polyline points=\"17 11 19 13 23 9\"/>"
+  },
+  "468": {
+    "id": 468,
+    "name": "user_x_denied",
+    "label": "User X Denied",
+    "theme": "cyan",
+    "path": "<path d=\"M16 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2\"/><circle cx=\"8.5\" cy=\"7\" r=\"4\"/><line x1=\"18\" y1=\"8\" x2=\"23\" y2=\"13\"/><line x1=\"23\" y1=\"8\" x2=\"18\" y2=\"13\"/>"
+  },
+  "469": {
+    "id": 469,
+    "name": "user_plus_add",
+    "label": "User Plus Add",
+    "theme": "cyan",
+    "path": "<path d=\"M16 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2\"/><circle cx=\"8.5\" cy=\"7\" r=\"4\"/><line x1=\"20\" y1=\"8\" x2=\"20\" y2=\"14\"/><line x1=\"23\" y1=\"11\" x2=\"17\" y2=\"11\"/>"
+  },
+  "470": {
+    "id": 470,
+    "name": "user_minus_remove",
+    "label": "User Minus Remove",
+    "theme": "cyan",
+    "path": "<path d=\"M16 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2\"/><circle cx=\"8.5\" cy=\"7\" r=\"4\"/><line x1=\"23\" y1=\"11\" x2=\"17\" y2=\"11\"/>"
+  },
+  "471": {
+    "id": 471,
+    "name": "sliders_equalizer",
+    "label": "Sliders Equalizer",
+    "theme": "cyan",
+    "path": "<line x1=\"4\" y1=\"21\" x2=\"4\" y2=\"14\"/><line x1=\"4\" y1=\"10\" x2=\"4\" y2=\"3\"/><line x1=\"12\" y1=\"21\" x2=\"12\" y2=\"12\"/><line x1=\"12\" y1=\"8\" x2=\"12\" y2=\"3\"/><line x1=\"20\" y1=\"21\" x2=\"20\" y2=\"16\"/><line x1=\"20\" y1=\"12\" x2=\"20\" y2=\"3\"/><line x1=\"1\" y1=\"14\" x2=\"7\" y2=\"14\"/><line x1=\"9\" y1=\"8\" x2=\"15\" y2=\"8\"/><line x1=\"17\" y1=\"16\" x2=\"23\" y2=\"16\"/>"
+  },
+  "472": {
+    "id": 472,
+    "name": "toggle_left_off",
+    "label": "Toggle Left Off",
+    "theme": "cyan",
+    "path": "<rect x=\"1\" y=\"5\" width=\"22\" height=\"14\" rx=\"7\" ry=\"7\"/><circle cx=\"8\" cy=\"12\" r=\"3\"/>"
+  },
+  "473": {
+    "id": 473,
+    "name": "toggle_right_on",
+    "label": "Toggle Right On",
+    "theme": "cyan",
+    "path": "<rect x=\"1\" y=\"5\" width=\"22\" height=\"14\" rx=\"7\" ry=\"7\"/><circle cx=\"16\" cy=\"12\" r=\"3\"/>"
+  },
+  "474": {
+    "id": 474,
+    "name": "gauge_speedometer",
+    "label": "Gauge Speedometer",
+    "theme": "cyan",
+    "path": "<path d=\"M12 14v4m0-4l3-3\"/><path d=\"M3.34 19a10 10 0 1 1 17.32 0\"/>"
+  },
+  "475": {
+    "id": 475,
+    "name": "help_circle_question",
+    "label": "Help Circle Question",
+    "theme": "cyan",
+    "path": "<circle cx=\"12\" cy=\"12\" r=\"10\"/><path d=\"M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3\"/><line x1=\"12\" y1=\"17\" x2=\"12.01\" y2=\"17\"/>"
+  },
+  "476": {
+    "id": 476,
+    "name": "info_information",
+    "label": "Info Information",
+    "theme": "cyan",
+    "path": "<circle cx=\"12\" cy=\"12\" r=\"10\"/><line x1=\"12\" y1=\"16\" x2=\"12\" y2=\"12\"/><line x1=\"12\" y1=\"8\" x2=\"12.01\" y2=\"8\"/>"
+  },
+  "477": {
+    "id": 477,
+    "name": "alert_triangle_hazard",
+    "label": "Alert Triangle Hazard",
+    "theme": "cyan",
+    "path": "<path d=\"M10.29 3.86L1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0z\"/><line x1=\"12\" y1=\"9\" x2=\"12\" y2=\"13\"/><line x1=\"12\" y1=\"17\" x2=\"12.01\" y2=\"17\"/>"
+  },
+  "478": {
+    "id": 478,
+    "name": "alert_circle_warning",
+    "label": "Alert Circle Warning",
+    "theme": "cyan",
+    "path": "<circle cx=\"12\" cy=\"12\" r=\"10\"/><line x1=\"12\" y1=\"8\" x2=\"12\" y2=\"12\"/><line x1=\"12\" y1=\"16\" x2=\"12.01\" y2=\"16\"/>"
+  },
+  "479": {
+    "id": 479,
+    "name": "alert_octagon_stop",
+    "label": "Alert Octagon Stop",
+    "theme": "cyan",
+    "path": "<polygon points=\"7.86 2 16.14 2 22 7.86 22 16.14 16.14 22 7.86 22 2 16.14 2 7.86 7.86 2\"/><line x1=\"12\" y1=\"8\" x2=\"12\" y2=\"12\"/><line x1=\"12\" y1=\"16\" x2=\"12.01\" y2=\"16\"/>"
+  },
+  "480": {
+    "id": 480,
+    "name": "check_circle_success",
+    "label": "Check Circle Success",
+    "theme": "cyan",
+    "path": "<path d=\"M22 11.08V12a10 10 0 1 1-5.93-9.14\"/><polyline points=\"22 4 12 14.01 9 11.01\"/>"
+  },
+  "481": {
+    "id": 481,
+    "name": "x_circle_error",
+    "label": "X Circle Error",
+    "theme": "cyan",
+    "path": "<circle cx=\"12\" cy=\"12\" r=\"10\"/><line x1=\"15\" y1=\"9\" x2=\"9\" y2=\"15\"/><line x1=\"9\" y1=\"9\" x2=\"15\" y2=\"15\"/>"
+  },
+  "482": {
+    "id": 482,
+    "name": "slash_ban",
+    "label": "Slash Ban",
+    "theme": "cyan",
+    "path": "<circle cx=\"12\" cy=\"12\" r=\"10\"/><line x1=\"4.93\" y1=\"4.93\" x2=\"19.07\" y2=\"19.07\"/>"
+  },
+  "483": {
+    "id": 483,
+    "name": "radio_tower_mast",
+    "label": "Radio Tower Mast",
+    "theme": "cyan",
+    "path": "<path d=\"M4.9 16.1 12 2l7.1 14.1\"/><path d=\"M7.5 11h9\"/><path d=\"M12 2v20\"/><path d=\"m8 22 4-6 4 6\"/>"
+  },
+  "484": {
+    "id": 484,
+    "name": "power_switch_off",
+    "label": "Power Switch Off",
+    "theme": "cyan",
+    "path": "<path d=\"M18.36 6.64a9 9 0 1 1-12.73 0\"/><line x1=\"12\" y1=\"2\" x2=\"12\" y2=\"12\"/>"
+  },
+  "485": {
+    "id": 485,
+    "name": "log_in_enter",
+    "label": "Log In Enter",
+    "theme": "cyan",
+    "path": "<path d=\"M15 3h4a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2h-4\"/><polyline points=\"10 17 15 12 10 7\"/><line x1=\"15\" y1=\"12\" x2=\"3\" y2=\"12\"/>"
+  },
+  "486": {
+    "id": 486,
+    "name": "log_out_exit",
+    "label": "Log Out Exit",
+    "theme": "cyan",
+    "path": "<path d=\"M9 21H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h4\"/><polyline points=\"16 17 21 12 16 7\"/><line x1=\"21\" y1=\"12\" x2=\"9\" y2=\"12\"/>"
+  },
+  "487": {
+    "id": 487,
+    "name": "loader_spinner",
+    "label": "Loader Spinner",
+    "theme": "cyan",
+    "path": "<line x1=\"12\" y1=\"2\" x2=\"12\" y2=\"6\"/><line x1=\"12\" y1=\"18\" x2=\"12\" y2=\"22\"/><line x1=\"4.93\" y1=\"4.93\" x2=\"7.76\" y2=\"7.76\"/><line x1=\"16.24\" y1=\"16.24\" x2=\"19.07\" y2=\"19.07\"/><line x1=\"2\" y1=\"12\" x2=\"6\" y2=\"12\"/><line x1=\"18\" y1=\"12\" x2=\"22\" y2=\"12\"/><line x1=\"4.93\" y1=\"19.07\" x2=\"7.76\" y2=\"16.24\"/><line x1=\"16.24\" y1=\"7.76\" x2=\"19.07\" y2=\"4.93\"/>"
+  },
+  "488": {
+    "id": 488,
+    "name": "minimize_shrink",
+    "label": "Minimize Shrink",
+    "theme": "cyan",
+    "path": "<polyline points=\"4 14 10 14 10 20\"/><polyline points=\"20 10 14 10 14 4\"/><line x1=\"14\" y1=\"10\" x2=\"21\" y2=\"3\"/><line x1=\"3\" y1=\"21\" x2=\"10\" y2=\"14\"/>"
+  },
+  "489": {
+    "id": 489,
+    "name": "move_4_way_arrows",
+    "label": "Move 4-Way Arrows",
+    "theme": "cyan",
+    "path": "<polyline points=\"5 9 2 12 5 15\"/><polyline points=\"9 5 12 2 15 5\"/><polyline points=\"15 19 12 22 9 19\"/><polyline points=\"19 9 22 12 19 15\"/><line x1=\"2\" y1=\"12\" x2=\"22\" y2=\"12\"/><line x1=\"12\" y1=\"2\" x2=\"12\" y2=\"22\"/>"
+  },
+  "490": {
+    "id": 490,
+    "name": "wrench_tool",
+    "label": "Wrench Tool",
+    "theme": "cyan",
+    "path": "<path d=\"M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z\"/>"
+  },
+  "491": {
+    "id": 491,
+    "name": "hammer_construction",
+    "label": "Hammer Construction",
+    "theme": "cyan",
+    "path": "<path d=\"m15 12-8.5 8.5a2.12 2.12 0 0 1-3-3L12 9\"/><path d=\"M17.64 4.36 21 7.72M14 6l3-3 5 5-3 3-5-5z\"/>"
+  },
+  "492": {
+    "id": 492,
+    "name": "screwdriver_fix",
+    "label": "Screwdriver Fix",
+    "theme": "cyan",
+    "path": "<path d=\"m14 10 7-7 1 1-7 7z\"/><path d=\"m9 15 5-5-2-2-5 5v2h2zM3 21l3-3\"/>"
+  },
+  "493": {
+    "id": 493,
+    "name": "hexagon_nut",
+    "label": "Hexagon Nut",
+    "theme": "cyan",
+    "path": "<polygon points=\"12 2 22 8.5 22 15.5 12 22 2 15.5 2 8.5 12 2\"/><circle cx=\"12\" cy=\"12\" r=\"4\"/>"
+  },
+  "494": {
+    "id": 494,
+    "name": "ruler_scale",
+    "label": "Ruler Scale",
+    "theme": "cyan",
+    "path": "<path d=\"M21.3 8.7 8.7 21.3a1 1 0 0 1-1.4 0L2.7 16.7a1 1 0 0 1 0-1.4L15.3 2.7a1 1 0 0 1 1.4 0l4.6 4.6a1 1 0 0 1 0 1.4z\"/><path d=\"m7.5 10.5 2 2m-4 2 2 2m6-6 2 2m2-2 2 2\"/>"
+  },
+  "495": {
+    "id": 495,
+    "name": "pen_tool_vector",
+    "label": "Pen Tool Vector",
+    "theme": "cyan",
+    "path": "<path d=\"M12 19l7-7 3 3-7 7-3-3z\"/><path d=\"M18 13l-1.5-7.5L2 2l3.5 14.5L13 18l5-5z\"/><circle cx=\"11\" cy=\"11\" r=\"2\"/>"
+  },
+  "496": {
+    "id": 496,
+    "name": "highlighter_marker",
+    "label": "Highlighter Marker",
+    "theme": "cyan",
+    "path": "<path d=\"m9 11-6 6v3h3l6-6\"/><path d=\"m22 12-4.6 4.6a2 2 0 0 1-2.8 0l-5.2-5.2a2 2 0 0 1 0-2.8L15 4a2 2 0 0 1 2.8 0l4.2 4.2a2 2 0 0 1 0 2.8z\"/>"
+  },
+  "497": {
+    "id": 497,
+    "name": "paperclip_attach",
+    "label": "Paperclip Attach",
+    "theme": "cyan",
+    "path": "<path d=\"M21.44 11.05l-9.19 9.19a6 6 0 0 1-8.49-8.49l9.19-9.19a4 4 0 0 1 5.66 5.66l-9.2 9.19a2 2 0 0 1-2.83-2.83l8.49-8.48\"/>"
+  },
+  "498": {
+    "id": 498,
+    "name": "clipboard_document",
+    "label": "Clipboard Document",
+    "theme": "cyan",
+    "path": "<path d=\"M16 4h2a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h2\"/><rect x=\"8\" y=\"2\" width=\"8\" height=\"4\" rx=\"1\" ry=\"1\"/>"
+  },
+  "499": {
+    "id": 499,
+    "name": "book_closed",
+    "label": "Book Closed",
+    "theme": "cyan",
+    "path": "<path d=\"M4 19.5A2.5 2.5 0 0 1 6.5 17H20\"/><path d=\"M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z\"/>"
+  },
+  "500": {
+    "id": 500,
+    "name": "book_open_read",
+    "label": "Book Open Read",
+    "theme": "cyan",
+    "path": "<path d=\"M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z\"/><path d=\"M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z\"/>"
+  },
+  "501": {
+    "id": 501,
+    "name": "graduation_cap_edu",
+    "label": "Graduation Cap Edu",
+    "theme": "cyan",
+    "path": "<path d=\"M22 10v6M2 10l10-5 10 5-10 5z\"/><path d=\"M6 12v5c3 3 9 3 12 0v-5\"/>"
+  },
+  "502": {
+    "id": 502,
+    "name": "coffee_cup_hot",
+    "label": "Coffee Cup Hot",
+    "theme": "cyan",
+    "path": "<path d=\"M18 8h1a4 4 0 0 1 0 8h-1\"/><path d=\"M2 8h16v9a4 4 0 0 1-4 4H6a4 4 0 0 1-4-4V8z\"/><line x1=\"6\" y1=\"1\" x2=\"6\" y2=\"4\"/><line x1=\"10\" y1=\"1\" x2=\"10\" y2=\"4\"/><line x1=\"14\" y1=\"1\" x2=\"14\" y2=\"4\"/>"
+  },
+  "503": {
+    "id": 503,
+    "name": "glass_water_cup",
+    "label": "Glass Water Cup",
+    "theme": "cyan",
+    "path": "<path d=\"M15.2 22H8.8a2 2 0 0 1-2-1.79L5 3h14l-1.8 17.21A2 2 0 0 1 15.2 22z\"/><line x1=\"6\" y1=\"12\" x2=\"18\" y2=\"12\"/>"
+  },
+  "504": {
+    "id": 504,
+    "name": "dumbbell_fitness",
+    "label": "Dumbbell Fitness",
+    "theme": "cyan",
+    "path": "<path d=\"m6.5 6.5 11 11M21 21l-1-1M3 3l1 1M18 22l4-4-3-3-4 4zM2 6l4-4 3 3-4 4z\"/>"
+  },
+  "505": {
+    "id": 505,
+    "name": "trophy_winner",
+    "label": "Trophy Winner",
+    "theme": "cyan",
+    "path": "<path d=\"M6 9H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h2m12 6h2a2 2 0 0 0 2-2V5a2 2 0 0 0-2-2h-2M6 3h12v7a6 6 0 0 1-12 0V3z\"/><line x1=\"12\" y1=\"16\" x2=\"12\" y2=\"22\"/><line x1=\"8\" y1=\"22\" x2=\"16\" y2=\"22\"/>"
+  },
+  "506": {
+    "id": 506,
+    "name": "target_archery",
+    "label": "Target Archery",
+    "theme": "cyan",
+    "path": "<circle cx=\"12\" cy=\"12\" r=\"10\"/><circle cx=\"12\" cy=\"12\" r=\"6\"/><circle cx=\"12\" cy=\"12\" r=\"2\"/><line x1=\"22\" y1=\"12\" x2=\"18\" y2=\"12\"/><line x1=\"6\" y1=\"12\" x2=\"2\" y2=\"12\"/><line x1=\"12\" y1=\"6\" x2=\"12\" y2=\"2\"/><line x1=\"12\" y1=\"22\" x2=\"12\" y2=\"18\"/>"
+  },
+  "507": {
+    "id": 507,
+    "name": "rocket_launch",
+    "label": "Rocket Launch",
+    "theme": "cyan",
+    "path": "<path d=\"M4.5 16.5c-1.5 1.26-2 5-2 5s3.74-.5 5-2c.71-.84.7-2.13-.09-2.91a2.18 2.18 0 0 0-2.91-.09z\"/><path d=\"m12 15-3-3a22 22 0 0 1 2-3.95A12.88 12.88 0 0 1 22 2c0 2.72-.78 7.5-6 11a22.35 22.35 0 0 1-4 2z\"/><path d=\"M9 12H4s.55-3.03 2-4c1.62-1.08 5 0 5 0\"/><path d=\"M12 15v5s3.03-.55 4-2c1.08-1.62 0-5 0-5\"/>"
+  },
+  "508": {
+    "id": 508,
+    "name": "lightbulb_idea",
+    "label": "Lightbulb Idea",
+    "theme": "cyan",
+    "path": "<path d=\"M15 14c.2-1 .7-1.7 1.5-2.5 1-.9 1.5-2.2 1.5-3.5A6 6 0 0 0 6 8c0 1 .2 2.2 1.5 3.5.7.7 1.3 1.5 1.5 2.5\"/><path d=\"M9 18h6m-5 3h4\"/>"
+  },
+  "509": {
+    "id": 509,
+    "name": "puzzle_jigsaw",
+    "label": "Puzzle Jigsaw",
+    "theme": "cyan",
+    "path": "<path d=\"M19.439 7.85c0-1.571-.944-2.85-2.109-2.85H16V3.5C16 2.12 14.88 1 13.5 1S11 2.12 11 3.5V5H9.67C8.505 5 7.561 6.279 7.561 7.85c0 .762.223 1.458.597 1.99a3.5 3.5 0 0 1-.597 1.66H6a2 2 0 0 0-2 2v2.5H2.5C1.12 16 0 17.12 0 18.5S1.12 21 2.5 21H4v1.5a2 2 0 0 0 2 2h2.5v1.5c0 1.38 1.12 2.5 2.5 2.5s2.5-1.12 2.5-2.5V24.5H16a2 2 0 0 0 2-2v-2.5h1.439c1.165 0 2.109-1.279 2.109-2.85 0-.762-.223-1.458-.597-1.99.374-.532.597-1.228.597-1.99 0-.762-.223-1.458-.597-1.99.374-.532.597-1.228.597-1.99z\"/>"
+  },
+  "510": {
+    "id": 510,
+    "name": "crown_king_gold",
+    "label": "Crown King Gold",
+    "theme": "cyan",
+    "path": "<polygon points=\"12 2 15 9 22 9 17 14 19 21 12 17 5 21 7 14 2 9 9 9 12 2\"/>"
+  },
+  "511": {
+    "id": 511,
+    "name": "all_silicon_spectrum",
+    "label": "All Silicon Spectrum",
+    "theme": "cyan",
+    "path": "<circle cx=\"12\" cy=\"12\" r=\"10\"/><polygon points=\"12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2\"/>"
+  },
+  "512": {
+    "id": 512,
+    "name": "razor_split",
+    "label": "Razor Split",
+    "theme": "cyan",
+    "path": "<path d=\"M6 6a3 3 0 1 0 0-6 3 3 0 0 0 0 6zM6 24a3 3 0 1 0 0-6 3 3 0 0 0 0 6z\"/><line x1=\"8.12\" y1=\"5.88\" x2=\"16\" y2=\"12\"/><line x1=\"8.12\" y1=\"18.12\" x2=\"16\" y2=\"12\"/><line x1=\"16\" y1=\"12\" x2=\"22\" y2=\"12\"/><line x1=\"16\" y1=\"2\" x2=\"16\" y2=\"22\" stroke-dasharray=\"2 2\" stroke-width=\"1.5\"/>"
+  },
+  "513": {
+    "id": 513,
+    "name": "razor_blade",
+    "label": "Razor Blade",
+    "theme": "cyan",
+    "path": "<rect x=\"3\" y=\"6\" width=\"18\" height=\"12\" rx=\"2\"/><line x1=\"12\" y1=\"2\" x2=\"12\" y2=\"22\"/><line x1=\"7\" y1=\"12\" x2=\"17\" y2=\"12\"/><circle cx=\"7\" cy=\"12\" r=\"1.5\" fill=\"currentColor\"/><circle cx=\"17\" cy=\"12\" r=\"1.5\" fill=\"currentColor\"/><rect x=\"10\" y=\"10\" width=\"4\" height=\"4\" rx=\"1\"/>"
+  },
+  "514": {
+    "id": 514,
+    "name": "left_cut",
+    "label": "Left Cut",
+    "theme": "cyan",
+    "path": "<path d=\"M19 6a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5zM19 23a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5z\"/><line x1=\"16.8\" y1=\"5.5\" x2=\"11\" y2=\"12\"/><line x1=\"16.8\" y1=\"18.5\" x2=\"11\" y2=\"12\"/><polyline points=\"7 9 4 12 7 15\" stroke-width=\"2.2\"/><line x1=\"4\" y1=\"12\" x2=\"11\" y2=\"12\"/><line x1=\"19\" y1=\"1\" x2=\"19\" y2=\"23\" stroke-dasharray=\"2 2\" stroke-width=\"1.2\"/>"
+  },
+  "515": {
+    "id": 515,
+    "name": "trim_left",
+    "label": "Trim Left",
+    "theme": "cyan",
+    "path": "<path d=\"M4 4v16\"/><path d=\"M8 7l-4 5 4 5\"/><rect x=\"8\" y=\"7\" width=\"12\" height=\"10\" rx=\"1.5\" fill=\"currentColor\" fill-opacity=\"0.15\"/><line x1=\"20\" y1=\"4\" x2=\"20\" y2=\"20\" stroke-dasharray=\"2 2\"/>"
+  },
+  "516": {
+    "id": 516,
+    "name": "right_cut",
+    "label": "Right Cut",
+    "theme": "cyan",
+    "path": "<path d=\"M5 6a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5zM5 23a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5z\"/><line x1=\"7.2\" y1=\"5.5\" x2=\"13\" y2=\"12\"/><line x1=\"7.2\" y1=\"18.5\" x2=\"13\" y2=\"12\"/><polyline points=\"17 9 20 12 17 15\" stroke-width=\"2.2\"/><line x1=\"13\" y1=\"12\" x2=\"20\" y2=\"12\"/><line x1=\"5\" y1=\"1\" x2=\"5\" y2=\"23\" stroke-dasharray=\"2 2\" stroke-width=\"1.2\"/>"
+  },
+  "517": {
+    "id": 517,
+    "name": "trim_right",
+    "label": "Trim Right",
+    "theme": "cyan",
+    "path": "<path d=\"M20 4v16\"/><path d=\"M16 7l4 5-4 5\"/><rect x=\"4\" y=\"7\" width=\"12\" height=\"10\" rx=\"1.5\" fill=\"currentColor\" fill-opacity=\"0.15\"/><line x1=\"4\" y1=\"4\" x2=\"4\" y2=\"20\" stroke-dasharray=\"2 2\"/>"
+  },
+  "518": {
+    "id": 518,
+    "name": "ripple_delete",
+    "label": "Ripple Delete",
+    "theme": "cyan",
+    "path": "<polyline points=\"3 6 5 6 21 6\"/><path d=\"M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2\"/><polyline points=\"10 11 8 13 10 15\"/><polyline points=\"14 11 16 13 14 15\"/><line x1=\"8\" y1=\"13\" x2=\"16\" y2=\"13\"/>"
+  },
+  "519": {
+    "id": 519,
+    "name": "slip_edit",
+    "label": "Slip Edit",
+    "theme": "cyan",
+    "path": "<line x1=\"3\" y1=\"4\" x2=\"3\" y2=\"20\"/><line x1=\"21\" y1=\"4\" x2=\"21\" y2=\"20\"/><polyline points=\"9 9 6 12 9 15\"/><polyline points=\"15 9 18 12 15 15\"/><line x1=\"6\" y1=\"12\" x2=\"18\" y2=\"12\"/><rect x=\"7\" y=\"6\" width=\"10\" height=\"12\" rx=\"1\" fill=\"currentColor\" fill-opacity=\"0.1\"/>"
+  },
+  "520": {
+    "id": 520,
+    "name": "slide_edit",
+    "label": "Slide Edit",
+    "theme": "cyan",
+    "path": "<rect x=\"6\" y=\"6\" width=\"12\" height=\"12\" rx=\"2\"/><polyline points=\"4 9 1 12 4 15\"/><polyline points=\"20 9 23 12 20 15\"/><line x1=\"1\" y1=\"12\" x2=\"6\" y2=\"12\"/><line x1=\"18\" y1=\"12\" x2=\"23\" y2=\"12\"/>"
+  },
+  "521": {
+    "id": 521,
+    "name": "magnetic_snap",
+    "label": "Magnetic Snap",
+    "theme": "cyan",
+    "path": "<path d=\"M6 3v7a6 6 0 0 0 12 0V3\"/><line x1=\"4\" y1=\"7\" x2=\"8\" y2=\"7\"/><line x1=\"16\" y1=\"7\" x2=\"20\" y2=\"7\"/><line x1=\"12\" y1=\"16\" x2=\"12\" y2=\"22\" stroke-dasharray=\"2 2\"/><polyline points=\"9 19 12 22 15 19\"/>"
+  },
+  "522": {
+    "id": 522,
+    "name": "keyframe_diamond",
+    "label": "Keyframe Diamond",
+    "theme": "cyan",
+    "path": "<polygon points=\"12 2 22 12 12 22 2 12 12 2\" fill=\"currentColor\" fill-opacity=\"0.2\" stroke=\"currentColor\" stroke-width=\"2\"/><circle cx=\"12\" cy=\"12\" r=\"2.5\" fill=\"currentColor\"/>"
+  },
+  "523": {
+    "id": 523,
+    "name": "speed_ramp",
+    "label": "Speed Ramp",
+    "theme": "cyan",
+    "path": "<path d=\"M3 18c4-1 6-12 11-12 3 0 4 8 7 8\"/><circle cx=\"3\" cy=\"18\" r=\"2\" fill=\"currentColor\"/><circle cx=\"14\" cy=\"6\" r=\"2\" fill=\"currentColor\"/><circle cx=\"21\" cy=\"14\" r=\"2\" fill=\"currentColor\"/><polyline points=\"17 4 21 4 21 8\"/>"
+  },
+  "524": {
+    "id": 524,
+    "name": "freeze_frame",
+    "label": "Freeze Frame",
+    "theme": "cyan",
+    "path": "<rect x=\"3\" y=\"4\" width=\"18\" height=\"16\" rx=\"2\"/><line x1=\"12\" y1=\"8\" x2=\"12\" y2=\"16\"/><line x1=\"8\" y1=\"12\" x2=\"16\" y2=\"12\"/><line x1=\"9\" y1=\"9\" x2=\"15\" y2=\"15\"/><line x1=\"9\" y1=\"15\" x2=\"15\" y2=\"9\"/><circle cx=\"12\" cy=\"12\" r=\"1.5\" fill=\"currentColor\"/>"
+  },
+  "525": {
+    "id": 525,
+    "name": "pip_overlay",
+    "label": "PiP Overlay",
+    "theme": "cyan",
+    "path": "<rect x=\"2\" y=\"4\" width=\"20\" height=\"16\" rx=\"2\"/><rect x=\"12\" y=\"11\" width=\"8\" height=\"7\" rx=\"1.5\" fill=\"currentColor\" fill-opacity=\"0.3\" stroke=\"currentColor\" stroke-width=\"1.8\"/>"
+  },
+  "526": {
+    "id": 526,
+    "name": "mask_pen",
+    "label": "Mask Pen",
+    "theme": "cyan",
+    "path": "<path d=\"M12 2l4 8-4 12-4-12 4-8z\"/><circle cx=\"12\" cy=\"10\" r=\"2\"/><circle cx=\"4\" cy=\"14\" r=\"1.5\"/><circle cx=\"20\" cy=\"14\" r=\"1.5\"/><path d=\"M4 14q8-3 16 0\" stroke-dasharray=\"2 2\"/>"
+  },
+  "527": {
+    "id": 527,
+    "name": "detach_audio",
+    "label": "Detach Audio",
+    "theme": "cyan",
+    "path": "<rect x=\"3\" y=\"3\" width=\"18\" height=\"8\" rx=\"2\"/><path d=\"M3 17a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2v2a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-2z\"/><path d=\"M7 18v-1\"/><path d=\"M10 19v-3\"/><path d=\"M13 18.5v-2\"/><path d=\"M17 19v-3\"/>"
+  },
+  "528": {
+    "id": 528,
+    "name": "crossfade_audio",
+    "label": "Crossfade Audio",
+    "theme": "cyan",
+    "path": "<rect x=\"3\" y=\"4\" width=\"18\" height=\"16\" rx=\"2\"/><path d=\"M4 18c6 0 8-12 16-12\" stroke-width=\"2\"/><path d=\"M4 6c6 0 8 12 16 12\" stroke-dasharray=\"2 2\"/>"
+  },
+  "529": {
+    "id": 529,
+    "name": "reverse_clip",
+    "label": "Reverse Clip",
+    "theme": "cyan",
+    "path": "<polygon points=\"11 19 2 12 11 5 11 19\"/><polygon points=\"22 19 13 12 22 5 22 19\"/><path d=\"M12 2a10 10 0 1 0 10 10\" stroke-dasharray=\"3 3\"/>"
+  },
+  "530": {
+    "id": 530,
+    "name": "export_render_4k",
+    "label": "Export Render 4K",
+    "theme": "cyan",
+    "path": "<rect x=\"3\" y=\"5\" width=\"18\" height=\"14\" rx=\"2\"/><polyline points=\"8 12 12 16 16 12\"/><line x1=\"12\" y1=\"8\" x2=\"12\" y2=\"16\"/><line x1=\"3\" y1=\"9\" x2=\"21\" y2=\"9\"/><line x1=\"7\" y1=\"5\" x2=\"7\" y2=\"9\"/><line x1=\"17\" y1=\"5\" x2=\"17\" y2=\"9\"/>"
+  },
+  "531": {
+    "id": 531,
+    "name": "track_video_v1",
+    "label": "Track Video V1",
+    "theme": "cyan",
+    "path": "<rect x=\"2\" y=\"4\" width=\"20\" height=\"16\" rx=\"2\"/><path d=\"M2 8h20\"/><path d=\"M2 16h20\"/><path d=\"M8 4v4\"/><path d=\"M16 4v4\"/><path d=\"M8 16v4\"/><path d=\"M16 16v4\"/><path d=\"M9 11l4 2.5-4 2.5v-5z\" fill=\"currentColor\"/>"
+  },
+  "532": {
+    "id": 532,
+    "name": "track_audio_a1",
+    "label": "Track Audio A1",
+    "theme": "cyan",
+    "path": "<rect x=\"2\" y=\"4\" width=\"20\" height=\"16\" rx=\"2\"/><path d=\"M6 10v4\"/><path d=\"M9 8v8\"/><path d=\"M12 6v12\"/><path d=\"M15 9v6\"/><path d=\"M18 11v2\"/>"
+  },
+  "533": {
+    "id": 533,
+    "name": "track_text_t1",
+    "label": "Track Text T1",
+    "theme": "cyan",
+    "path": "<rect x=\"2\" y=\"4\" width=\"20\" height=\"16\" rx=\"2\"/><path d=\"M7 8h10\"/><path d=\"M12 8v8\"/><path d=\"M10 16h4\"/>"
+  },
+  "534": {
+    "id": 534,
+    "name": "eye_open",
+    "label": "Eye Open",
+    "theme": "cyan",
+    "path": "<path d=\"M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z\"/><circle cx=\"12\" cy=\"12\" r=\"3\"/>"
+  },
+  "535": {
+    "id": 535,
+    "name": "eye_slash",
+    "label": "Eye Slash",
+    "theme": "cyan",
+    "path": "<path d=\"M17.94 17.94A10.07 10.07 0 0 1 12 20c-7 0-11-8-11-8a18.45 18.45 0 0 1 5.06-5.94M9.9 4.24A9.12 9.12 0 0 1 12 4c7 0 11 8 11 8a18.5 18.5 0 0 1-2.16 3.19m-6.72-1.07a3 3 0 1 1-4.24-4.24\"/><line x1=\"1\" y1=\"1\" x2=\"23\" y2=\"23\"/>"
+  },
+  "536": {
+    "id": 536,
+    "name": "track_lock",
+    "label": "Track Lock",
+    "theme": "cyan",
+    "path": "<rect x=\"3\" y=\"11\" width=\"18\" height=\"11\" rx=\"2\" ry=\"2\"/><path d=\"M7 11V7a5 5 0 0 1 10 0v4\"/>"
+  },
+  "537": {
+    "id": 537,
+    "name": "track_unlock",
+    "label": "Track Unlock",
+    "theme": "cyan",
+    "path": "<rect x=\"3\" y=\"11\" width=\"18\" height=\"11\" rx=\"2\" ry=\"2\"/><path d=\"M7 11V7a5 5 0 0 1 9.9-1\"/>"
+  },
+  "538": {
+    "id": 538,
+    "name": "audio_mute_badge",
+    "label": "Audio Mute Badge",
+    "theme": "cyan",
+    "path": "<rect x=\"3\" y=\"3\" width=\"18\" height=\"18\" rx=\"4\" fill=\"currentColor\" fill-opacity=\"0.2\"/><path d=\"M7 17V7l5 5 5-5v10\" stroke-width=\"2.4\"/>"
+  },
+  "539": {
+    "id": 539,
+    "name": "audio_solo_badge",
+    "label": "Audio Solo Badge",
+    "theme": "cyan",
+    "path": "<rect x=\"3\" y=\"3\" width=\"18\" height=\"18\" rx=\"4\" fill=\"currentColor\" fill-opacity=\"0.2\"/><path d=\"M16 8.5a3 3 0 0 0-3-2.5h-2a3 3 0 0 0 0 6h2a3 3 0 0 1 0 6h-2a3 3 0 0 1-3-2.5\" stroke-width=\"2.4\"/>"
+  },
+  "540": {
+    "id": 540,
+    "name": "audio_record_arm",
+    "label": "Audio Record Arm",
+    "theme": "cyan",
+    "path": "<rect x=\"3\" y=\"3\" width=\"18\" height=\"18\" rx=\"4\"/><circle cx=\"12\" cy=\"12\" r=\"5\" fill=\"#ef4444\" stroke=\"#f87171\" stroke-width=\"1.5\"/>"
+  },
+  "541": {
+    "id": 541,
+    "name": "align_left",
+    "label": "Align Left",
+    "theme": "cyan",
+    "path": "<line x1=\"17\" y1=\"10\" x2=\"3\" y2=\"10\"/><line x1=\"21\" y1=\"6\" x2=\"3\" y2=\"6\"/><line x1=\"21\" y1=\"14\" x2=\"3\" y2=\"14\"/><line x1=\"15\" y1=\"18\" x2=\"3\" y2=\"18\"/>"
+  },
+  "542": {
+    "id": 542,
+    "name": "align_center",
+    "label": "Align Center",
+    "theme": "cyan",
+    "path": "<line x1=\"18\" y1=\"10\" x2=\"6\" y2=\"10\"/><line x1=\"21\" y1=\"6\" x2=\"3\" y2=\"6\"/><line x1=\"21\" y1=\"14\" x2=\"3\" y2=\"14\"/><line x1=\"18\" y1=\"18\" x2=\"6\" y2=\"18\"/>"
+  },
+  "543": {
+    "id": 543,
+    "name": "align_right",
+    "label": "Align Right",
+    "theme": "cyan",
+    "path": "<line x1=\"21\" y1=\"10\" x2=\"7\" y2=\"10\"/><line x1=\"21\" y1=\"6\" x2=\"3\" y2=\"6\"/><line x1=\"21\" y1=\"14\" x2=\"3\" y2=\"14\"/><line x1=\"21\" y1=\"18\" x2=\"9\" y2=\"18\"/>"
+  },
+  "544": {
+    "id": 544,
+    "name": "text_shadow_fx",
+    "label": "Text Shadow FX",
+    "theme": "cyan",
+    "path": "<path d=\"M14 9V5a3 3 0 0 0-3-3l-4 9v11h11.28a2 2 0 0 0 2-1.7l1.38-9a2 2 0 0 0-2-2.3z\" stroke-dasharray=\"2 2\"/><rect x=\"4\" y=\"4\" width=\"14\" height=\"14\" rx=\"3\"/><path d=\"M8 8h6\"/><path d=\"M11 8v6\"/>"
+  },
+  "545": {
+    "id": 545,
+    "name": "3_way_color_wheel",
+    "label": "3-Way Color Wheel",
+    "theme": "cyan",
+    "path": "<circle cx=\"12\" cy=\"12\" r=\"10\"/><circle cx=\"12\" cy=\"12\" r=\"4\"/><line x1=\"12\" y1=\"2\" x2=\"12\" y2=\"8\"/><line x1=\"12\" y1=\"16\" x2=\"12\" y2=\"22\"/><line x1=\"2\" y1=\"12\" x2=\"8\" y2=\"12\"/><line x1=\"16\" y1=\"12\" x2=\"22\" y2=\"12\"/>"
+  },
+  "546": {
+    "id": 546,
+    "name": "temperature_warm",
+    "label": "Temperature Warm",
+    "theme": "cyan",
+    "path": "<circle cx=\"12\" cy=\"12\" r=\"5\" fill=\"#f59e0b\"/><line x1=\"12\" y1=\"1\" x2=\"12\" y2=\"3\"/><line x1=\"12\" y1=\"21\" x2=\"12\" y2=\"23\"/><line x1=\"4.22\" y1=\"4.22\" x2=\"5.64\" y2=\"5.64\"/><line x1=\"18.36\" y1=\"18.36\" x2=\"19.78\" y2=\"19.78\"/><line x1=\"1\" y1=\"12\" x2=\"3\" y2=\"12\"/><line x1=\"21\" y1=\"12\" x2=\"23\" y2=\"12\"/><line x1=\"4.22\" y1=\"19.78\" x2=\"5.64\" y2=\"18.36\"/><line x1=\"18.36\" y1=\"5.64\" x2=\"19.78\" y2=\"4.22\"/>"
+  },
+  "547": {
+    "id": 547,
+    "name": "temperature_cold",
+    "label": "Temperature Cold",
+    "theme": "cyan",
+    "path": "<line x1=\"12\" y1=\"2\" x2=\"12\" y2=\"22\"/><line x1=\"2\" y1=\"12\" x2=\"22\" y2=\"12\"/><line x1=\"4.93\" y1=\"4.93\" x2=\"19.07\" y2=\"19.07\"/><line x1=\"19.07\" y1=\"4.93\" x2=\"4.93\" y2=\"19.07\"/><circle cx=\"12\" cy=\"12\" r=\"2\" fill=\"#38bdf8\"/>"
+  },
+  "548": {
+    "id": 548,
+    "name": "reset_transform",
+    "label": "Reset Transform",
+    "theme": "cyan",
+    "path": "<path d=\"M3 12a9 9 0 1 0 9-9 9.75 9.75 0 0 0-6.74 2.74L3 8\"/><path d=\"M3 3v5h5\"/>"
+  },
+  "549": {
+    "id": 549,
+    "name": "2d_joystick_pan",
+    "label": "2D Joystick Pan",
+    "theme": "cyan",
+    "path": "<circle cx=\"12\" cy=\"12\" r=\"10\"/><circle cx=\"12\" cy=\"12\" r=\"3\" fill=\"currentColor\"/><line x1=\"12\" y1=\"2\" x2=\"12\" y2=\"6\"/><line x1=\"12\" y1=\"18\" x2=\"12\" y2=\"22\"/><line x1=\"2\" y1=\"12\" x2=\"6\" y2=\"12\"/><line x1=\"18\" y1=\"12\" x2=\"22\" y2=\"12\"/>"
+  },
+  "550": {
+    "id": 550,
+    "name": "subtitle_lower_third",
+    "label": "Subtitle Lower-Third",
+    "theme": "cyan",
+    "path": "<rect x=\"2\" y=\"4\" width=\"20\" height=\"16\" rx=\"2\"/><rect x=\"5\" y=\"14\" width=\"14\" height=\"3\" rx=\"1\" fill=\"currentColor\" fill-opacity=\"0.4\"/><line x1=\"7\" y1=\"11\" x2=\"17\" y2=\"11\"/>"
+  },
+  "551": {
+    "id": 551,
+    "name": "add_media",
+    "label": "Add Media Lane",
+    "theme": "cyan",
+    "path": "<rect x=\"2\" y=\"3\" width=\"20\" height=\"18\" rx=\"3\" fill=\"none\" stroke=\"#38bdf8\" stroke-width=\"2\"/><line x1=\"2\" y1=\"8\" x2=\"22\" y2=\"8\" stroke=\"#38bdf8\" stroke-width=\"1.5\"/><circle cx=\"5\" cy=\"5.5\" r=\"1\" fill=\"#38bdf8\"/><circle cx=\"10\" cy=\"5.5\" r=\"1\" fill=\"#38bdf8\"/><circle cx=\"15\" cy=\"5.5\" r=\"1\" fill=\"#38bdf8\"/><circle cx=\"19\" cy=\"5.5\" r=\"1\" fill=\"#38bdf8\"/><line x1=\"12\" y1=\"11\" x2=\"12\" y2=\"18\" stroke=\"#38bdf8\" stroke-width=\"2.5\" stroke-linecap=\"round\"/><line x1=\"8.5\" y1=\"14.5\" x2=\"15.5\" y2=\"14.5\" stroke=\"#38bdf8\" stroke-width=\"2.5\" stroke-linecap=\"round\"/>"
+  },
+  "552": {
+    "id": 552,
+    "name": "add_video",
+    "label": "Add Video Track",
+    "theme": "cyan",
+    "path": "<rect x=\"2\" y=\"6\" width=\"13\" height=\"12\" rx=\"2\" fill=\"none\" stroke=\"#38bdf8\" stroke-width=\"2\"/><polygon points=\"15 10 21 7 21 17 15 14\" fill=\"#38bdf8\"/><line x1=\"8.5\" y1=\"9\" x2=\"8.5\" y2=\"15\" stroke=\"#38bdf8\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"5.5\" y1=\"12\" x2=\"11.5\" y2=\"12\" stroke=\"#38bdf8\" stroke-width=\"2.2\" stroke-linecap=\"round\"/>"
+  },
+  "553": {
+    "id": 553,
+    "name": "add_audio",
+    "label": "Add Audio Track",
+    "theme": "amber",
+    "path": "<path d=\"M9 18V5l12-2v13\" fill=\"none\" stroke=\"#f59e0b\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><circle cx=\"6\" cy=\"18\" r=\"3\" fill=\"#f59e0b\"/><circle cx=\"18\" cy=\"16\" r=\"3\" fill=\"#f59e0b\"/><circle cx=\"6\" cy=\"8\" r=\"4.5\" fill=\"#0f172a\" stroke=\"#f59e0b\" stroke-width=\"1.5\"/><line x1=\"6\" y1=\"5.5\" x2=\"6\" y2=\"10.5\" stroke=\"#f59e0b\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"3.5\" y1=\"8\" x2=\"8.5\" y2=\"8\" stroke=\"#f59e0b\" stroke-width=\"2\" stroke-linecap=\"round\"/>"
+  },
+  "554": {
+    "id": 554,
+    "name": "add_text",
+    "label": "Add Text Track",
+    "theme": "purple",
+    "path": "<polyline points=\"4 7 4 4 16 4 16 7\" fill=\"none\" stroke=\"#c084fc\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><line x1=\"10\" y1=\"4\" x2=\"10\" y2=\"18\" stroke=\"#c084fc\" stroke-width=\"2\" stroke-linecap=\"round\"/><circle cx=\"17\" cy=\"15\" r=\"4.5\" fill=\"#0f172a\" stroke=\"#c084fc\" stroke-width=\"1.5\"/><line x1=\"17\" y1=\"12.5\" x2=\"17\" y2=\"17.5\" stroke=\"#c084fc\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"14.5\" y1=\"15\" x2=\"19.5\" y2=\"15\" stroke=\"#c084fc\" stroke-width=\"2\" stroke-linecap=\"round\"/>"
+  },
+  "555": {
+    "id": 555,
+    "name": "add_overlay",
+    "label": "Add Overlay Track",
+    "theme": "rose",
+    "path": "<rect x=\"2\" y=\"3\" width=\"13\" height=\"11\" rx=\"2\" fill=\"none\" stroke=\"#f43f5e\" stroke-width=\"1.8\"/><rect x=\"9\" y=\"8\" width=\"13\" height=\"13\" rx=\"2.5\" fill=\"#0f172a\" stroke=\"#f43f5e\" stroke-width=\"2\"/><line x1=\"15.5\" y1=\"11.5\" x2=\"15.5\" y2=\"17.5\" stroke=\"#f43f5e\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"12.5\" y1=\"14.5\" x2=\"18.5\" y2=\"14.5\" stroke=\"#f43f5e\" stroke-width=\"2.2\" stroke-linecap=\"round\"/>"
+  },
+  "556": {
+    "id": 556,
+    "name": "add_layer",
+    "label": "Add Layer Track",
+    "theme": "emerald",
+    "path": "<polygon points=\"12 2 3 6.5 12 11 21 6.5 12 2\" fill=\"none\" stroke=\"#10b981\" stroke-width=\"2\" stroke-linejoin=\"round\"/><path d=\"M3 11.5l9 4.5 9-4.5\" fill=\"none\" stroke=\"#10b981\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><path d=\"M3 16.5l9 4.5 9-4.5\" fill=\"none\" stroke=\"#10b981\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><circle cx=\"18\" cy=\"6\" r=\"4.5\" fill=\"#0f172a\" stroke=\"#10b981\" stroke-width=\"1.5\"/><line x1=\"18\" y1=\"3.5\" x2=\"18\" y2=\"8.5\" stroke=\"#10b981\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"15.5\" y1=\"6\" x2=\"20.5\" y2=\"6\" stroke=\"#10b981\" stroke-width=\"2\" stroke-linecap=\"round\"/>"
+  }
+}
