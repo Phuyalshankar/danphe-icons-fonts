@@ -283,8 +283,8 @@ const RAW_ICONS = [
   [274, "chevron_right", "Chevron Right", "cyan", "<polyline points=\"9 18 15 12 9 6\"/>"],
   [275, "arrow_up", "Arrow Up", "cyan", "<line x1=\"12\" y1=\"19\" x2=\"12\" y2=\"5\"/><polyline points=\"5 12 12 5 19 12\"/>"],
   [276, "arrow_down", "Arrow Down", "cyan", "<line x1=\"12\" y1=\"5\" x2=\"12\" y2=\"19\"/><polyline points=\"19 12 12 19 5 12\"/>"],
-  [277, "arrow_left", "Arrow Left", "cyan", "<line x1=\"19\" y1=\"12\" x2=\"5\" y2=\"12\"/><polyline points=\"12 19 5 12 12 5\"/>"],
-  [278, "arrow_right", "Arrow Right", "cyan", "<line x1=\"5\" y1=\"12\" x2=\"19\" y2=\"12\"/><polyline points=\"12 5 19 12 12 19\"/>"],
+  [277, "undo", "Undo History", "amber", "<path d=\"M3 7v6h6\" fill=\"none\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><path d=\"M21 17a9 9 0 0 0-9-9 9 9 0 0 0-6 2.3L3 13\" fill=\"none\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>"],
+  [278, "redo", "Redo History", "amber", "<path d=\"M21 7v6h-6\" fill=\"none\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><path d=\"M3 17a9 9 0 0 1 9-9 9 9 0 0 1 6 2.3L21 13\" fill=\"none\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>"],
   [279, "expand", "Expand", "cyan", "<polyline points=\"15 3 21 3 21 9\"/><polyline points=\"9 21 3 21 3 15\"/><line x1=\"21\" y1=\"3\" x2=\"14\" y2=\"10\"/><line x1=\"3\" y1=\"21\" x2=\"10\" y2=\"14\"/>"],
   [280, "edit", "Edit", "cyan", "<path d=\"M11 4H4a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-7\"/><path d=\"M18.5 2.5a2.121 2.121 0 0 1 3 3L12 15l-4 1 1-4 9.5-9.5z\"/>"],
   [281, "trash", "Trash", "cyan", "<polyline points=\"3 6 5 6 21 6\"/><path d=\"M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2\"/><line x1=\"10\" y1=\"11\" x2=\"10\" y2=\"17\"/><line x1=\"14\" y1=\"11\" x2=\"14\" y2=\"17\"/>"],
@@ -586,6 +586,10 @@ const ICONS_BY_NAME = new Map(ICONS_557.map(ic => [ic.name.toLowerCase(), ic]));
 ICONS_BY_NAME.set('overlay', ICONS_BY_ID.get(555));
 ICONS_BY_NAME.set('layer', ICONS_BY_ID.get(556));
 ICONS_BY_NAME.set('layers', ICONS_BY_ID.get(556));
+ICONS_BY_NAME.set('undo', ICONS_BY_ID.get(277));
+ICONS_BY_NAME.set('redo', ICONS_BY_ID.get(278));
+ICONS_BY_NAME.set('arrow_left', ICONS_BY_ID.get(277));
+ICONS_BY_NAME.set('arrow_right', ICONS_BY_ID.get(278));
 
 function getIcon(opcodeOrName) {
     if (typeof opcodeOrName === 'number') {
