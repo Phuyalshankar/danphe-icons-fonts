@@ -1,6 +1,6 @@
 {
   "name": "danphe-icons-fonts",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Ultra-lightweight 256 Vector Icons & 256 Fonts Suite with Native C++ & Titan-Bus SISO Serial Distribution.",
   "main": "src/index.js",
   "scripts": {

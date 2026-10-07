@@ -130,7 +130,7 @@ function renderAdaptiveIconSVG(inputVal, missedCount = 0, size = 64, forceCircle
         }
     }
 
-    const op = rawNum & 0xFF;
+    const op = rawNum <= 255 ? (rawNum & 0xFF) : rawNum;
     const iconData = getIcon(op);
     const circle = forceCircle !== null ? forceCircle : !isNegative;
     const t = THEMES[iconData.theme] || THEMES.slate;

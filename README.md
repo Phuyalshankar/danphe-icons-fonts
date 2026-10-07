@@ -1,7 +1,77 @@
-# 🐬 Danphe Icons & Fonts 256
+# 🐬 Danphe Icons & Fonts 557
 
 > **The Universal Ultra-Lightweight Vector & Typography Engine with Titan-Bus SISO Serial Streaming.**  
-> Pure C++17 Generation • 100% Offline Nepali & Hardware Typography • Zero Node Bloat • Sub-Microsecond Rendering.
+> 557 Pure Mathematical SVG Vectors • 256 Offline Fonts • 2-Byte SISO Serial Register Bus (`0x4701` / `0x4702`) • Sub-Microsecond 0ms Rendering • Zero NPM Bloat.
+
+---
+
+## ⚡ Quick Start: Single-Line SISO Serial API
+
+Import `siso` directly and access icons and typography with zero boilerplate:
+
+```javascript
+const { siso } = require('danphe-icons-fonts');
+
+// 1. Single-Line Instant Icon Read (0ms latency, pure SVG return)
+const splitIcon = siso.readIcon(280);
+const customIcon = siso.readIcon('split', { size: 24, color: '#38bdf8' });
+
+// 2. Write Icon to Serial Bus (Sends 2-byte packet to register 0x4701)
+siso.writeIcon(280);
+
+// 3. Dynamic Array / Batch Read (e.g. on button click [10, 50, 58])
+const activeIcons = siso.readIcons([10, 50, 58]);
+
+// 4. Clean Range & Loop Support (e.g. 0 to 25 or 10-10 chunking)
+const ribbonIcons = siso.rangeIcons(0, 25);
+const chunk0 = siso.chunkIcons(10, 0); // items 0 to 9
+const chunk1 = siso.chunkIcons(10, 1); // items 10 to 19
+
+// 5. Single-Line Font Read & Write (Register 0x4702)
+const nepaliFontCss = siso.readFont(32); // Sagarmatha Royal Devanagari
+siso.writeFont(32);
+
+// 6. Reactive Hardware Serial Bus Listener
+siso.on(0x4201, (toolMode) => {
+    console.log('Hardware MCU active tool changed:', toolMode);
+});
+```
+
+---
+
+## ⚛️ JSX / Dolphin Integration
+
+Render icons effortlessly inside JSX components by referencing the Opcode:
+
+```jsx
+import React, { useState, useEffect } from 'react';
+import { siso } from 'danphe-icons-fonts';
+
+export function EditorToolbar() {
+    const [tools, setTools] = useState([280, 273, 274, 281]);
+
+    useEffect(() => {
+        // Listen to hardware serial bus commands (e.g. Register 0x4201)
+        return siso.on(0x4201, (cmd) => {
+            if (cmd === 10) setTools([10, 50, 58]);
+            else if (cmd === 20) setTools([412, 414, 553]);
+        });
+    }, []);
+
+    return (
+        <div className="flex gap-2 p-2 bg-slate-900 rounded-lg">
+            {tools.map(code => (
+                <button 
+                    key={code}
+                    onClick={() => siso.writeIcon(code)}
+                    dangerouslySetInnerHTML={{ __html: siso.readIcon(code, { size: 22, color: '#38bdf8' }) }}
+                    className="p-2 hover:bg-slate-800 rounded active:scale-95"
+                />
+            ))}
+        </div>
+    );
+}
+```
 
 ---
 
@@ -33,7 +103,7 @@ Import and use directly in `.dolphin` scripts:
 ```dolphin
 import "@danphe-icons-fonts"
 
-// Render SVG Icon by Opcode (0x00 - 0xFF) or Name
+// Render SVG Icon by Opcode (0x00 - 0x22C) or Name
 var wifiSvg = Icon.render(0x62, { size: 32, color: "#38bdf8" })
 
 // Apply Nepali Devanagari or Matrix LCD Font CSS
@@ -42,13 +112,11 @@ var nepaliStyle = Font.css(32, ".headline")
 println("Rendered Native Icon: " + wifiSvg)
 ```
 
-👉 **For the complete step-by-step Dolphin guide, see [TUTORIAL.md](TUTORIAL.md).**
-
 ---
 
 ### 2. ⚛️ React / Next.js / Vue
 
-Install directly from Git via npm, yarn, or pnpm (no NPM registry required):
+Install directly from Git via npm, yarn, or pnpm:
 
 ```bash
 npm install github:Phuyalshankar/danphe-icons-fonts
@@ -59,15 +127,6 @@ Or with Yarn / Pnpm:
 ```bash
 yarn add https://github.com/Phuyalshankar/danphe-icons-fonts.git
 pnpm add github:Phuyalshankar/danphe-icons-fonts
-```
-
-Usage in React / Next.js:
-
-```jsx
-import { DanpheAssetClient } from 'danphe-icons-fonts';
-
-const assets = new DanpheAssetClient();
-const iconSvg = assets.requestIcon(0x10); // Rocket Icon
 ```
 
 ---
@@ -88,7 +147,7 @@ dependencies:
 
 ### 4. 🤖 Android (Native Kotlin)
 
-Add to your Android project's `settings.gradle.kts` and `app/build.gradle.kts` via JitPack or Git Submodule:
+Add to your Android project's `settings.gradle.kts` and `app/build.gradle.kts` via Git Submodule:
 
 ```bash
 git submodule add https://github.com/Phuyalshankar/danphe-icons-fonts.git app/src/main/cpp/danphe-icons-fonts
@@ -128,8 +187,8 @@ std::string css = DanpheFonts::renderCSS(32, ".nepali-text");
 ```html
 <script src="https://cdn.jsdelivr.net/gh/Phuyalshankar/danphe-icons-fonts@main/src/index.js"></script>
 <script>
-  const client = new DanpheAssetClient();
-  const icon = client.requestIcon(0);
+  const svg = siso.readIcon(280);
+  document.getElementById('icon-box').innerHTML = svg;
 </script>
 ```
 
@@ -137,39 +196,41 @@ std::string css = DanpheFonts::renderCSS(32, ".nepali-text");
 
 ## 🌟 Key Features
 
-1. **🎨 256 Pure Vector SVG Icons (OpCode 0x00 to 0xFF):**
-   - Pure C++17 header generation.
-   - Ultra-compact: Entire 256 vector database is **under 45 KB**!
+1. **🎨 557 Pure Vector SVG Icons (OpCode 0 to 556):**
+   - Pure mathematical SVG paths with zero bloat.
+   - NLE Fast Editing tools: Split (280), Trim Left (273), Trim Right (274), Undo (277), Redo (278), Delete (281), Duplicate (286).
+   - Media Track Controls: Video (552), Audio (553), Text (554), Overlay (555), Layers (556).
    - 8 Animation Sub-Opcodes: Pulse, Spin, Bounce, Ring, Ripple, Wave, Flash, Neon Glow.
 
-2. **🔤 256 Offline Fonts Suite (OpCode 0x00 to 0xFF):**
-   - 100% Offline-First (Zero external Google Font dependencies).
+2. **🔤 256 Offline Fonts Suite (OpCode 0 to 255):**
+   - 100% Offline-First (Zero external Google Font network dependencies).
    - Authentic Nepali Devanagari (Sagarmatha, Kalimati, Mangal, Mukti).
-   - Hardware Displays: 7-Segment LED, 14-Segment HUD, 16x16 Matrix LCD, 5x7 Dot-Matrix.
+   - Hardware Displays: 7-Segment LED, 14-Segment HUD, 16x16 Matrix LCD, 5x7 Dot-Matrix, Nixie Tubes.
    - Cyberpunk, Luxury Serif, Swiss Sans & Terminal Monospace.
 
-3. **⚡ Titan-Bus SISO Serial Streaming:**
-   - Integrated with Titan-Bus 2-Byte Register Highway (`0x4701` / `0x4702`).
+3. **⚡ Titan-Bus 2-Byte SISO Serial Register Highway:**
+   - Standard Hardware Registers:
+     - `0x4701` $\rightarrow$ **ASSET_ICON**
+     - `0x4702` $\rightarrow$ **ASSET_FONT**
+     - `0x4201` $\rightarrow$ **ACTIVE_TOOL**
+     - `0x4407` $\rightarrow$ **ACTION_TRIGGER**
    - Streams pure SVG frames and CSS serially to any connected client or hardware screen in real-time.
 
-4. **🚫 Zero Bloat:**
-   - 0 megabytes of `node_modules`.
-   - No Babel, no Webpack, no heavy runtime dependencies.
+4. **🚫 Zero Dependencies:**
+   - 0 megabytes of external `node_modules`.
+   - Pure vanilla JavaScript and standard C++17.
 
 ---
 
 ## 🛠️ Testing Local Interactive Studio
 
-Run the built-in standalone test server (pure built-in Node `http`, 0 dependencies):
+Run the built-in standalone test server:
 
 ```bash
 node test_server.js
 ```
 
-Open your browser at `http://localhost:8099` to interact with:
-- The 0-255 OpCode Scrubber Slider with 60 FPS vector animations.
-- The Live Hardware Telemetry Lab (WiFi waves, battery charge, speedometer gauge, heartbeat ECG).
-- The Complete 256 Icons & 256 Fonts Gallery Grids.
+Open your browser at `http://localhost:8099` to interact with the full icons & typography workbench.
 
 ---
 
